@@ -1,0 +1,26 @@
+{
+  "name": "final-bower",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Nate Dunn"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "frontierusa.org",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "jquery-1.11.3": "http://code.jquery.com/jquery-1.11.3.js",
+    "html5shiv": "^3.7.3",
+    "respond": "Respond#^1.4.2"
+  }
+}
