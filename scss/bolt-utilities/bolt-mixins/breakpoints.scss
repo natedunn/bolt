@@ -1,5 +1,0 @@
-@mixin bp($breakpoint-size) {
-  @media (min-width: $breakpoint-size) {
-    @content;
-  }
-}
