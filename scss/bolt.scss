@@ -1,17 +1,22 @@
-// Base
+// Variables
 @import "bolt-base/variables";
+
+// Mixins
+@import "bolt-utilities/mixins";
+
+// Grid
+@import "bolt-utilities/grid/flex-grid";
+
+// Utitlities
+@import "bolt-utilities/media-queries";
+@import "bolt-utilities/layout";
+@import "bolt-utilities/spacing";
+
+// Base
 @import "bolt-base/base";
 @import "bolt-base/normalize";
 @import "bolt-base/typography";
 @import "bolt-base/colors";
-
-// Utilities
-@import "bolt-utilities/flex-grid";
-@import "bolt-utilities/layout";
-@import "bolt-utilities/spacing";
-
-// Mixins
-@import "bolt-utilities/bolt-mixins/breakpoints";
 
 // Components
 @import "bolt-components/buttons";
