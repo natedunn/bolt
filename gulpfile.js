@@ -44,7 +44,7 @@ var reload = browserSync.reload;
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
-      baseDir: "./dist/"
+      baseDir: "./test/"
     }
   });
 });
@@ -53,9 +53,9 @@ gulp.task('bs-reload', function() { browserSync.reload(); });
 
 gulp.task('watch', ['browser-sync'], function() {
   // Template Files
-  gulp.watch('./src/**/*.html', ['nunjucks']);
+  gulp.watch('test/**/*.html', ['bs-reload']);
   // Project Styles
-  gulp.watch('./src/**/*.scss', ['styles'])
+  gulp.watch('scss/**/*.scss', ['styles'])
 });
 
 // ======================
@@ -77,7 +77,7 @@ gulp.task('nunjucks', function() {
 
 // Basic Styles
 gulp.task('styles', function() {
-  return sass('./src/bolt.scss', {})
+  return sass('./scss/bolt.scss', {})
     .pipe(plumber({ errorHandler: onError }))
     .pipe(sourcemaps.init())
     .pipe(autoprefixer(
@@ -90,17 +90,17 @@ gulp.task('styles', function() {
       'android 4'
     ))
     .pipe(concat('main.css'))
-    .pipe(gulp.dest('./dist/styles'))
+    .pipe(gulp.dest('./test/styles'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./dist/styles'))
+    .pipe(gulp.dest('./test/styles'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'DEVELOPMENT STYLES task complete' }));
 });
 
 // IE Styles
 gulp.task('styles-ie', function() {
-  return sass(['./src/styles/ie.scss'], { style: 'nested' })
+  return sass('./scss/bolt-ie.scss', {})
     .pipe(plumber({ errorHandler: onError }))
     .pipe(autoprefixer(
       'last 2 version',
@@ -109,10 +109,10 @@ gulp.task('styles-ie', function() {
       'ie 9'
     ))
     .pipe(concat('ie.css'))
-    .pipe(gulp.dest('./dist/styles'))
+    .pipe(gulp.dest('./test/styles'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(minifycss())
-    .pipe(gulp.dest('./dist/styles'))
+    .pipe(gulp.dest('./test/styles'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'IE STYLES task complete' }));
 });
@@ -123,8 +123,8 @@ gulp.task('styles-ie', function() {
 
 gulp.task('check', function() {
   return gulp.src([
-    'dist/styles/main.min.css',
-    'dist/**/*.html'
+    'test/styles/main.min.css',
+    'test/**/*.html'
   ])
     .pipe(symdiff({
       // ignore: [],
@@ -142,8 +142,7 @@ gulp.task('check', function() {
 
 gulp.task('test', function(callback) {
   runSequence(
-    'check',
     'styles',
-    'styles-ie'
+    'styles-ie',
     callback);
 });
