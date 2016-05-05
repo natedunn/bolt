@@ -1789,10 +1789,17 @@ html {
   border-color: rgba(0, 0, 0, 0.125);
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25); }
 
-::-moz-focus-inner {
-  border: 0;
-  padding: 0; }
+.btn--full {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%; }
 
+@media (min-width: 544px) {
+  .btn--full {
+    display: inline-block;
+    width: inherit; } }
 .btn {
   border-radius: 20px; }
 
