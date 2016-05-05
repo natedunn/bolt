@@ -8,10 +8,6 @@ $button-line-height: 1.125rem !default;
 $button-padding-y: .5rem !default;
 $button-padding-x: 1rem !default;
 
-
-// Mixins
-
-
 // Button Styles
 .btn {
   font-family: $button-font-family;
@@ -39,7 +35,16 @@ $button-padding-x: 1rem !default;
   box-shadow: 0 0 0 3px $darken-3;
 }
 
-::-moz-focus-inner {
-  border: 0;
-  padding: 0;
+.btn--full {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+@include mq(sm) {
+  .btn--full {
+    display: inline-block;
+    width: inherit;
+  }
 }
