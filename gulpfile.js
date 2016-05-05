@@ -59,19 +59,6 @@ gulp.task('watch', ['browser-sync'], function() {
 });
 
 // ======================
-// TEMPLATES
-// ======================
-
-gulp.task('nunjucks', function() {
-  nunjucksRender.nunjucks.configure('./src/');
-  gulp.src('./src/**/*.+(html|nunjucks)')
-    .pipe(nunjucksRender())
-    .pipe(prettify({indent_size: 2}))
-    .pipe(gulp.dest('./dist'))
-    .pipe(browserSync.reload({ stream: true }))
-});
-
-// ======================
 // STYLES
 // ======================
 
