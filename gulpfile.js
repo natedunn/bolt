@@ -22,7 +22,8 @@ var gulp = require('gulp'),
   del = require('del'),
   postcss = require('gulp-postcss'),
   autoprefixer = require('autoprefixer'),
-  cssnano = require('cssnano');
+  cssnano = require('cssnano'),
+  pxtorem = require('postcss-pxtorem');
 
 // ======================
 // AUTOMATION
