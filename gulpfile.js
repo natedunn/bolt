@@ -6,7 +6,7 @@ var gulp = require('gulp')
   minifycss = require('gulp-minify-css'),
   sass = require('gulp-ruby-sass'),
   sourcemaps = require('gulp-sourcemaps'),
-  autoprefixer = require('gulp-autoprefixer'),
+  // autoprefixer = require('gulp-autoprefixer'),
   rename = require('gulp-rename'),
   concat = require('gulp-concat'),
   notify = require('gulp-notify'),
@@ -15,7 +15,10 @@ var gulp = require('gulp')
   gutil = require('gulp-util'),
   plumber = require('gulp-plumber'),
   browserSync = require('browser-sync'),
-  uncss = require('gulp-uncss')
+  postcss = require('gulp-postcss'),
+  autoprefixer = require('autoprefixer'),
+  cssnano = require('cssnano'),
+  // uncss = require('gulp-uncss')
   merge = require('merge2'),
   nunjucksRender = require('gulp-nunjucks-render'),
   prettify = require('gulp-prettify'),
@@ -23,6 +26,7 @@ var gulp = require('gulp')
   symdiff = require('gulp-symdiff'),
   symdiffhtml = require('symdiff-html'),
   symdiffcss = require('symdiff-css'),
+  del = require('del'),
   fs = require('fs');
 
 // ======================
@@ -62,23 +66,27 @@ gulp.task('watch', ['browser-sync'], function() {
 // STYLES
 // ======================
 
-// Basic Styles
-gulp.task('styles', function() {
+// Clean Styles
+gulp.task('clean:styles', function () {
+  return del([
+    'test/styles/**/*'
+  ]);
+});
+
+// Dev Styles
+gulp.task('styles', ['clean:styles'], function() {
+  var processors = [
+    autoprefixer({browsers: ['last 2 version']}),
+    // cssnano
+  ];
   return sass('./scss/bolt.scss', {})
     .pipe(plumber({ errorHandler: onError }))
     .pipe(sourcemaps.init())
-    .pipe(autoprefixer(
-      'last 2 version',
-      'safari 5',
-      'firefox 15',
-      'ie 9',
-      'opera 12.1',
-      'ios 6',
-      'android 4'
-    ))
-    .pipe(concat('main.css'))
+    .pipe(postcss([autoprefixer({browsers: ['last 2 version']})]))
+    .pipe(concat('main.dev.css'))
     .pipe(gulp.dest('./test/styles'))
-    .pipe(rename({ suffix: '.min' }))
+    .pipe(postcss([cssnano]))
+    .pipe(rename('main.min.css'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./test/styles'))
     .pipe(browserSync.reload({ stream: true }))
