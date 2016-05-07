@@ -9,7 +9,9 @@
   "author": "Nate Dunn",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.3.6",
     "browser-sync": "^2.11.1",
+    "del": "^2.2.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
@@ -18,6 +20,7 @@
     "gulp-notify": "^2.2.0",
     "gulp-nunjucks-render": "^2.0.0",
     "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.1.1",
     "gulp-prettify": "^0.4.0",
     "gulp-rename": "^1.2.2",
     "gulp-ruby-sass": "^2.0.6",
