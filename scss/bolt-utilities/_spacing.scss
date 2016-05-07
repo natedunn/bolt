@@ -1,0 +1,60 @@
+@mixin make-spacing() {
+
+  $spacing-types: (
+    m: margin,
+    p: padding
+  );
+  $directions: (
+    a, // All
+    v, // Vertical
+    h, // Horizontal
+    t, // Top
+    r, // Right
+    b, // Bottom
+    l  // Left
+  );
+
+  @each $breakpoint in $grid-breakpoints {
+    @media (min-width: #{nth($breakpoint, 2)}) {
+      @each $type in $spacing-types {
+        @each $direction in $directions {
+          @each $size in $spacing {
+            $amount: nth($size, 2);
+            .#{nth($breakpoint, 1)}-#{nth($type, 1)}#{nth($direction, 1)}-#{nth($size, 1)} {
+              @if $direction == a {
+                margin-top: $amount !important;
+                margin-right: $amount !important;
+                margin-bottom: $amount !important;
+                margin-left: $amount !important;
+              }
+              @else if $direction == v {
+                margin-top: $amount !important;
+                margin-bottom: $amount !important;
+              }
+              @else if $direction == h {
+                margin-right: $amount !important;
+                margin-left: $amount !important;
+              }
+              @else if $direction == t {
+                margin-top: $amount !important;
+              }
+              @else if $direction == r {
+                margin-right: $amount !important;
+              }
+              @else if $direction == b {
+                margin-bottom: $amount !important;
+              }
+              @else if $direction == l {
+                margin-left: $amount !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@if $spacing-enabled == true {
+  @include make-spacing();
+}
