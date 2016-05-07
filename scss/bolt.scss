@@ -1,5 +1,5 @@
-// Variables
-@import "bolt-base/variables";
+// Config
+@import "config";
 
 // Mixins
 @import "bolt-utilities/mixins";
@@ -23,6 +23,3 @@
 
 // Theme (optional)
 @import "theme";
-
-// Config
-@import "config";
