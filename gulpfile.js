@@ -54,7 +54,7 @@ gulp.task('watch', ['browser-sync'], function() {
   // HTML Files
   gulp.watch('test/**/*.html');
   // Project Styles
-  gulp.watch('test/styles/**/*.scss', ['styles-dev', 'styles-pro'])
+  gulp.watch('styles/**/*.scss', ['styles-dev', 'styles-prod'])
 });
 
 // ======================
@@ -63,11 +63,10 @@ gulp.task('watch', ['browser-sync'], function() {
 
 // Dev Styles
 gulp.task('styles-dev', function() {
-  return sass('./src/styles/bolt.scss', {style:'nested'})
+  return sass('styles/bolt.scss', {style:'nested'})
     .pipe(plumber({ errorHandler: onError }))
     .pipe(postcss([autoprefixer({browsers: ['last 2 version']})]))
     .pipe(sourcemaps.init())
-    .pipe(postcss(plugins))
     .pipe(concat('main.dev.css'))
     .pipe(gulp.dest('./test/styles'))
     .pipe(browserSync.reload({ stream: true }))
@@ -76,7 +75,7 @@ gulp.task('styles-dev', function() {
 
 // Styles Production
 gulp.task('styles-prod', function() {
-  return sass('./src/styles/bolt.scss', { style: 'nested' })
+  return sass('styles/bolt.scss', { style: 'nested' })
     .pipe(plumber({ errorHandler: onError }))
     .pipe(postcss([autoprefixer({browsers: ['last 2 version']})]))
     .pipe(postcss([cssnano({discardComments: {removeAll: true}})]))
@@ -88,7 +87,7 @@ gulp.task('styles-prod', function() {
 
 // IE Styles
 gulp.task('styles-ie', function() {
-  return sass(['./src/styles/bolt-ie.scss'], { style: 'nested' })
+  return sass(['styles/bolt-ie.scss'], { style: 'nested' })
     .pipe(plumber({ errorHandler: onError }))
     .pipe(postcss([autoprefixer({browsers: [
       'last 2 version',
