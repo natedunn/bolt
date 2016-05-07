@@ -66,7 +66,15 @@ gulp.task('watch', ['browser-sync'], function() {
 gulp.task('styles-dev', function() {
   return sass('styles/bolt.scss', {style:'nested'})
     .pipe(plumber({ errorHandler: onError }))
-    .pipe(postcss([autoprefixer({browsers: ['last 2 version']})]))
+    .pipe(postcss([
+      autoprefixer({browsers: ['last 2 version']}),
+      pxtorem({
+        rootValue: 16,
+        replace: true,
+        propWhiteList: [],
+        mediaQuery: false
+      })
+    ]))
     .pipe(sourcemaps.init())
     .pipe(concat('main.dev.css'))
     .pipe(gulp.dest('./test/styles'))
@@ -78,7 +86,15 @@ gulp.task('styles-dev', function() {
 gulp.task('styles-prod', function() {
   return sass('styles/bolt.scss', { style: 'nested' })
     .pipe(plumber({ errorHandler: onError }))
-    .pipe(postcss([autoprefixer({browsers: ['last 2 version']})]))
+    .pipe(postcss([
+      autoprefixer({browsers: ['last 2 version']}),
+      pxtorem({
+        rootValue: 16,
+        replace: true,
+        propWhiteList: [],
+        mediaQuery: false
+      })
+    ]))
     .pipe(postcss([cssnano({discardComments: {removeAll: true}})]))
     .pipe(concat('main.min.css'))
     .pipe(gulp.dest('./test/styles'))
