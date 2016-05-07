@@ -9,6 +9,8 @@ $border-radius: 3px !default;
 // Grid
 // ======================
 
+$grid-enabled: true !default;
+
 $grid-breakpoints: (
   xs: 0,
   sm: 34rem,
@@ -30,6 +32,8 @@ $grid-gutter-width: 1.875rem !default;
 // ======================
 // Spacing
 // ======================
+
+$spacing-enabled: true !default;
 
 $spacing: (
   xs: .5rem,
