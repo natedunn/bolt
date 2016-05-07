@@ -1,0 +1,20 @@
+// Testing purposes only
+input {
+ display: block;
+ display: flex;
+ margin-bottom: 20px;
+}
+// ====
+
+$form-heights: (
+  xs: 1rem,
+  sm: 1.4rem,
+  md: 1.8rem,
+  lg: 3.125rem,
+  xl: 2.4rem
+) !default;
+
+.input--lg {
+  padding: 0 1rem;
+  height: map-get($form-heights, lg);
+}
