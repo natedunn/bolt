@@ -1302,6 +1302,12 @@
 .right {
   float: right; }
 
+.full-width {
+  width: 100%; }
+
+.half-width {
+  width: 50%; }
+
 .fit {
   max-width: 100%; }
 
