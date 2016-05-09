@@ -1,20 +1,30 @@
-// Testing purposes only
-input {
- display: block;
- display: flex;
- margin-bottom: 20px;
+$form-height-4: 30px !default;
+$form-height-3: 40px !default;
+$form-height-2: 50px !default;
+$form-height-1: 60px !default;
+
+$form-font-4: 14px !default;
+$form-font-3: 16px !default;
+$form-font-2: 16px !default;
+$form-font-1: 18px !default;
+
+.input--4 {
+  padding: 0 10px;
+  height: $form-height-4;
+  font-size: $form-font-4;
 }
-// ====
-
-$form-heights: (
-  xs: 1rem,
-  sm: 1.4rem,
-  md: 1.8rem,
-  lg: 3.125rem,
-  xl: 2.4rem
-) !default;
-
-.input--lg {
-  padding: 0 1rem;
-  height: map-get($form-heights, lg);
+.input--3 {
+  padding: 0 14px;
+  height: $form-height-3;
+  font-size: $form-font-3;
+}
+.input--2 {
+  padding: 0 16px;
+  height: $form-height-2;
+  font-size: $form-font-2;
+}
+.input--1 {
+  padding: 0 20px;
+  height: $form-height-1;
+  font-size: $form-font-1;
 }
