@@ -53,9 +53,9 @@ gulp.task('bs-reload', function() { browserSync.reload(); });
 
 gulp.task('watch', ['browser-sync'], function() {
   // HTML Files
-  gulp.watch('test/**/*.html');
+  gulp.watch('./test/**/*.html'), ['bs-reload'];
   // Project Styles
-  gulp.watch('styles/**/*.scss', ['styles-dev', 'styles-prod'])
+  gulp.watch('styles/**/*.scss', ['test'])
 });
 
 // ======================
@@ -144,8 +144,11 @@ gulp.task('clean:styles', function () {
 // BUILD
 // ======================
 
-gulp.task('test', function(callback){
-  'clean:styles',
-  'styles-dev',
-  'styles-prod'
+gulp.task('test', function(callback) {
+  runSequence(
+    'clean:styles',
+    'styles-dev',
+    'styles-prod',
+    callback
+  );
 });
