@@ -5,6 +5,47 @@ $z3: 3 !default;
 $z4: 4 !default;
 
 // Layout Styles
+.inline {
+  display: inline
+}
+.block {
+  display: block
+}
+.inline-block {
+  display: inline-block
+}
+.table {
+  display: table
+}
+.table-cell {
+  display: table-cell
+}
+.overflow-hidden {
+  overflow: hidden
+}
+.overflow-scroll {
+  overflow: scroll
+}
+.overflow-auto {
+  overflow: auto
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " "
+}
+.clearfix:after {
+  clear: both
+}
+.left {
+  float: left
+}
+.right {
+  float: right
+}
+.fit {
+  max-width: 100%
+}
 .relative {
   position: relative;
 }
