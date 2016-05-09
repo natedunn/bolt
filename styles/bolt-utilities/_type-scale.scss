@@ -1,0 +1,22 @@
+$font-sizes: (
+  6: 0.875rem ,
+  5: 1rem,
+  4: 1.25rem,
+  3: 1.5rem,
+  2: 2.25rem,
+  1: 3rem
+) !default;
+
+@mixin create-font-sizes {
+  @each $breakpoint in $grid-breakpoints {
+    @media (min-width: #{nth($breakpoint, 2)}) {
+      @each $size in $font-sizes {
+        .fs-#{nth($breakpoint, 1)}-#{nth($size, 1)} {
+          font-size: nth($size, 2);
+        }
+      }
+    }
+  }
+}
+
+@include create-font-sizes();
