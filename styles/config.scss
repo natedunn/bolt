@@ -42,3 +42,34 @@ $spacing: (
   2: 3rem,
   1: 4rem
 ) !default;
+
+// ======================
+// Typography
+// ======================
+
+// ======================
+// Form Inputs
+// ======================
+
+$form-height-4: 30px !default;
+$form-height-3: 40px !default;
+$form-height-2: 50px !default;
+$form-height-1: 60px !default;
+
+$form-font-4: 14px !default;
+$form-font-3: 16px !default;
+$form-font-2: 16px !default;
+$form-font-1: 18px !default;
+
+// ======================
+// Buttons
+// ======================
+
+$border-width: 0px !default;
+$bold-font-weight: bold !default;
+$button-font-family: inherit !default;
+$button-font-size: inherit !default;
+$button-font-weight: $bold-font-weight !default;
+$button-line-height: 1.125rem !default;
+$button-padding-y: .5rem !default;
+$button-padding-x: 1rem !default;
