@@ -12,7 +12,7 @@ $max-widths: (
     @media (min-width: #{nth($breakpoint, 2)}) {
       @each $max-width in $max-widths {
         .mw-#{nth($breakpoint, 1)}-#{nth($max-width, 1)} {
-          font-size: nth($max-width, 2);
+          max-width: nth($max-width, 2);
         }
       }
     }

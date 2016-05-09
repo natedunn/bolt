@@ -2646,94 +2646,94 @@
 
 @media (min-width: 0) {
   .mw-xs-6 {
-    font-size: 0.875rem; }
+    max-width: 0.875rem; }
 
   .mw-xs-5 {
-    font-size: 1rem; }
+    max-width: 1rem; }
 
   .mw-xs-4 {
-    font-size: 1.25rem; }
+    max-width: 1.25rem; }
 
   .mw-xs-3 {
-    font-size: 1.5rem; }
+    max-width: 1.5rem; }
 
   .mw-xs-2 {
-    font-size: 2.25rem; }
+    max-width: 2.25rem; }
 
   .mw-xs-1 {
-    font-size: 3rem; } }
+    max-width: 3rem; } }
 @media (min-width: 34rem) {
   .mw-sm-6 {
-    font-size: 0.875rem; }
+    max-width: 0.875rem; }
 
   .mw-sm-5 {
-    font-size: 1rem; }
+    max-width: 1rem; }
 
   .mw-sm-4 {
-    font-size: 1.25rem; }
+    max-width: 1.25rem; }
 
   .mw-sm-3 {
-    font-size: 1.5rem; }
+    max-width: 1.5rem; }
 
   .mw-sm-2 {
-    font-size: 2.25rem; }
+    max-width: 2.25rem; }
 
   .mw-sm-1 {
-    font-size: 3rem; } }
+    max-width: 3rem; } }
 @media (min-width: 48rem) {
   .mw-md-6 {
-    font-size: 0.875rem; }
+    max-width: 0.875rem; }
 
   .mw-md-5 {
-    font-size: 1rem; }
+    max-width: 1rem; }
 
   .mw-md-4 {
-    font-size: 1.25rem; }
+    max-width: 1.25rem; }
 
   .mw-md-3 {
-    font-size: 1.5rem; }
+    max-width: 1.5rem; }
 
   .mw-md-2 {
-    font-size: 2.25rem; }
+    max-width: 2.25rem; }
 
   .mw-md-1 {
-    font-size: 3rem; } }
+    max-width: 3rem; } }
 @media (min-width: 62rem) {
   .mw-lg-6 {
-    font-size: 0.875rem; }
+    max-width: 0.875rem; }
 
   .mw-lg-5 {
-    font-size: 1rem; }
+    max-width: 1rem; }
 
   .mw-lg-4 {
-    font-size: 1.25rem; }
+    max-width: 1.25rem; }
 
   .mw-lg-3 {
-    font-size: 1.5rem; }
+    max-width: 1.5rem; }
 
   .mw-lg-2 {
-    font-size: 2.25rem; }
+    max-width: 2.25rem; }
 
   .mw-lg-1 {
-    font-size: 3rem; } }
+    max-width: 3rem; } }
 @media (min-width: 75rem) {
   .mw-xl-6 {
-    font-size: 0.875rem; }
+    max-width: 0.875rem; }
 
   .mw-xl-5 {
-    font-size: 1rem; }
+    max-width: 1rem; }
 
   .mw-xl-4 {
-    font-size: 1.25rem; }
+    max-width: 1.25rem; }
 
   .mw-xl-3 {
-    font-size: 1.5rem; }
+    max-width: 1.5rem; }
 
   .mw-xl-2 {
-    font-size: 2.25rem; }
+    max-width: 2.25rem; }
 
   .mw-xl-1 {
-    font-size: 3rem; } }
+    max-width: 3rem; } }
 @media (min-width: 0) {
   .fs-xs-6 {
     font-size: 0.875rem; }
