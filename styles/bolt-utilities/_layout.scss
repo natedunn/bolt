@@ -6,19 +6,19 @@ $z4: 4 !default;
 
 // Layout Styles
 .inline {
-  display: inline
+  display: inline;
 }
 .block {
-  display: block
+  display: block;
 }
 .inline-block {
-  display: inline-block
+  display: inline-block;
 }
 .table {
-  display: table
+  display: table;
 }
 .table-cell {
-  display: table-cell
+  display: table-cell;
 }
 .overflow-hidden {
   overflow: hidden
@@ -32,13 +32,13 @@ $z4: 4 !default;
 .clearfix:before,
 .clearfix:after {
   display: table;
-  content: " "
+  content: " ";
 }
 .clearfix:after {
-  clear: both
+  clear: both;
 }
 .left {
-  float: left
+  float: left;
 }
 .right {
   float: right
@@ -48,9 +48,6 @@ $z4: 4 !default;
 }
 .half-width {
   width: 50%;
-}
-.fit {
-  max-width: 100%
 }
 .relative {
   position: relative;
