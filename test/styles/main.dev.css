@@ -3601,6 +3601,9 @@ html {
   height: 3.75rem;
   font-size: 1.125rem; }
 
+.input {
+  vertical-align: middle; }
+
 .input--4 {
   padding: 0 0.625rem;
   height: 1.875rem;
