@@ -2641,6 +2641,56 @@
 
   .pl-xl-1 {
     margin-left: 4rem !important; } }
+@media (min-width: 0) {
+  .mr-xs-auto {
+    margin-right: auto; }
+
+  .ml-xs-auto {
+    margin-left: auto; }
+
+  .mh-xs-auto {
+    margin-left: auto;
+    margin-right: auto; } }
+@media (min-width: 34rem) {
+  .mr-sm-auto {
+    margin-right: auto; }
+
+  .ml-sm-auto {
+    margin-left: auto; }
+
+  .mh-sm-auto {
+    margin-left: auto;
+    margin-right: auto; } }
+@media (min-width: 48rem) {
+  .mr-md-auto {
+    margin-right: auto; }
+
+  .ml-md-auto {
+    margin-left: auto; }
+
+  .mh-md-auto {
+    margin-left: auto;
+    margin-right: auto; } }
+@media (min-width: 62rem) {
+  .mr-lg-auto {
+    margin-right: auto; }
+
+  .ml-lg-auto {
+    margin-left: auto; }
+
+  .mh-lg-auto {
+    margin-left: auto;
+    margin-right: auto; } }
+@media (min-width: 75rem) {
+  .mr-xl-auto {
+    margin-right: auto; }
+
+  .ml-xl-auto {
+    margin-left: auto; }
+
+  .mh-xl-auto {
+    margin-left: auto;
+    margin-right: auto; } }
 .mw-full {
   max-width: 100%; }
 

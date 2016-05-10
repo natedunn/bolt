@@ -1,5 +1,4 @@
 @mixin make-spacing() {
-
   $spacing-types: (
     m, // Margin
     p // Padding
@@ -13,7 +12,11 @@
     b, // Bottom
     l  // Left
   );
-
+  $margin-auto-directions: (
+    r, // Right
+    l, // Left
+    h // Horizontal
+  );
   @each $breakpoint in $grid-breakpoints {
     @media (min-width: #{nth($breakpoint, 2)}) {
       @each $type in $spacing-types {
@@ -48,6 +51,24 @@
                 margin-left: $amount !important;
               }
             }
+          }
+        }
+      }
+    }
+  }
+  @each $breakpoint in $grid-breakpoints {
+    @media (min-width: #{nth($breakpoint, 2)}) {
+      @each $direction in $margin-auto-directions {
+        .m#{nth($direction, 1)}-#{nth($breakpoint, 1)}-auto {
+          @if $direction == h {
+            margin-left: auto;
+            margin-right: auto;
+          }
+          @else if $direction == l {
+            margin-left: auto;
+          }
+          @else if $direction == r {
+            margin-right: auto;
           }
         }
       }
