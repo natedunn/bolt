@@ -1,14 +1,4 @@
-$max-widths: (
-  9: 1rem,
-  8: 2rem,
-  7: 4rem,
-  6: 8rem ,
-  5: 16rem,
-  4: 32rem,
-  3: 48rem,
-  2: 64rem,
-  1: 96rem
-) !default;
+
 
 @mixin create-max-widths {
   @each $breakpoint in $grid-breakpoints {
@@ -22,7 +12,37 @@ $max-widths: (
   }
 }
 
-.mw-full {
-  max-width: 100%;
+
+@if $enable-max-width == true {
+  .mw-100 {
+    max-width: 100%;
+  }
+  .mw-90 {
+    max-width: 90%;
+  }
+  .mw-80 {
+    max-width: 80%;
+  }
+  .mw-70 {
+    max-width: 70%;
+  }
+  .mw-60 {
+    max-width: 60%;
+  }
+  .mw-50 {
+    max-width: 50%;
+  }
+  .mw-40 {
+    max-width: 40%;
+  }
+  .mw-30 {
+    max-width: 30%;
+  }
+  .mw-20 {
+    max-width: 20%;
+  }
+  .mw-10 {
+    max-width: 10%;
+  }
+  @include create-max-widths();
 }
-@include create-max-widths();
