@@ -1,13 +1,11 @@
 // Config
 @import "config";
 
-// Mixins
-@import "bolt-utilities/mixins";
+// Helpers
+@import "bolt-helpers/mixins";
 
-// Grid
+// Utilities
 @import "bolt-utilities/grid/flex-grid";
-
-// Utitlities
 @import "bolt-utilities/media-queries";
 @import "bolt-utilities/layout";
 @import "bolt-utilities/spacing";
