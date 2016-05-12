@@ -3584,21 +3584,25 @@ html {
 .btn--4 {
   padding: 0 0.625rem;
   height: 1.875rem;
+  line-height: 1.875rem;
   font-size: 0.875rem; }
 
 .btn--3 {
   padding: 0 0.875rem;
   height: 2.5rem;
+  line-height: 2.5rem;
   font-size: 1rem; }
 
 .btn--2 {
   padding: 0 1rem;
   height: 3.125rem;
+  line-height: 3.125rem;
   font-size: 1rem; }
 
 .btn--1 {
   padding: 0 1.25rem;
   height: 3.75rem;
+  line-height: 3.75rem;
   font-size: 1.125rem; }
 
 .input {
