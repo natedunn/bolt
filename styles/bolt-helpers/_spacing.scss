@@ -1,7 +1,7 @@
 @mixin make-spacing() {
   $spacing-types: (
-    m, // Margin
-    p // Padding
+    m: margin,
+    p: padding
   );
   $directions: (
     a, // All
@@ -25,30 +25,30 @@
             $amount: nth($size, 2);
             .#{nth($type, 1)}#{nth($direction, 1)}-#{nth($breakpoint, 1)}-#{nth($size, 1)} {
               @if $direction == a {
-                margin-top: $amount !important;
-                margin-right: $amount !important;
-                margin-bottom: $amount !important;
-                margin-left: $amount !important;
+                #{nth($type, 2)}-top: $amount !important;
+                #{nth($type, 2)}-right: $amount !important;
+                #{nth($type, 2)}-bottom: $amount !important;
+                #{nth($type, 2)}-left: $amount !important;
               }
               @else if $direction == v {
-                margin-top: $amount !important;
-                margin-bottom: $amount !important;
+                #{nth($type, 2)}-top: $amount !important;
+                #{nth($type, 2)}-bottom: $amount !important;
               }
               @else if $direction == h {
-                margin-right: $amount !important;
-                margin-left: $amount !important;
+                #{nth($type, 2)}-right: $amount !important;
+                #{nth($type, 2)}-left: $amount !important;
               }
               @else if $direction == t {
-                margin-top: $amount !important;
+                #{nth($type, 2)}-top: $amount !important;
               }
               @else if $direction == r {
-                margin-right: $amount !important;
+                #{nth($type, 2)}-right: $amount !important;
               }
               @else if $direction == b {
-                margin-bottom: $amount !important;
+                #{nth($type, 2)}-bottom: $amount !important;
               }
               @else if $direction == l {
-                margin-left: $amount !important;
+                #{nth($type, 2)}-left: $amount !important;
               }
             }
           }
