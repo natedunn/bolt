@@ -79,10 +79,9 @@ $form-font-1: 18px !default;
 // ======================
 
 $border-width: 0px !default;
-$bold-font-weight: bold !default;
 $button-font-family: inherit !default;
 $button-font-size: inherit !default;
-$button-font-weight: $bold-font-weight !default;
+$button-font-weight: normal !default;
 $button-line-height: 1.125rem !default;
 $button-padding-y: .5rem !default;
 $button-padding-x: 1rem !default;
