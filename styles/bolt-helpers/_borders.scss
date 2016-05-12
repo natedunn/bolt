@@ -1,0 +1,39 @@
+$border-directions: (
+  v: vertical,
+  h: horizontal,
+  t: top,
+  r: right,
+  b: bottom,
+  l: left
+) !default;
+
+@mixin create-borders {
+  @each $breakpoint in $grid-breakpoints {
+    @media (min-width: #{nth($breakpoint, 2)}) {
+      @each $direction in $border-directions {
+        @if nth($direction, 1) == v {
+          .border-v {
+            border-top-width: $base-border-width;
+            border-bottom-width: $base-border-width;
+            border-style: solid;
+          }
+        }
+        @else if nth($direction, 1) == h {
+          .border-h {
+            border-right-width: $base-border-width;
+            border-left-width: $base-border-width;
+            border-style: solid;
+          }
+        }
+        @else {
+          .border-#{nth($direction, 1)} {
+            border-#{nth($direction, 2)}-width: $base-border-width;
+            border-style: solid;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include create-borders();
