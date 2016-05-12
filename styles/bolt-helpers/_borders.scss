@@ -1,4 +1,5 @@
 $border-directions: (
+  a: all,
   v: vertical,
   h: horizontal,
   t: top,
@@ -8,27 +9,31 @@ $border-directions: (
 ) !default;
 
 @mixin create-borders {
+  $color: "$color";
   @each $breakpoint in $grid-breakpoints {
     @media (min-width: #{nth($breakpoint, 2)}) {
       @each $direction in $border-directions {
-        @if nth($direction, 1) == v {
-          .border-v {
-            border-top-width: $base-border-width;
-            border-bottom-width: $base-border-width;
+        @if nth($direction, 1) == a {
+          .border-#{nth($breakpoint, 1)}-a {
+            border-width: $base-border-width;
             border-style: solid;
+          }
+        }
+        @else if nth($direction, 1) == v {
+          .border-#{nth($breakpoint, 1)}-v {
+            border-top: $base-border-width solid;
+            border-bottom: $base-border-width solid;
           }
         }
         @else if nth($direction, 1) == h {
-          .border-h {
-            border-right-width: $base-border-width;
-            border-left-width: $base-border-width;
-            border-style: solid;
+          .border-#{nth($breakpoint, 1)}-h {
+            border-right: $base-border-width solid;
+            border-left: $base-border-width solid;
           }
         }
         @else {
-          .border-#{nth($direction, 1)} {
-            border-#{nth($direction, 2)}-width: $base-border-width;
-            border-style: solid;
+          .border-#{nth($breakpoint, 1)}-#{nth($direction, 1)} {
+            border-#{nth($direction, 2)}: $base-border-width solid;
           }
         }
       }
