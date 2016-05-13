@@ -21,8 +21,7 @@
 }
 .btn:focus {
   outline: none;
-  border-color: $darken-2;
-  box-shadow: 0 0 0 3px $darken-3;
+  box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.5);
 }
 
 // Responsive Button
