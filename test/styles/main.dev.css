@@ -3940,7 +3940,8 @@ html {
   vertical-align: middle;
   -webkit-appearance: none;
   color: inherit;
-  background-color: transparent; }
+  background-color: transparent;
+  box-shadow: inset 0rem 0rem 0rem 0.125rem rgba(255, 255, 255, 0); }
 
 .btn:hover {
   text-decoration: none; }
