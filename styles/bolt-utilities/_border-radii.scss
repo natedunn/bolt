@@ -1,9 +1,30 @@
-.border-radius-1 {
-  border-radius: $border-radius-1;
+$radii-corners: (
+  a: all,
+  tr: top-right,
+  tl: top-left,
+  br: bottom-right,
+  bl: bottom-left
+);
+
+@mixin create-radii {
+  @each $breakpoint in $grid-breakpoints {
+    @media (min-width: #{nth($breakpoint, 2)}) {
+      @each $radius in $border-radii {
+        @each $corner in $radii-corners {
+          @if nth($corner, 2) == all {
+            .ra-#{nth($breakpoint,1)}-#{nth($radius, 1)} {
+              border-radius: nth($radius, 2);
+            }
+          }
+          @else {
+            r#{nth($corner, 1)}-#{nth($breakpoint, 1)}-#{nth($radius, 1)} {
+              border-#{nth($corner, 2)}-radius: nth($radius, 2);
+            }
+          }
+        }
+      }
+    }
+  }
 }
-.border-radius-2 {
-  border-radius: $border-radius-2;
-}
-.border-radius-3 {
-  border-radius: $border-radius-3
-}
+
+@include create-radii();

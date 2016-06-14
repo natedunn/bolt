@@ -110,8 +110,11 @@ $base-border-width: 2px !default;
 // ======================
 
 $border-radius-full: 50% !default;
-$border-radius-1: 9px !default;
-$border-radius-2: 6px !default;
-$border-radius-3: 3px !default;
 
-$base-border-radius: $border-radius-3;
+$border-radii: (
+  1: 0.563rem,
+  2: 0.375em,
+  3: 0.188em
+) !default;
+
+$base-border-radius: 3px;
