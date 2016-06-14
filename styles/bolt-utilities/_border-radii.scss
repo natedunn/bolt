@@ -17,7 +17,7 @@ $radii-corners: (
             }
           }
           @else {
-            r#{nth($corner, 1)}-#{nth($breakpoint, 1)}-#{nth($radius, 1)} {
+            .r#{nth($corner, 1)}-#{nth($breakpoint, 1)}-#{nth($radius, 1)} {
               border-#{nth($corner, 2)}-radius: nth($radius, 2);
             }
           }
