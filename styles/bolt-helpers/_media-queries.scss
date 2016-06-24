@@ -19,4 +19,9 @@
       @content;
     }
   }
+  @else if $breakpoint == xxl {
+    @media (min-width: map-get($grid-breakpoints, xxl)) {
+      @content;
+    }
+  }
 }
