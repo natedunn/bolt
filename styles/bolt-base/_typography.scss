@@ -41,6 +41,9 @@ html {
   letter-spacing: $caps-letter-spacing;
   text-transform: uppercase;
 }
+.letter-spacing-reset {
+  letter-spacing: normal;
+}
 .left-align {
   text-align: left;
 }
