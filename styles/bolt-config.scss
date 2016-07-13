@@ -1,3 +1,19 @@
+/*
+
+Instructions:
+Override values by editing variables directly or by adding your own override config file.
+
+Table of Contents:
+1. Breakpoints & Grid
+2. Spacing
+3. Max-widths
+4. Typography
+5. Forms & Buttons
+6. Borders
+
+*/
+
+
 // ======================
 // Breakpoints & Grid
 // ======================
@@ -75,7 +91,7 @@ $caps-letter-spacing: 0.15em !default;
 $bold-font-weight: bold !default;
 
 // ======================
-// Form Inputs
+// Forms & Buttons
 // ======================
 
 $form-height-1: 60px !default;
@@ -88,10 +104,6 @@ $form-font-2: 16px !default;
 $form-font-3: 16px !default;
 $form-font-4: 14px !default;
 
-// ======================
-// Buttons
-// ======================
-
 $border-width: 0px !default;
 $button-font-family: inherit !default;
 $button-font-size: inherit !default;
@@ -101,18 +113,13 @@ $button-padding-y: .5rem !default;
 $button-padding-x: 1rem !default;
 
 // ======================
-// Border Width
+// Borders
 // ======================
 
 $base-border-width: 2px !default;
-
-// ======================
-// Border Radius
-// ======================
 
 $border-radii-1: 0.563rem !default;
 $border-radii-2: 0.375rem !default;
 $border-radii-3: 0.188rem !default;
 $border-radii-full: 50% !default;
-
 $base-border-radius: 3px;
