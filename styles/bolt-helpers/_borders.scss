@@ -1,44 +1,114 @@
-$border-directions: (
-  a: all,
-  v: vertical,
-  h: horizontal,
-  t: top,
-  r: right,
-  b: bottom,
-  l: left
-) !default;
+/*
+   Legend:
+   -----
+   a = all
+   t = top
+   r = right
+   b = bottom
+   l = left
+*/
 
-@mixin create-borders {
-  $color: "$color";
-  @each $breakpoint in $grid-breakpoints {
-    @media (min-width: #{nth($breakpoint, 2)}) {
-      @each $direction in $border-directions {
-        @if nth($direction, 1) == a {
-          .border-#{nth($breakpoint, 1)}-a {
-            border-width: $base-border-width;
-            border-style: solid;
-          }
-        }
-        @else if nth($direction, 1) == v {
-          .border-#{nth($breakpoint, 1)}-v {
-            border-top: $base-border-width solid;
-            border-bottom: $base-border-width solid;
-          }
-        }
-        @else if nth($direction, 1) == h {
-          .border-#{nth($breakpoint, 1)}-h {
-            border-right: $base-border-width solid;
-            border-left: $base-border-width solid;
-          }
-        }
-        @else {
-          .border-#{nth($breakpoint, 1)}-#{nth($direction, 1)} {
-            border-#{nth($direction, 2)}: $base-border-width solid;
-          }
-        }
-      }
-    }
-  }
+.ba { border-style: solid; border-width: 1px; }
+.bt { border-top-style: solid; border-top-width: 1px; }
+.br { border-right-style: solid; border-right-width: 1px; }
+.bb { border-bottom-style: solid; border-bottom-width: 1px; }
+.bl { border-left-style: solid; border-left-width: 1px; }
+.bn { border-style: none; border-width: 0; }
+
+@include mq(xs) {
+  .ba-xs { border-style: solid; border-width: 1px; }
+  .bt-xs { border-top-style: solid; border-top-width: 1px; }
+  .br-xs { border-right-style: solid; border-right-width: 1px; }
+  .bb-xs { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-xs { border-left-style: solid; border-left-width: 1px; }
+  .bn-xs { border-style: none; border-width: 0; }
+}
+@include mq(sm) {
+  .ba-sm { border-style: solid; border-width: 1px; }
+  .bt-sm { border-top-style: solid; border-top-width: 1px; }
+  .br-sm { border-right-style: solid; border-right-width: 1px; }
+  .bb-sm { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-sm { border-left-style: solid; border-left-width: 1px; }
+  .bn-sm { border-style: none; border-width: 0; }
+}
+@include mq(md) {
+  .ba-md { border-style: solid; border-width: 1px; }
+  .bt-md { border-top-style: solid; border-top-width: 1px; }
+  .br-md { border-right-style: solid; border-right-width: 1px; }
+  .bb-md { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-md { border-left-style: solid; border-left-width: 1px; }
+  .bn-md { border-style: none; border-width: 0; }
+}
+@include mq(lg) {
+  .ba-lg { border-style: solid; border-width: 1px; }
+  .bt-lg { border-top-style: solid; border-top-width: 1px; }
+  .br-lg { border-right-style: solid; border-right-width: 1px; }
+  .bb-lg { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-lg { border-left-style: solid; border-left-width: 1px; }
+  .bn-lg { border-style: none; border-width: 0; }
+}
+@include mq(xl) {
+  .ba-xl { border-style: solid; border-width: 1px; }
+  .bt-xl { border-top-style: solid; border-top-width: 1px; }
+  .br-xl { border-right-style: solid; border-right-width: 1px; }
+  .bb-xl { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-xl { border-left-style: solid; border-left-width: 1px; }
+  .bn-xl { border-style: none; border-width: 0; }
+}
+@include mq(xxl) {
+  .ba-xxl { border-style: solid; border-width: 1px; }
+  .bt-xxl { border-top-style: solid; border-top-width: 1px; }
+  .br-xxl { border-right-style: solid; border-right-width: 1px; }
+  .bb-xxl { border-bottom-style: solid; border-bottom-width: 1px; }
+  .bl-xxl { border-left-style: solid; border-left-width: 1px; }
+  .bn-xxl { border-style: none; border-width: 0; }
 }
 
-@include create-borders();
+// ======================
+// !! Deprecated !!
+// ======================
+
+// $border-directions: (
+//   a: all,
+//   v: vertical,
+//   h: horizontal,
+//   t: top,
+//   r: right,
+//   b: bottom,
+//   l: left
+// ) !default;
+//
+// @mixin create-borders {
+//   $color: "$color";
+//   @each $breakpoint in $grid-breakpoints {
+//     @media (min-width: #{nth($breakpoint, 2)}) {
+//       @each $direction in $border-directions {
+//         @if nth($direction, 1) == a {
+//           .border-#{nth($breakpoint, 1)}-a {
+//             border-width: $base-border-width;
+//             border-style: solid;
+//           }
+//         }
+//         @else if nth($direction, 1) == v {
+//           .border-#{nth($breakpoint, 1)}-v {
+//             border-top: $base-border-width solid;
+//             border-bottom: $base-border-width solid;
+//           }
+//         }
+//         @else if nth($direction, 1) == h {
+//           .border-#{nth($breakpoint, 1)}-h {
+//             border-right: $base-border-width solid;
+//             border-left: $base-border-width solid;
+//           }
+//         }
+//         @else {
+//           .border-#{nth($breakpoint, 1)}-#{nth($direction, 1)} {
+//             border-#{nth($direction, 2)}: $base-border-width solid;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+//
+// @include create-borders();
