@@ -1,0 +1,48 @@
+// ======================
+// Put variables into maps
+// ======================
+
+$grid-breakpoints: (
+  xs: $breakpoint-xs,
+  sm: $breakpoint-sm,
+  md: $breakpoint-md,
+  lg: $breakpoint-lg,
+  xl: $breakpoint-xl,
+  xxl: $breakpoint-xxl
+) !default;
+
+$container-max-widths: (
+  sm: $container-width-sm,
+  md: $container-width-md,
+  lg: $container-width-lg,
+  xl: $container-width-xl,
+  xxl: $container-width-xxl
+) !default;
+
+$spacing: (
+  0: $spacing-0,
+  1: $spacing-1,
+  2: $spacing-2,
+  3: $spacing-3,
+  4: $spacing-4,
+  5: $spacing-5,
+  6: $spacing-6
+) !default;
+
+$max-widths: (
+  1: $max-width-1,
+  2: $max-width-2,
+  3: $max-width-3,
+  4: $max-width-4,
+  5: $max-width-5,
+  6: $max-width-6,
+  7: $max-width-7,
+  8: $max-width-8,
+  9: $max-width-9
+) !default;
+
+$border-radii: (
+  1: $border-radii-1,
+  2: $border-radii-2,
+  3: $border-radii-3
+) !default;
