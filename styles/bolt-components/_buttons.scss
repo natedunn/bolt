@@ -1,34 +1,34 @@
 // Button Styles
 .btn {
   display: inline-block;
-  font-size: $button-font-size;
-  font-weight: $button-font-weight;
+  padding-right: $button-x-2;
+  padding-left: $button-x-2;
   border: $button-border-width;
   border-radius: $button-border-radius;
-  padding-left: $button-padding-x;
-  padding-right: $button-padding-x;
   background-color: $button-bg-color;
   color: $button-font-color;
   text-align: center;
-  cursor: pointer;
   text-decoration: none;
+  font-weight: $button-font-weight;
+  font-size: $button-font-size;
+  cursor: pointer;
   transition-delay: 0;
-  transition-duration: $button-transition-duration;
   transition-timing-function: ease-in;
-  transition-property: background, border-color;
+  transition-duration: $button-transition-duration;
+  transition-property: background;
   user-select: none;
   appearance: none;
 
   &:not([class*='btn-outlined']) {
-    padding-top: $button-padding-y;
-    padding-bottom: $button-padding-y;
+    padding-top: $button-y-2;
+    padding-bottom: $button-y-2;
   }
   &:hover {
     background-color: darken($button-bg-color, 10%);
   }
   &:disabled,
   &.btn-disabled {
-    background-color: lighten($button-bg-color, 50%);
+    background-color: lighten($button-bg-color, 40%);
     cursor: not-allowed;
   }
   &:focus {
@@ -36,6 +36,41 @@
   }
 }
 
+// Sizes (Size "2" is built into .btn class)
+.btn-1 {
+  padding: $button-y-1 $button-x-1;
+  font-size: 1.375rem;
+}
+.btn-3 {
+  padding: $button-y-3 $button-x-3;
+  font-size: 0.750em;
+}
+
+// Basic solid colors
+.btn-red {
+  background-color: $red;
+
+  &:hover {
+    background-color: darken($red, 20%)
+  }
+  &:disabled,
+  &.btn-disabled {
+    background-color: lighten($red, 40%);
+  }
+}
+.btn-gray {
+  background-color: $gray-lighter;
+  color: $gray-darker;
+
+  &:hover {
+    background-color: darken($gray-lighter, 20%)
+  }
+  &:disabled,
+  &.btn-disabled {
+    background-color: $gray-lighter;
+    color: $gray-light;
+  }
+}
 
 // ======================
 // !! Deprecated !!
