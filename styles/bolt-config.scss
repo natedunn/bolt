@@ -156,19 +156,18 @@ $form-font-4: 14px !default;
 // Buttons
 // ======================
 
-$button-border-width: 0px !default;
+$button-border-width: 0.125rem !default;
 $button-border-radius: $base-border-radius !default;
 $button-font-family: inherit !default;
-$button-font-size: inherit !default;
+$button-font-size: 16px !default;
 $button-font-weight: normal !default;
 $button-font-color: white !default;
 $button-bg-color: $blue !default;
+$button-transition-duration: .15s !default;
 
 $button-y-1: 0.938rem !default;
 $button-x-1: 1.875rem !default;
-$button-y-2: 0.625rem !default;
+$button-y-2: 0.938rem !default;
 $button-x-2: 0.938rem !default;
 $button-y-3: 0.625rem !default;
 $button-x-3: 0.625rem !default;
-
-$button-transition-duration: .05s !default;

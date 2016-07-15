@@ -15,10 +15,9 @@
   transition-delay: 0;
   transition-timing-function: ease-in;
   transition-duration: $button-transition-duration;
-  transition-property: background;
+  transition-property: background border-color color;
   user-select: none;
   appearance: none;
-
   &:not([class*='btn-outlined']) {
     padding-top: $button-y-2;
     padding-bottom: $button-y-2;
@@ -38,18 +37,35 @@
 
 // Sizes (Size "2" is built into .btn class)
 .btn-1 {
-  padding: $button-y-1 $button-x-1;
+  padding-right: $button-x-1;
+  padding-left: $button-x-1;
   font-size: 1.375rem;
+  &:not([class*='btn-outlined']) {
+    padding-top: $button-y-1;
+    padding-bottom: $button-y-1;
+  }
+  &[class*='btn-outlined'] {
+    padding-top: ($button-y-1 - 0.125rem);
+    padding-bottom: ($button-y-1 - 0.125rem);
+  }
 }
 .btn-3 {
-  padding: $button-y-3 $button-x-3;
+  padding-top: $button-y-3;
+  padding-bottom: $button-y-3;
   font-size: 0.750em;
+  &:not([class*='btn-outlined']) {
+    padding-top: $button-y-3;
+    padding-bottom: $button-y-3;
+  }
+  &[class*='btn-outlined'] {
+    padding-top: ($button-y-3 - 0.125rem);
+    padding-bottom: ($button-y-3 - 0.125rem);
+  }
 }
 
 // Basic solid colors
 .btn-red {
   background-color: $red;
-
   &:hover {
     background-color: darken($red, 20%)
   }
@@ -58,10 +74,19 @@
     background-color: lighten($red, 40%);
   }
 }
+.btn-green {
+  background-color: $green;
+  &:hover {
+    background-color: darken($green, 20%)
+  }
+  &:disabled,
+  &.btn-disabled {
+    background-color: $green-light;
+  }
+}
 .btn-gray {
   background-color: $gray-lighter;
   color: $gray-darker;
-
   &:hover {
     background-color: darken($gray-lighter, 20%)
   }
@@ -69,6 +94,67 @@
   &.btn-disabled {
     background-color: $gray-lighter;
     color: $gray-light;
+  }
+}
+
+// Button outlines
+*[class*='btn-outline'] {
+  background-color: transparent;
+  border-width: $button-border-width;
+  border-style: solid;
+  padding-top: ($button-y-2 - 0.125rem);
+  padding-bottom: ($button-y-2 - 0.125rem);
+  &:hover,
+  &:disabled {
+    background-color: transparent;
+  }
+}
+.btn-outlined {
+  border-color: $blue;
+  color: $blue;
+  &:hover {
+    border-color: darken($blue, 20%);
+    color: darken($blue, 20%);
+  }
+  &:disabled {
+    border-color: $blue-light;
+    color: $blue-light;
+  }
+}
+.btn-outlined-red {
+  border-color: $red;
+  color: $red;
+  &:hover {
+    border-color: darken($red, 20%);
+    color: darken($red, 20%);
+  }
+  &:disabled {
+    border-color: $red-light;
+    color: $red-light;
+  }
+}
+.btn-outlined-green {
+  border-color: $green;
+  color: $green;
+  &:hover {
+    border-color: darken($green, 20%);
+    color: darken($green, 20%);
+  }
+  &:disabled {
+    border-color: $green-light;
+    color: $green-light;
+  }
+}
+.btn-outlined-gray {
+  border-color: $gray-light;
+  color: $gray;
+  &:hover {
+    border-color: $gray;
+    color: $gray-dark;
+  }
+  &:disabled {
+    border-color: $gray-lighter;
+    color: lighten($gray-light, 20%);
   }
 }
 
