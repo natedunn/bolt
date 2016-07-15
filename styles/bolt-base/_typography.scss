@@ -1,6 +1,9 @@
 html {
   font-size: $base-font-size;
 }
+body {
+  line-height: $base-line-height;
+}
 .h1 {
   font-size: $h1;
 }
