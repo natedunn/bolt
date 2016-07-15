@@ -96,3 +96,11 @@ body {
   padding-left: 0;
   list-style: none;
 }
+::-moz-selection {
+  background-color: $blue-light;
+  color: white;
+}
+::selection {
+  background-color: $blue-light;
+  color: white;
+}
