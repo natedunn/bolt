@@ -118,10 +118,11 @@ $h4: 1rem !default;
 $h5: 0.875rem !default;
 $h6: 0.75rem !default;
 
-$line-height-4: 1 !default;
-$line-height-3: 1.125 !default;
-$line-height-2: 1.25 !default;
 $line-height-1: 1.5 !default;
+$line-height-2: 1.25 !default;
+$line-height-3: 1.125 !default;
+$line-height-4: 1 !default;
+$base-line-height: $line-height-1;
 
 $letter-spacing: 1 !default;
 $caps-letter-spacing: 0.15em !default;
