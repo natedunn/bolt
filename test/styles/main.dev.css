@@ -4800,13 +4800,17 @@ Table of Contents:
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: border-box; }
 
 html {
   box-sizing: border-box; }
 
 body {
   width: 100%; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.875rem; }
 
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -5177,6 +5181,9 @@ textarea {
 
 html {
   font-size: 1rem; }
+
+body {
+  line-height: 1.5; }
 
 .h1 {
   font-size: 2rem; }
