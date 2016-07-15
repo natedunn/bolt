@@ -109,8 +109,6 @@ $orange-lighter: lighten($orange, 85%);
 // Typography
 // ======================
 
-$base-font-size: 16px !default;
-
 $h1: 2rem !default;
 $h2: 1.5rem !default;
 $h3: 1.25rem !default;
@@ -122,10 +120,14 @@ $line-height-1: 1.5 !default;
 $line-height-2: 1.25 !default;
 $line-height-3: 1.125 !default;
 $line-height-4: 1 !default;
-$base-line-height: $line-height-1;
 
 $letter-spacing: 1 !default;
 $caps-letter-spacing: 0.15em !default;
+
+$base-font-family: sans-serif !default;
+$base-font-size: 16px !default;
+$base-line-height: $line-height-1 !default;
+$base-font-color: $gray-dark !default;
 
 // ======================
 // Borders
