@@ -98,10 +98,10 @@ body {
   list-style: none;
 }
 ::-moz-selection {
-  background-color: $blue-light;
+  background-color: $base-selection-color;
   color: white;
 }
 ::selection {
-  background-color: $blue-light;
+  background-color: $base-selection-color;
   color: white;
 }
