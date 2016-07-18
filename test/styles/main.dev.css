@@ -5331,8 +5331,6 @@ body {
   .btn:disabled, .btn.btn-disabled {
     background-color: #b6edff;
     cursor: not-allowed; }
-  .btn:focus {
-    outline: none; }
 
 .btn-1 {
   padding-right: 1.875rem;

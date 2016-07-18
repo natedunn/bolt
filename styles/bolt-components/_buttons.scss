@@ -30,9 +30,6 @@
     background-color: lighten($button-bg-color, 40%);
     cursor: not-allowed;
   }
-  &:focus {
-    outline: none;
-  }
 }
 
 // Sizes (Size "2" is built into .btn class)
