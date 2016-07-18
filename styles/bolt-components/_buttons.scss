@@ -105,7 +105,8 @@
   padding-top: ($button-y-2 - 0.125rem);
   padding-bottom: ($button-y-2 - 0.125rem);
   &:hover,
-  &:disabled {
+  &:disabled,
+  &.btn-disabled {
     background-color: transparent;
   }
 }
@@ -116,9 +117,11 @@
     border-color: darken($blue, 20%);
     color: darken($blue, 20%);
   }
-  &:disabled {
+  &:disabled,
+  &.btn-disabled {
     border-color: $blue-light;
     color: $blue-light;
+    background-color: transparent;
   }
 }
 .btn-outlined-red {
@@ -128,7 +131,8 @@
     border-color: darken($red, 20%);
     color: darken($red, 20%);
   }
-  &:disabled {
+  &:disabled,
+  &.btn-disabled  {
     border-color: $red-light;
     color: $red-light;
   }
@@ -140,7 +144,8 @@
     border-color: darken($green, 20%);
     color: darken($green, 20%);
   }
-  &:disabled {
+  &:disabled,
+  &.btn-disabled  {
     border-color: $green-light;
     color: $green-light;
   }
@@ -152,7 +157,8 @@
     border-color: $gray;
     color: $gray-dark;
   }
-  &:disabled {
+  &:disabled,
+  &.btn-disabled  {
     border-color: $gray-lighter;
     color: lighten($gray-light, 20%);
   }

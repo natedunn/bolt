@@ -5385,7 +5385,7 @@ body {
   border-style: solid;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
-  *[class*='btn-outline']:hover, *[class*='btn-outline']:disabled {
+  *[class*='btn-outline']:hover, *[class*='btn-outline']:disabled, *[class*='btn-outline'].btn-disabled {
     background-color: transparent; }
 
 .btn-outlined {
@@ -5394,9 +5394,10 @@ body {
   .btn-outlined:hover {
     border-color: #006383;
     color: #006383; }
-  .btn-outlined:disabled {
+  .btn-outlined:disabled, .btn-outlined.btn-disabled {
     border-color: #83e1ff;
-    color: #83e1ff; }
+    color: #83e1ff;
+    background-color: transparent; }
 
 .btn-outlined-red {
   border-color: #e80044;
@@ -5404,9 +5405,9 @@ body {
   .btn-outlined-red:hover {
     border-color: #820026;
     color: #820026; }
-  .btn-outlined-red:disabled {
-    border-color: white;
-    color: white; }
+  .btn-outlined-red:disabled, .btn-outlined-red.btn-disabled {
+    border-color: #ffb5cb;
+    color: #ffb5cb; }
 
 .btn-outlined-green {
   border-color: #43bb6e;
@@ -5414,7 +5415,7 @@ body {
   .btn-outlined-green:hover {
     border-color: #287042;
     color: #287042; }
-  .btn-outlined-green:disabled {
+  .btn-outlined-green:disabled, .btn-outlined-green.btn-disabled {
     border-color: white;
     color: white; }
 
@@ -5424,7 +5425,7 @@ body {
   .btn-outlined-gray:hover {
     border-color: #828c8f;
     color: #4d5659; }
-  .btn-outlined-gray:disabled {
+  .btn-outlined-gray:disabled, .btn-outlined-gray.btn-disabled {
     border-color: #e6eaed;
     color: #eff1f1; }
 

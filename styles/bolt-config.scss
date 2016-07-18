@@ -73,37 +73,37 @@ $enable-max-width: true !default;
 // Colors
 // ======================
 
-$blue-saturated-darker: #001620;
-$blue-saturated-dark: #002531;
-$blue-saturated: #003546;
-$blue-saturated-light: #1f4753;
-$blue-saturated-lighter: #438193;
+$blue-saturated-darker: #001620 !default;
+$blue-saturated-dark: #002531 !default;
+$blue-saturated: #003546 !default;
+$blue-saturated-light: #1f4753 !default;
+$blue-saturated-lighter: #438193 !default;
 
-$blue: #00B0E9;
-$blue-light: lighten($blue, 30%);
-$blue-lighter: lighten($blue, 90%);
+$blue: #00B0E9 !default;
+$blue-light: lighten($blue, 30%) !default;
+$blue-lighter: lighten($blue, 90%) !default;
 
-$gray-darker: #272b2d;
-$gray-dark: #4d5659;
-$gray: #828c8f;
-$gray-light: #b7c0c3;
-$gray-lighter: #e6eaed;
+$gray-darker: #272b2d !default;
+$gray-dark: #4d5659 !default;
+$gray: #828c8f !default;
+$gray-light: #b7c0c3 !default;
+$gray-lighter: #e6eaed !default;
 
-$pink: #EE0788;
-$pink-light: #fec1d1;
-$pink-lighter: #ffedf2;
+$pink: #EE0788 !default;
+$pink-light: #fec1d1 !default;
+$pink-lighter: #ffedf2 !default;
 
-$green: #43bb6e;
-$green-light: lighten($green, 70%);
-$green-lighter: #e8f7ef;
+$green: #43bb6e !default;
+$green-light: lighten($green, 70%) !default;
+$green-lighter: #e8f7ef !default;
 
-$red: #e80044;
-$red-light: lighten($red, 80%);
-$red-lighter: lighten($red, 90%);
+$red: #e80044 !default;
+$red-light: lighten($red, 40%) !default;
+$red-lighter: lighten($red, 90%) !default;
 
 $orange: #f18902;
-$orange-light: lighten($orange, 50%);
-$orange-lighter: lighten($orange, 85%);
+$orange-light: lighten($orange, 50%) !default;
+$orange-lighter: lighten($orange, 85%) !default;
 
 // ======================
 // Typography
