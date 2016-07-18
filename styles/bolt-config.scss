@@ -148,13 +148,18 @@ $base-border-radius: 3px !default;
 
 $form-height-1: 60px !default;
 $form-height-2: 50px !default;
-$form-height-3: 40px !default;
+$form-height-3: 44px !default;
 $form-height-4: 30px !default;
 
 $form-font-1: 18px !default;
 $form-font-2: 16px !default;
 $form-font-3: 16px !default;
 $form-font-4: 14px !default;
+
+$form-border-width: 2px !default;
+$form-border-color: $gray-light !default;
+$form-border-color-hover: $blue !default;
+$form-radius: 3px !default;
 
 // ======================
 // Buttons

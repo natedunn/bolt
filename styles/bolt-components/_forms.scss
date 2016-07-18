@@ -2,27 +2,41 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-
 .input {
   vertical-align: middle;
 }
-.input-4 {
-  padding: 0 10px;
-  height: $form-height-4;
-  font-size: $form-font-4;
+
+label {
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
 }
-.input-3 {
-  padding: 0 14px;
+.input-text {
+  padding: 0 12px;
   height: $form-height-3;
   font-size: $form-font-3;
+  border-width: $form-border-width;
+  border-color: $form-border-color;
+  border-radius: $form-radius;
+  border-style: solid;
+  appearance: none;
+  margin-bottom: 10px;
+  &:focus {
+    outline: 0;
+    border-color: $form-border-color-hover;
+  }
 }
-.input-2 {
-  padding: 0 16px;
-  height: $form-height-2;
-  font-size: $form-font-2;
-}
-.input-1 {
-  padding: 0 20px;
-  height: $form-height-1;
-  font-size: $form-font-1;
-}
+
+// Removed until needed
+// // Text Inputs
+// .input-input-1 {
+//   padding: 0 20px;
+//   height: $form-height-1;
+//   font-size: $form-font-1;
+// }
+// .input-text-3 {
+//   padding: 0 16px;
+//   height: $form-height-2;
+//   font-size: $form-font-2;
+// }
