@@ -5346,15 +5346,15 @@ body {
     padding-bottom: 0.5rem; }
 
 .btn-3 {
-  padding-top: 0.625rem;
-  padding-bottom: 0.625rem;
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
   font-size: 0.750em; }
   .btn-3:not([class*='btn-outlined']) {
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem; }
+    padding-top: 0.563rem;
+    padding-bottom: 0.563rem; }
   .btn-3[class*='btn-outlined'] {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem; }
+    padding-top: 0.438rem;
+    padding-bottom: 0.438rem; }
 
 .btn-red {
   background-color: #e80044; }

@@ -50,8 +50,8 @@
   }
 }
 .btn-3 {
-  padding-top: $button-y-3;
-  padding-bottom: $button-y-3;
+  padding-right: $button-x-3;
+  padding-left: $button-x-3;
   font-size: 0.750em;
   &:not([class*='btn-outlined']) {
     padding-top: $button-y-3;
