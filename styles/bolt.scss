@@ -5,7 +5,6 @@
 // Helpers
 @import "bolt-helpers/mixins";
 @import "bolt-helpers/media-queries";
-@import "bolt-helpers/borders";
 @import "bolt-helpers/fonts";
 @import "bolt-helpers/spacing";
 @import "bolt-helpers/grid/flex-grid";
@@ -22,6 +21,10 @@
 @import "bolt-base/normalize";
 @import "bolt-base/typography";
 @import "bolt-base/colors";
+@import "bolt-base/borders";
+@import "bolt-base/border-widths";
+@import "bolt-base/border-colors";
+@import "bolt-base/border-styles";
 
 // Components
 @import "bolt-components/buttons";
