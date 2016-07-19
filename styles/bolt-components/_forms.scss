@@ -1,11 +1,15 @@
+// Resets
 .input-reset {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-.input {
-  vertical-align: middle;
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
+// Base
 label {
   font-size: 13px;
   font-weight: bold;
@@ -14,8 +18,8 @@ label {
 }
 .input-text {
   padding: 0 12px;
-  height: $form-height-3;
-  font-size: $form-font-3;
+  height: $form-height-2;
+  font-size: $form-font-2;
   border-width: $form-border-width;
   border-color: $form-border-color;
   border-radius: $form-radius;
@@ -25,18 +29,18 @@ label {
   &:focus {
     outline: 0;
     border-color: $form-border-color-hover;
+    background-color: lighten($form-border-color-hover, 50%);
   }
 }
 
-// Removed until needed
-// // Text Inputs
-// .input-input-1 {
-//   padding: 0 20px;
-//   height: $form-height-1;
-//   font-size: $form-font-1;
-// }
-// .input-text-3 {
-//   padding: 0 16px;
-//   height: $form-height-2;
-//   font-size: $form-font-2;
-// }
+// Text Inputs Sizes
+.input-text-1 {
+  padding: 0 15px;
+  height: $form-height-1;
+  font-size: $form-font-1;
+}
+.input-text-3 {
+  padding: 0 10px;
+  height: $form-height-3;
+  font-size: $form-font-3;
+}

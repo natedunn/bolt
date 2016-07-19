@@ -5722,8 +5722,10 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none; }
 
-.input {
-  vertical-align: middle; }
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
 
 label {
   font-size: 0.8125rem;
@@ -5745,4 +5747,15 @@ label {
   margin-bottom: 0.625rem; }
   .input-text:focus {
     outline: 0;
-    border-color: #00B0E9; }
+    border-color: #00B0E9;
+    background-color: #e9faff; }
+
+.input-text-1 {
+  padding: 0 0.9375rem;
+  height: 3.3125rem;
+  font-size: 1.125rem; }
+
+.input-text-3 {
+  padding: 0 0.625rem;
+  height: 2.25rem;
+  font-size: 1rem; }
