@@ -4532,6 +4532,8 @@ body {
     padding-bottom: 0.625rem; }
   .btn:hover {
     background-color: #0089b6; }
+  .btn:focus {
+    background-color: #006383; }
   .btn:disabled, .btn.btn-disabled {
     background-color: #b6edff;
     cursor: not-allowed; }
@@ -4561,6 +4563,8 @@ body {
 .btn-red {
   background-color: #e80044; }
   .btn-red:hover {
+    background-color: #b50035; }
+  .btn-red:focus {
     background-color: #820026; }
   .btn-red:disabled, .btn-red.btn-disabled {
     background-color: #ffb5cb; }
@@ -4568,6 +4572,8 @@ body {
 .btn-green {
   background-color: #43bb6e; }
   .btn-green:hover {
+    background-color: #369558; }
+  .btn-green:focus {
     background-color: #287042; }
   .btn-green:disabled, .btn-green.btn-disabled {
     background-color: white; }
@@ -4576,6 +4582,9 @@ body {
   background-color: #e6eaed;
   color: #272b2d; }
   .btn-gray:hover {
+    background-color: #c8d1d8; }
+  .btn-gray:focus {
+    color: white;
     background-color: #abb8c2; }
   .btn-gray:disabled, .btn-gray.btn-disabled {
     background-color: #e6eaed;

@@ -25,6 +25,9 @@
   &:hover {
     background-color: darken($button-bg-color, 10%);
   }
+  &:focus {
+    background-color: darken($button-bg-color, 20%);
+  }
   &:disabled,
   &.btn-disabled {
     background-color: lighten($button-bg-color, 40%);
@@ -64,7 +67,10 @@
 .btn-red {
   background-color: $red;
   &:hover {
-    background-color: darken($red, 20%)
+    background-color: darken($red, 10%);
+  }
+  &:focus {
+    background-color: darken($red, 20%);
   }
   &:disabled,
   &.btn-disabled {
@@ -74,7 +80,10 @@
 .btn-green {
   background-color: $green;
   &:hover {
-    background-color: darken($green, 20%)
+    background-color: darken($green, 10%);
+  }
+  &:focus {
+    background-color: darken($green, 20%);
   }
   &:disabled,
   &.btn-disabled {
@@ -85,7 +94,11 @@
   background-color: $gray-lighter;
   color: $gray-darker;
   &:hover {
-    background-color: darken($gray-lighter, 20%)
+    background-color: darken($gray-lighter, 10%);
+  }
+  &:focus {
+    color: white;
+    background-color: darken($gray-lighter, 20%);
   }
   &:disabled,
   &.btn-disabled {
