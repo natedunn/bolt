@@ -56,18 +56,15 @@ $spacing-enabled: true !default;
 // Max-widths
 // ======================
 
-$max-width-1: 96rem !default;
-$max-width-2: 64rem !default;
-$max-width-3: 48rem !default;
-$max-width-4: 32rem !default;
+$max-width-1: 1rem !default;
+$max-width-2: 2rem !default;
+$max-width-3: 4rem !default;
+$max-width-4: 8rem !default;
 $max-width-5: 16rem !default;
-$max-width-6: 8rem !default;
-$max-width-7: 4rem !default;
-$max-width-8: 2rem !default;
-$max-width-9: 1rem !default;
-
-// Options
-$enable-max-width: true !default;
+$max-width-6: 32rem !default;
+$max-width-7: 48rem !default;
+$max-width-8: 64rem !default;
+$max-width-9: 96rem !default;
 
 // ======================
 // Colors
