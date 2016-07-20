@@ -45,7 +45,7 @@ label {
   border-color: lighten($green, 10%);
   &:focus {
     border-color: $green;
-    background-color: lighten($green, 50%);
+    background-color: lighten($green, 45%);
   }
 }
 
