@@ -4693,3 +4693,10 @@ label {
   padding: 0 0.625rem;
   height: 2.25rem;
   font-size: 1rem; }
+
+code {
+  font-size: 0.875rem;
+  padding: 0 1.875rem !important; }
+
+.btn {
+  margin: 0.3125rem; }
