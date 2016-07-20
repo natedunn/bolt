@@ -25,18 +25,6 @@
 .bb-0 { border-bottom-width: 0; }
 .bl-0 { border-left-width: 0; }
 
-@include mq(xs) {
-  .bw0-xs { border-width: 0; }
-  .bw1-xs { border-width: .125rem; }
-  .bw2-xs { border-width: .25rem; }
-  .bw3-xs { border-width: .5rem; }
-  .bw4-xs { border-width: 1rem; }
-  .bw5-xs { border-width: 2rem; }
-  .bt-0-xs { border-top-width: 0; }
-  .br-0-xs { border-right-width: 0; }
-  .bb-0-xs { border-bottom-width: 0; }
-  .bl-0-xs { border-left-width: 0; }
-}
 @include mq(sm) {
   .bw0-sm { border-width: 0; }
   .bw1-sm { border-width: .125rem; }

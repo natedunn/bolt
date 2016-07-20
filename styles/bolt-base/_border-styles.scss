@@ -9,12 +9,6 @@
 .bs-solid {  border-style: solid; }
 .bs-none {   border-style: none; }
 
-@include mq(xs) {
-  .bs-dotted-xs { border-style: dotted; }
-  .bs-dashed-xs { border-style: dashed; }
-  .bs-solid-xs {  border-style: solid; }
-  .bs-none-xs {   border-style: none; }
-}
 @include mq(sm) {
   .bs-dotted-sm { border-style: dotted; }
   .bs-dashed-sm { border-style: dashed; }
