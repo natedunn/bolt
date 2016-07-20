@@ -4672,6 +4672,18 @@ label {
     border-color: #00B0E9;
     background-color: #e9faff; }
 
+.input-text-red {
+  border-color: #ff1c5f; }
+  .input-text-red:focus {
+    border-color: #e80044;
+    background-color: #ffe8ef; }
+
+.input-text-green {
+  border-color: #68c98b; }
+  .input-text-green:focus {
+    border-color: #43bb6e;
+    background-color: #fefffe; }
+
 .input-text-1 {
   padding: 0 0.9375rem;
   height: 3.3125rem;

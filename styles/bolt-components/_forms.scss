@@ -29,7 +29,23 @@ label {
   &:focus {
     outline: 0;
     border-color: $form-border-color-hover;
-    background-color: lighten($form-border-color-hover, 50%);
+    background-color: $form-background-color-focus;
+  }
+}
+
+// Input States
+.input-text-red {
+  border-color: lighten($red, 10%);
+  &:focus {
+    border-color: $red;
+    background-color: lighten($red, 50%);
+  }
+}
+.input-text-green {
+  border-color: lighten($green, 10%);
+  &:focus {
+    border-color: $green;
+    background-color: lighten($green, 50%);
   }
 }
 
