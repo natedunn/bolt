@@ -4695,8 +4695,10 @@ label {
   font-size: 1rem; }
 
 code {
+  font-family: 'Space Mono', monospace !important;
   font-size: 0.875rem;
-  padding: 0 1.875rem !important; }
+  padding: 0 1.875rem !important;
+  border-radius: 0.125rem; }
 
 .btn {
   margin: 0.3125rem; }
