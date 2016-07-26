@@ -22,7 +22,7 @@
 .mt6 { margin-top: $spacing-6 !important; }
 
 .mr-none { margin-right: 0 !important; }
-.mr-auto { margin-top: auto !important }
+.mr-auto { margin-right: auto !important }
 .mr1 { margin-right: $spacing-1 !important; }
 .mr2 { margin-right: $spacing-2 !important; }
 .mr3 { margin-right: $spacing-3 !important; }
@@ -31,7 +31,7 @@
 .mr6 { margin-right: $spacing-6 !important; }
 
 .mb-none { margin-bottom: 0 !important; }
-.mb-auto { margin-top: auto !important }
+.mb-auto { margin-bottom: auto !important }
 .mb1 { margin-bottom: $spacing-1 !important; }
 .mb2 { margin-bottom: $spacing-2 !important; }
 .mb3 { margin-bottom: $spacing-3 !important; }
@@ -40,7 +40,7 @@
 .mb6 { margin-bottom: $spacing-6 !important; }
 
 .ml-none { margin-left: 0 !important; }
-.ml-auto { margin-top: auto !important }
+.ml-auto { margin-left: auto !important }
 .ml1 { margin-left: $spacing-1 !important; }
 .ml2 { margin-left: $spacing-2 !important; }
 .ml3 { margin-left: $spacing-3 !important; }
@@ -105,7 +105,7 @@
   .mt6-sm { margin-top: $spacing-6 !important; }
 
   .mr-none-sm { margin-right: 0 !important; }
-  .mr-auto-sm { margin-top: auto !important }
+  .mr-auto-sm { margin-right: auto !important }
   .mr1-sm { margin-right: $spacing-1 !important; }
   .mr2-sm { margin-right: $spacing-2 !important; }
   .mr3-sm { margin-right: $spacing-3 !important; }
@@ -114,7 +114,7 @@
   .mr6-sm { margin-right: $spacing-6 !important; }
 
   .mb-none-sm { margin-bottom: 0 !important; }
-  .mb-auto-sm { margin-top: auto !important }
+  .mb-auto-sm { margin-bottom: auto !important }
   .mb1-sm { margin-bottom: $spacing-1 !important; }
   .mb2-sm { margin-bottom: $spacing-2 !important; }
   .mb3-sm { margin-bottom: $spacing-3 !important; }
@@ -123,7 +123,7 @@
   .mb6-sm { margin-bottom: $spacing-6 !important; }
 
   .ml-none-sm { margin-left: 0 !important; }
-  .ml-auto-sm { margin-top: auto !important }
+  .ml-auto-sm { margin-left: auto !important }
   .ml1-sm { margin-left: $spacing-1 !important; }
   .ml2-sm { margin-left: $spacing-2 !important; }
   .ml3-sm { margin-left: $spacing-3 !important; }
@@ -188,7 +188,7 @@
   .mt6-md { margin-top: $spacing-6 !important; }
 
   .mr-none-md { margin-right: 0 !important; }
-  .mr-auto-md { margin-top: auto !important }
+  .mr-auto-md { margin-right: auto !important }
   .mr1-md { margin-right: $spacing-1 !important; }
   .mr2-md { margin-right: $spacing-2 !important; }
   .mr3-md { margin-right: $spacing-3 !important; }
@@ -197,7 +197,7 @@
   .mr6-md { margin-right: $spacing-6 !important; }
 
   .mb-none-md { margin-bottom: 0 !important; }
-  .mb-auto-md { margin-top: auto !important }
+  .mb-auto-md { margin-bottom: auto !important }
   .mb1-md { margin-bottom: $spacing-1 !important; }
   .mb2-md { margin-bottom: $spacing-2 !important; }
   .mb3-md { margin-bottom: $spacing-3 !important; }
@@ -206,7 +206,7 @@
   .mb6-md { margin-bottom: $spacing-6 !important; }
 
   .ml-none-md { margin-left: 0 !important; }
-  .ml-auto-md { margin-top: auto !important }
+  .ml-auto-md { margin-left: auto !important }
   .ml1-md { margin-left: $spacing-1 !important; }
   .ml2-md { margin-left: $spacing-2 !important; }
   .ml3-md { margin-left: $spacing-3 !important; }
@@ -271,7 +271,7 @@
   .mt6-lg { margin-top: $spacing-6 !important; }
 
   .mr-none-lg { margin-right: 0 !important; }
-  .mr-auto-lg { margin-top: auto !important }
+  .mr-auto-lg { margin-right: auto !important }
   .mr1-lg { margin-right: $spacing-1 !important; }
   .mr2-lg { margin-right: $spacing-2 !important; }
   .mr3-lg { margin-right: $spacing-3 !important; }
@@ -280,7 +280,7 @@
   .mr6-lg { margin-right: $spacing-6 !important; }
 
   .mb-none-lg { margin-bottom: 0 !important; }
-  .mb-auto-lg { margin-top: auto !important }
+  .mb-auto-lg { margin-bottom: auto !important }
   .mb1-lg { margin-bottom: $spacing-1 !important; }
   .mb2-lg { margin-bottom: $spacing-2 !important; }
   .mb3-lg { margin-bottom: $spacing-3 !important; }
@@ -289,7 +289,7 @@
   .mb6-lg { margin-bottom: $spacing-6 !important; }
 
   .ml-none-lg { margin-left: 0 !important; }
-  .ml-auto-lg { margin-top: auto !important }
+  .ml-auto-lg { margin-left: auto !important }
   .ml1-lg { margin-left: $spacing-1 !important; }
   .ml2-lg { margin-left: $spacing-2 !important; }
   .ml3-lg { margin-left: $spacing-3 !important; }
@@ -354,7 +354,7 @@
   .mt6-xl { margin-top: $spacing-6 !important; }
 
   .mr-none-xl { margin-right: 0 !important; }
-  .mr-auto-xl { margin-top: auto !important }
+  .mr-auto-xl { margin-right: auto !important }
   .mr1-xl { margin-right: $spacing-1 !important; }
   .mr2-xl { margin-right: $spacing-2 !important; }
   .mr3-xl { margin-right: $spacing-3 !important; }
@@ -363,7 +363,7 @@
   .mr6-xl { margin-right: $spacing-6 !important; }
 
   .mb-none-xl { margin-bottom: 0 !important; }
-  .mb-auto-xl { margin-top: auto !important }
+  .mb-auto-xl { margin-bottom: auto !important }
   .mb1-xl { margin-bottom: $spacing-1 !important; }
   .mb2-xl { margin-bottom: $spacing-2 !important; }
   .mb3-xl { margin-bottom: $spacing-3 !important; }
@@ -372,7 +372,7 @@
   .mb6-xl { margin-bottom: $spacing-6 !important; }
 
   .ml-none-xl { margin-left: 0 !important; }
-  .ml-auto-xl { margin-top: auto !important }
+  .ml-auto-xl { margin-left: auto !important }
   .ml1-xl { margin-left: $spacing-1 !important; }
   .ml2-xl { margin-left: $spacing-2 !important; }
   .ml3-xl { margin-left: $spacing-3 !important; }
@@ -437,7 +437,7 @@
   .mt6-xxl { margin-top: $spacing-6 !important; }
 
   .mr-none-xxl { margin-right: 0 !important; }
-  .mr-auto-xxl { margin-top: auto !important }
+  .mr-auto-xxl { margin-right: auto !important }
   .mr1-xxl { margin-right: $spacing-1 !important; }
   .mr2-xxl { margin-right: $spacing-2 !important; }
   .mr3-xxl { margin-right: $spacing-3 !important; }
@@ -446,7 +446,7 @@
   .mr6-xxl { margin-right: $spacing-6 !important; }
 
   .mb-none-xxl { margin-bottom: 0 !important; }
-  .mb-auto-xxl { margin-top: auto !important }
+  .mb-auto-xxl { margin-bottom: auto !important }
   .mb1-xxl { margin-bottom: $spacing-1 !important; }
   .mb2-xxl { margin-bottom: $spacing-2 !important; }
   .mb3-xxl { margin-bottom: $spacing-3 !important; }
@@ -455,7 +455,7 @@
   .mb6-xxl { margin-bottom: $spacing-6 !important; }
 
   .ml-none-xxl { margin-left: 0 !important; }
-  .ml-auto-xxl { margin-top: auto !important }
+  .ml-auto-xxl { margin-left: auto !important }
   .ml1-xxl { margin-left: $spacing-1 !important; }
   .ml2-xxl { margin-left: $spacing-2 !important; }
   .ml3-xxl { margin-left: $spacing-3 !important; }
