@@ -1,13 +1,18 @@
 // Config
-@import "bolt-config";
-@import "bolt-helpers";
+@import "config";
+@import "maps";
+
+@import "mixins";
+@import "media-queries";
+@import "spacing";
+@import "grid";
 
 // Helpers
-@import "bolt-helpers/mixins";
-@import "bolt-helpers/media-queries";
-@import "bolt-helpers/fonts";
-@import "bolt-helpers/spacing";
-@import "bolt-helpers/grid/flex-grid";
+// @import "bolt-helpers/mixins";
+// @import "bolt-helpers/media-queries";
+// @import "bolt-helpers/fonts";
+// @import "bolt-helpers/spacing";
+
 @import "bolt-helpers/max-widths";
 @import "bolt-helpers/type-scale";
 
