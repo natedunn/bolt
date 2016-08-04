@@ -1,0 +1,50 @@
+// ======================
+// Imports
+// ======================
+
+// Config
+@import "bolt-config";
+@import "bolt-helpers";
+
+// Helpers
+@import "bolt-helpers/mixins";
+@import "bolt-helpers/media-queries";
+@import "bolt-helpers/fonts";
+@import "bolt-helpers/spacing";
+@import "bolt-helpers/grid/flex-grid";
+@import "bolt-helpers/max-widths";
+@import "bolt-helpers/type-scale";
+
+// Utilities
+@import "bolt-utilities/layout";
+@import "bolt-utilities/hides";
+@import "bolt-utilities/border-radii";
+
+// Base
+@import "bolt-base/base";
+@import "bolt-base/normalize";
+@import "bolt-base/typography";
+@import "bolt-base/colors";
+@import "bolt-base/borders";
+@import "bolt-base/border-widths";
+@import "bolt-base/border-colors";
+@import "bolt-base/border-styles";
+
+// Components
+@import "bolt-components/buttons";
+@import "bolt-components/forms";
+
+// ======================
+// Custom code just for test
+// ======================
+
+// Code
+code {
+  font-family: 'Space Mono', monospace !important;
+  font-size: 14px;
+  padding: 0 30px !important;
+  border-radius: 2px;
+}
+.btn {
+  margin: 5px;
+}
