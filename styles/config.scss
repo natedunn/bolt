@@ -32,8 +32,8 @@ $container-width-lg: 58.75rem !default;
 $container-width-xl: 71.25rem !default;
 $container-width-xxl: 83rem !default;
 
-// Options
-$grid-enabled: true !default;
+$flex-grid-enabled: true !default;
+$box-grid-enabled: false !default;
 $grid-columns: 12 !default;
 $grid-gutter-width: 1.875rem !default;
 
