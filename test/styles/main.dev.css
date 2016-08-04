@@ -33,22 +33,22 @@ Table of Contents:
   margin: 5rem; }
 
 .pa1 {
-  margin: 0.5rem; }
+  padding: 0.5rem; }
 
 .pa2 {
-  margin: 1rem; }
+  padding: 1rem; }
 
 .pa3 {
-  margin: 2rem; }
+  padding: 2rem; }
 
 .pa4 {
-  margin: 3rem; }
+  padding: 3rem; }
 
 .pa5 {
-  margin: 4rem; }
+  padding: 4rem; }
 
 .pa6 {
-  margin: 5rem; }
+  padding: 5rem; }
 
 .mt-none {
   margin-top: 0 !important; }
@@ -78,7 +78,7 @@ Table of Contents:
   margin-right: 0 !important; }
 
 .mr-auto {
-  margin-top: auto !important; }
+  margin-right: auto !important; }
 
 .mr1 {
   margin-right: 0.5rem !important; }
@@ -102,7 +102,7 @@ Table of Contents:
   margin-bottom: 0 !important; }
 
 .mb-auto {
-  margin-top: auto !important; }
+  margin-bottom: auto !important; }
 
 .mb1 {
   margin-bottom: 0.5rem !important; }
@@ -126,7 +126,7 @@ Table of Contents:
   margin-left: 0 !important; }
 
 .ml-auto {
-  margin-top: auto !important; }
+  margin-left: auto !important; }
 
 .ml1 {
   margin-left: 0.5rem !important; }
@@ -250,22 +250,22 @@ Table of Contents:
     margin: 5rem; }
 
   .pa1-sm {
-    margin: 0.5rem; }
+    padding: 0.5rem; }
 
   .pa2-sm {
-    margin: 1rem; }
+    padding: 1rem; }
 
   .pa3-sm {
-    margin: 2rem; }
+    padding: 2rem; }
 
   .pa4-sm {
-    margin: 3rem; }
+    padding: 3rem; }
 
   .pa5-sm {
-    margin: 4rem; }
+    padding: 4rem; }
 
   .pa6-sm {
-    margin: 5rem; }
+    padding: 5rem; }
 
   .mt-none-sm {
     margin-top: 0 !important; }
@@ -295,7 +295,7 @@ Table of Contents:
     margin-right: 0 !important; }
 
   .mr-auto-sm {
-    margin-top: auto !important; }
+    margin-right: auto !important; }
 
   .mr1-sm {
     margin-right: 0.5rem !important; }
@@ -319,7 +319,7 @@ Table of Contents:
     margin-bottom: 0 !important; }
 
   .mb-auto-sm {
-    margin-top: auto !important; }
+    margin-bottom: auto !important; }
 
   .mb1-sm {
     margin-bottom: 0.5rem !important; }
@@ -343,7 +343,7 @@ Table of Contents:
     margin-left: 0 !important; }
 
   .ml-auto-sm {
-    margin-top: auto !important; }
+    margin-left: auto !important; }
 
   .ml1-sm {
     margin-left: 0.5rem !important; }
@@ -466,22 +466,22 @@ Table of Contents:
     margin: 5rem; }
 
   .pa1-md {
-    margin: 0.5rem; }
+    padding: 0.5rem; }
 
   .pa2-md {
-    margin: 1rem; }
+    padding: 1rem; }
 
   .pa3-md {
-    margin: 2rem; }
+    padding: 2rem; }
 
   .pa4-md {
-    margin: 3rem; }
+    padding: 3rem; }
 
   .pa5-md {
-    margin: 4rem; }
+    padding: 4rem; }
 
   .pa6-md {
-    margin: 5rem; }
+    padding: 5rem; }
 
   .mt-none-md {
     margin-top: 0 !important; }
@@ -511,7 +511,7 @@ Table of Contents:
     margin-right: 0 !important; }
 
   .mr-auto-md {
-    margin-top: auto !important; }
+    margin-right: auto !important; }
 
   .mr1-md {
     margin-right: 0.5rem !important; }
@@ -535,7 +535,7 @@ Table of Contents:
     margin-bottom: 0 !important; }
 
   .mb-auto-md {
-    margin-top: auto !important; }
+    margin-bottom: auto !important; }
 
   .mb1-md {
     margin-bottom: 0.5rem !important; }
@@ -559,7 +559,7 @@ Table of Contents:
     margin-left: 0 !important; }
 
   .ml-auto-md {
-    margin-top: auto !important; }
+    margin-left: auto !important; }
 
   .ml1-md {
     margin-left: 0.5rem !important; }
@@ -682,22 +682,22 @@ Table of Contents:
     margin: 5rem; }
 
   .pa1-lg {
-    margin: 0.5rem; }
+    padding: 0.5rem; }
 
   .pa2-lg {
-    margin: 1rem; }
+    padding: 1rem; }
 
   .pa3-lg {
-    margin: 2rem; }
+    padding: 2rem; }
 
   .pa4-lg {
-    margin: 3rem; }
+    padding: 3rem; }
 
   .pa5-lg {
-    margin: 4rem; }
+    padding: 4rem; }
 
   .pa6-lg {
-    margin: 5rem; }
+    padding: 5rem; }
 
   .mt-none-lg {
     margin-top: 0 !important; }
@@ -727,7 +727,7 @@ Table of Contents:
     margin-right: 0 !important; }
 
   .mr-auto-lg {
-    margin-top: auto !important; }
+    margin-right: auto !important; }
 
   .mr1-lg {
     margin-right: 0.5rem !important; }
@@ -751,7 +751,7 @@ Table of Contents:
     margin-bottom: 0 !important; }
 
   .mb-auto-lg {
-    margin-top: auto !important; }
+    margin-bottom: auto !important; }
 
   .mb1-lg {
     margin-bottom: 0.5rem !important; }
@@ -775,7 +775,7 @@ Table of Contents:
     margin-left: 0 !important; }
 
   .ml-auto-lg {
-    margin-top: auto !important; }
+    margin-left: auto !important; }
 
   .ml1-lg {
     margin-left: 0.5rem !important; }
@@ -898,22 +898,22 @@ Table of Contents:
     margin: 5rem; }
 
   .pa1-xl {
-    margin: 0.5rem; }
+    padding: 0.5rem; }
 
   .pa2-xl {
-    margin: 1rem; }
+    padding: 1rem; }
 
   .pa3-xl {
-    margin: 2rem; }
+    padding: 2rem; }
 
   .pa4-xl {
-    margin: 3rem; }
+    padding: 3rem; }
 
   .pa5-xl {
-    margin: 4rem; }
+    padding: 4rem; }
 
   .pa6-xl {
-    margin: 5rem; }
+    padding: 5rem; }
 
   .mt-none-xl {
     margin-top: 0 !important; }
@@ -943,7 +943,7 @@ Table of Contents:
     margin-right: 0 !important; }
 
   .mr-auto-xl {
-    margin-top: auto !important; }
+    margin-right: auto !important; }
 
   .mr1-xl {
     margin-right: 0.5rem !important; }
@@ -967,7 +967,7 @@ Table of Contents:
     margin-bottom: 0 !important; }
 
   .mb-auto-xl {
-    margin-top: auto !important; }
+    margin-bottom: auto !important; }
 
   .mb1-xl {
     margin-bottom: 0.5rem !important; }
@@ -991,7 +991,7 @@ Table of Contents:
     margin-left: 0 !important; }
 
   .ml-auto-xl {
-    margin-top: auto !important; }
+    margin-left: auto !important; }
 
   .ml1-xl {
     margin-left: 0.5rem !important; }
@@ -1114,22 +1114,22 @@ Table of Contents:
     margin: 5rem; }
 
   .pa1-xxl {
-    margin: 0.5rem; }
+    padding: 0.5rem; }
 
   .pa2-xxl {
-    margin: 1rem; }
+    padding: 1rem; }
 
   .pa3-xxl {
-    margin: 2rem; }
+    padding: 2rem; }
 
   .pa4-xxl {
-    margin: 3rem; }
+    padding: 3rem; }
 
   .pa5-xxl {
-    margin: 4rem; }
+    padding: 4rem; }
 
   .pa6-xxl {
-    margin: 5rem; }
+    padding: 5rem; }
 
   .mt-none-xxl {
     margin-top: 0 !important; }
@@ -1159,7 +1159,7 @@ Table of Contents:
     margin-right: 0 !important; }
 
   .mr-auto-xxl {
-    margin-top: auto !important; }
+    margin-right: auto !important; }
 
   .mr1-xxl {
     margin-right: 0.5rem !important; }
@@ -1183,7 +1183,7 @@ Table of Contents:
     margin-bottom: 0 !important; }
 
   .mb-auto-xxl {
-    margin-top: auto !important; }
+    margin-bottom: auto !important; }
 
   .mb1-xxl {
     margin-bottom: 0.5rem !important; }
@@ -1207,7 +1207,7 @@ Table of Contents:
     margin-left: 0 !important; }
 
   .ml-auto-xxl {
-    margin-top: auto !important; }
+    margin-left: auto !important; }
 
   .ml1-xxl {
     margin-left: 0.5rem !important; }
