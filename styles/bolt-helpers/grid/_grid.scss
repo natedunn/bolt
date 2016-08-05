@@ -1,7 +1,0 @@
-@if $flex-grid-enabled == true and $box-grid-enabled == true {
-  @warn "You cannot have both flex and box grid turned on. Please turn off both or turn on only one.";
-} @else if $flex-grid-enabled == true {
-  $enable-flex: true;
-} @else if $box-grid-enabled == true {
-  $enable-flex: false;
-}
