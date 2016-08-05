@@ -4,6 +4,7 @@
 
 $enable-grid-core: false !default;
 $enable-flex: false !default;
+
 @if $flex-grid-enabled == true and $box-grid-enabled == true {
   @include dev-warn("You cannot have both flex and box grid turned on. Please turn off both or turn on only one.");
 } @else if $flex-grid-enabled == true {
@@ -165,7 +166,7 @@ $enable-flex: false !default;
   }
 }
 
-// Make grid
+// Write Grid CSS
 @if $enable-grid-core == true {
   $enable-grid-classes: true;
   // Make Classes
