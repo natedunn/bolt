@@ -1,40 +1,24 @@
-// Config
 @import "config";
 @import "maps";
-
 @import "mixins";
+
 @import "media-queries";
 @import "spacing";
 @import "grid";
 @import "max-widths";
-
 @import "hides";
-// Helpers
-// @import "bolt-helpers/mixins";
-// @import "bolt-helpers/media-queries";
-// @import "bolt-helpers/fonts";
-// @import "bolt-helpers/spacing";
 
+@import "normalize";
+@import "base";
+@import "layout";
+@import "type-scale";
+@import "typography";
+@import "colors";
+@import "borders";
+@import "border-widths";
+@import "border-colors";
+@import "border-styles";
+@import "border-radii";
 
-@import "bolt-helpers/type-scale";
-
-// Utilities
-@import "bolt-utilities/layout";
-@import "bolt-utilities/border-radii";
-
-// Base
-@import "bolt-base/base";
-@import "bolt-base/normalize";
-@import "bolt-base/typography";
-@import "bolt-base/colors";
-@import "bolt-base/borders";
-@import "bolt-base/border-widths";
-@import "bolt-base/border-colors";
-@import "bolt-base/border-styles";
-
-// Components
-@import "bolt-components/buttons";
-@import "bolt-components/forms";
-
-// Theme (optional)
-// @import "theme";
+@import "buttons";
+@import "forms";
