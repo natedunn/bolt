@@ -3,20 +3,12 @@ $black: #111 !default;
 $white: #fff !default;
 
 // Text colors
-.white {
-  color: $white;
-}
-.black {
-  color: $black;
-}
+.white { color: $white; }
+.black { color: $black; }
 
 // Background colors
-.bg-white {
-  background-color: $white;
-}
-.bg-black {
-  background-color: $black;
-}
+.bg-white { background-color: $white; }
+.bg-black { background-color: $black; }
 
 // Effects
 $darken-1: rgba(0, 0, 0, .0625) !default;

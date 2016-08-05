@@ -6,19 +6,20 @@
 @import "media-queries";
 @import "spacing";
 @import "grid";
+@import "max-widths";
 
+@import "hides";
 // Helpers
 // @import "bolt-helpers/mixins";
 // @import "bolt-helpers/media-queries";
 // @import "bolt-helpers/fonts";
 // @import "bolt-helpers/spacing";
 
-@import "bolt-helpers/max-widths";
+
 @import "bolt-helpers/type-scale";
 
 // Utilities
 @import "bolt-utilities/layout";
-@import "bolt-utilities/hides";
 @import "bolt-utilities/border-radii";
 
 // Base
