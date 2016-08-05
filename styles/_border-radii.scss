@@ -3,6 +3,7 @@
 .r2 { border-radius: $border-radius-2; }
 .r3 { border-radius: $border-radius-3; }
 .r4 { border-radius: $border-radius-4; }
+.r5 { border-radius: $border-radius-5; }
 .r-full { border-radius: 100%; }
 
 @include mq(sm) {
@@ -11,6 +12,7 @@
   .r2-sm { border-radius: $border-radius-2; }
   .r3-sm { border-radius: $border-radius-3; }
   .r4-sm { border-radius: $border-radius-4; }
+  .r5-sm { border-radius: $border-radius-5; }
   .r-full-sm { border-radius: 100%; }
 }
 @include mq(md) {
@@ -19,6 +21,7 @@
   .r2-md { border-radius: $border-radius-2; }
   .r3-md { border-radius: $border-radius-3; }
   .r4-md { border-radius: $border-radius-4; }
+  .r5-md { border-radius: $border-radius-5; }
   .r-full-md { border-radius: 100%; }
 }
 @include mq(lg) {
@@ -27,6 +30,7 @@
   .r2-lg { border-radius: $border-radius-2; }
   .r3-lg { border-radius: $border-radius-3; }
   .r4-lg { border-radius: $border-radius-4; }
+  .r5-lg { border-radius: $border-radius-5; }
   .r-full-lg { border-radius: 100%; }
 }
 @include mq(xl) {
@@ -35,6 +39,7 @@
   .r2-xl { border-radius: $border-radius-2; }
   .r3-xl { border-radius: $border-radius-3; }
   .r4-xl { border-radius: $border-radius-4; }
+  .r5-xl { border-radius: $border-radius-5; }
   .r-full-xl { border-radius: 100%; }
 }
 @include mq(xxl) {
@@ -43,5 +48,6 @@
   .r2-xxl { border-radius: $border-radius-2; }
   .r3-xxl { border-radius: $border-radius-3; }
   .r4-xxl { border-radius: $border-radius-4; }
+  .r5-xxl { border-radius: $border-radius-5; }
   .r-full-xxl { border-radius: 100%; }
 }

@@ -146,9 +146,11 @@ $base-selection-color: $blue-light;
 $base-border-width: 2px !default;
 
 $border-radius-1: 0.125rem !default;
-$border-radius-2: 0.25rem !default;
-$border-radius-3: 0.5rem !default;
-$border-radius-4: 1rem !default;
+$border-radius-2: 0.188rem !default;
+$border-radius-3: 0.25rem !default;
+$border-radius-4: 0.5rem !default;
+$border-radius-5: 1rem !default;
+$base-border-radius: $border-radius-2;
 
 // ======================
 // Forms
