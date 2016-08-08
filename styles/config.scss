@@ -167,8 +167,8 @@ $form-font-4: 14px !default;
 
 $form-border-width: 2px !default;
 $form-border-color: $gray-light !default;
-$form-border-color-hover: $blue !default;
-$form-background-color-focus: lighten($form-border-color-hover, 50%) !default;
+$form-border-color-focus: $blue !default;
+$form-background-color-focus: lighten($form-border-color-focus, 50%) !default;
 $form-radius: 3px !default;
 
 // ======================

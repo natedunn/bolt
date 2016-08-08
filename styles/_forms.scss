@@ -28,7 +28,7 @@ label {
   margin-bottom: 10px;
   &:focus {
     outline: 0;
-    border-color: $form-border-color-hover;
+    border-color: $form-border-color-focus;
     background-color: $form-background-color-focus;
   }
 }
