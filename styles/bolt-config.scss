@@ -150,20 +150,19 @@ $border-radius-2: 0.188rem !default;
 $border-radius-3: 0.25rem !default;
 $border-radius-4: 0.5rem !default;
 $border-radius-5: 1rem !default;
-$base-border-radius: $border-radius-2;
+$base-border-radius: $border-radius-2 !default;
 
 // ======================
 // Forms
 // ======================
 
-$form-height-1: 53px !default;
+$form-height-1: 36px !default;
 $form-height-2: 44px !default;
-$form-height-3: 36px !default;
+$form-height-3: 53px !default;
 
-$form-font-1: 18px !default;
+$form-font-1: 14px !default;
 $form-font-2: 16px !default;
-$form-font-3: 16px !default;
-$form-font-4: 14px !default;
+$form-font-3: 18px !default;
 
 $form-border-width: 2px !default;
 $form-border-color: $gray-light !default;
