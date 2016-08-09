@@ -19,6 +19,24 @@ $enable-flex: false !default;
 // Grid core
 // ======================
 
+// Grid Maps
+$grid-breakpoints: (
+  xs: $breakpoint-xs,
+  sm: $breakpoint-sm,
+  md: $breakpoint-md,
+  lg: $breakpoint-lg,
+  xl: $breakpoint-xl,
+  xxl: $breakpoint-xxl
+) !default;
+
+$container-max-widths: (
+  sm: $container-width-sm,
+  md: $container-width-md,
+  lg: $container-width-lg,
+  xl: $container-width-xl,
+  xxl: $container-width-xxl
+) !default;
+
 // Make breakpoints
 @function breakpoint-next($name, $breakpoints: $grid-breakpoints, $breakpoint-names: map-keys($breakpoints)) {
   $n: index($breakpoint-names, $name);
