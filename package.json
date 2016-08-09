@@ -1,5 +1,5 @@
 {
-  "name": "bolt-package-json",
+  "name": "bolt",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
