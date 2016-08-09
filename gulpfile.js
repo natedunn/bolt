@@ -63,9 +63,13 @@ gulp.task('watch', ['browser-sync'], function() {
 // ======================
 
 // Dev Styles
-gulp.task('styles-dev', function() {
-  return sass('styles/manifest-test.scss', {style:'nested'})
+gulp.task('styles-dev', () =>
+  sass('test/styles/test.scss')
     .pipe(plumber({ errorHandler: onError }))
+    // .pipe(jsonToSass({
+    //   jsonPath: 'test/styles/styles.json',
+    //   scssPath: 'test/styles/config.scss'
+    // }))
     .pipe(postcss([
       autoprefixer({browsers: ['last 2 version']}),
       pxtorem({
@@ -79,12 +83,12 @@ gulp.task('styles-dev', function() {
     .pipe(concat('main.dev.css'))
     .pipe(gulp.dest('./test/styles'))
     .pipe(browserSync.reload({ stream: true }))
-    .pipe(notify({ message: 'DEVELOPMENT STYLES task complete' }));
-});
+    .pipe(notify({ message: 'DEVELOPMENT STYLES task complete'}))
+);
 
 // Styles Production
 gulp.task('styles-prod', function() {
-  return sass('styles/manifest-test.scss', { style: 'nested' })
+  return sass('test/styles/test.scss', { style: 'nested' })
     .pipe(plumber({ errorHandler: onError }))
     .pipe(postcss([
       autoprefixer({browsers: ['last 2 version']}),
@@ -137,7 +141,7 @@ gulp.task('images', ['clean:images'], function() {
 
 // Clean Styles
 gulp.task('clean:styles', function () {
-  return del('test/styles/**/*');
+  return del('test/styles/**/*.css');
 });
 
 // ======================
