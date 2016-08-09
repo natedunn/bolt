@@ -63,13 +63,9 @@ gulp.task('watch', ['browser-sync'], function() {
 // ======================
 
 // Dev Styles
-gulp.task('styles-dev', () =>
+gulp.task('styles-dev', function() {
   sass('test/styles/test.scss')
     .pipe(plumber({ errorHandler: onError }))
-    // .pipe(jsonToSass({
-    //   jsonPath: 'test/styles/styles.json',
-    //   scssPath: 'test/styles/config.scss'
-    // }))
     .pipe(postcss([
       autoprefixer({browsers: ['last 2 version']}),
       pxtorem({
@@ -84,7 +80,7 @@ gulp.task('styles-dev', () =>
     .pipe(gulp.dest('./test/styles'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'DEVELOPMENT STYLES task complete'}))
-);
+});
 
 // Styles Production
 gulp.task('styles-prod', function() {
