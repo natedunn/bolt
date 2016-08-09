@@ -39,7 +39,7 @@
 .btn-1 {
   padding-right: $button-x-1;
   padding-left: $button-x-1;
-  font-size: 1.375rem;
+  font-size: 0.750em;
   &:not([class*='btn-outlined']) {
     padding-top: $button-y-1;
     padding-bottom: $button-y-1;
@@ -52,7 +52,7 @@
 .btn-3 {
   padding-right: $button-x-3;
   padding-left: $button-x-3;
-  font-size: 0.750em;
+  font-size: 1.375rem;
   &:not([class*='btn-outlined']) {
     padding-top: $button-y-3;
     padding-bottom: $button-y-3;
