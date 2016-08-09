@@ -4473,7 +4473,7 @@ fieldset {
   margin: 0;
   padding: 0; }
 
-label {
+.label {
   font-size: 0.8125rem;
   font-weight: bold;
   display: block;
