@@ -4427,13 +4427,17 @@ body {
   border-style: solid;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
-  *[class*='btn-outline']:hover, *[class*='btn-outline']:disabled, *[class*='btn-outline'].btn-disabled {
+  *[class*='btn-outline']:hover, *[class*='btn-outline']:focus, *[class*='btn-outline']:active {
+    text-decoration: underline;
+    background-color: transparent; }
+  *[class*='btn-outline']:disabled, *[class*='btn-outline'].btn-disabled {
+    text-decoration: none;
     background-color: transparent; }
 
 .btn-outlined {
   border-color: #00B0E9;
   color: #00B0E9; }
-  .btn-outlined:hover {
+  .btn-outlined:hover, .btn-outlined:focus, .btn-outlined:active {
     border-color: #006383;
     color: #006383; }
   .btn-outlined:disabled, .btn-outlined.btn-disabled {
@@ -4444,7 +4448,7 @@ body {
 .btn-outlined-red {
   border-color: #e80044;
   color: #e80044; }
-  .btn-outlined-red:hover {
+  .btn-outlined-red:hover, .btn-outlined-red:focus, .btn-outlined-red:active {
     border-color: #820026;
     color: #820026; }
   .btn-outlined-red:disabled, .btn-outlined-red.btn-disabled {
@@ -4454,7 +4458,7 @@ body {
 .btn-outlined-green {
   border-color: #43bb6e;
   color: #43bb6e; }
-  .btn-outlined-green:hover {
+  .btn-outlined-green:hover, .btn-outlined-green:focus, .btn-outlined-green:active {
     border-color: #287042;
     color: #287042; }
   .btn-outlined-green:disabled, .btn-outlined-green.btn-disabled {
@@ -4464,7 +4468,7 @@ body {
 .btn-outlined-gray {
   border-color: #b7c0c3;
   color: #828c8f; }
-  .btn-outlined-gray:hover {
+  .btn-outlined-gray:hover, .btn-outlined-gray:focus, .btn-outlined-gray:active {
     border-color: #828c8f;
     color: #4d5659; }
   .btn-outlined-gray:disabled, .btn-outlined-gray.btn-disabled {
