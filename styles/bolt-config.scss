@@ -133,7 +133,10 @@ $type-scale-8: 6rem !default;
 $letter-spacing: 1 !default;
 $caps-letter-spacing: 0.15em !default;
 
-$base-font-family: sans-serif !default;
+$sans-default: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
+$serif-default: "Times New Roman", Times, serif !default;
+
+$base-font-family: $sans-default !default;
 $base-font-size: 16px !default;
 $base-line-height: $line-height-1 !default;
 $base-font-color: $gray-dark !default;
@@ -144,7 +147,6 @@ $base-selection-color: $blue-light;
 // ======================
 
 $base-border-width: 2px !default;
-
 $border-radius-1: 0.125rem !default;
 $border-radius-2: 0.188rem !default;
 $border-radius-3: 0.25rem !default;
