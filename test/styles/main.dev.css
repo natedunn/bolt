@@ -3399,7 +3399,7 @@ html {
 
 body {
   position: relative;
-  min-height: 100%;
+  height: 100%;
   width: 100%; }
 
 p {
@@ -3746,6 +3746,33 @@ body {
   background-color: #83e1ff;
   color: white; }
 
+a,
+.link {
+  color: #00B0E9; }
+  a:hover,
+  .link:hover {
+    color: #0089b6; }
+  a:focus,
+  .link:focus {
+    outline: 1;
+    color: #00769d; }
+
+.link-red {
+  color: #e80044; }
+  .link-red:hover {
+    color: #b50035; }
+  .link-red:focus {
+    outline: 1;
+    color: #9c002e; }
+
+.link-green {
+  color: #43bb6e; }
+  .link-green:hover {
+    color: #369558; }
+  .link-green:focus {
+    outline: 1;
+    color: #2f834d; }
+
 .white {
   color: #fff; }
 
@@ -3757,6 +3784,9 @@ body {
 
 .bg-black {
   background-color: #111; }
+
+.bg-whitesmoke {
+  background-color: whitesmoke; }
 
 /*
    Legend:
