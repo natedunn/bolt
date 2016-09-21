@@ -1,0 +1,95 @@
+.ofv { overflow: visible; }
+.ofh { overflow: hidden; }
+.ofs { overflow: scroll; }
+.ofa { overflow: auto; }
+
+.ofxv { overflow-x: visible; }
+.ofxh { overflow-x: hidden; }
+.ofxs { overflow-x: scroll; }
+.ofxa { overflow-x: auto; }
+
+.ofyv { overflow-y: visible; }
+.ofyh { overflow-y: hidden; }
+.ofys { overflow-y: scroll; }
+.ofya { overflow-y: auto; }
+
+@media (min-width: $breakpoint-sm) {
+  .ofv-sm { overflow: visible; }
+  .ofh-sm { overflow: hidden; }
+  .ofs-sm { overflow: scroll; }
+  .ofa-sm { overflow: auto; }
+
+  .ofxv-sm { overflow-x: visible; }
+  .ofxh-sm { overflow-x: hidden; }
+  .ofxs-sm { overflow-x: scroll; }
+  .ofxa-sm { overflow-x: auto; }
+
+  .ofyv-sm { overflow-y: visible; }
+  .ofyh-sm { overflow-y: hidden; }
+  .ofys-sm { overflow-y: scroll; }
+  .ofya-sm { overflow-y: auto; }
+}
+@media (min-width: $breakpoint-md) {
+  .ofv-md { overflow: visible; }
+  .ofh-md { overflow: hidden; }
+  .ofs-md { overflow: scroll; }
+  .ofa-md { overflow: auto; }
+
+  .ofxv-md { overflow-x: visible; }
+  .ofxh-md { overflow-x: hidden; }
+  .ofxs-md { overflow-x: scroll; }
+  .ofxa-md { overflow-x: auto; }
+
+  .ofyv-md { overflow-y: visible; }
+  .ofyh-md { overflow-y: hidden; }
+  .ofys-md { overflow-y: scroll; }
+  .ofya-md { overflow-y: auto; }
+}
+@media (min-width: $breakpoint-lg) {
+  .ofv-lg { overflow: visible; }
+  .ofh-lg { overflow: hidden; }
+  .ofs-lg { overflow: scroll; }
+  .ofa-lg { overflow: auto; }
+
+  .ofxv-lg { overflow-x: visible; }
+  .ofxh-lg { overflow-x: hidden; }
+  .ofxs-lg { overflow-x: scroll; }
+  .ofxa-lg { overflow-x: auto; }
+
+  .ofyv-lg { overflow-y: visible; }
+  .ofyh-lg { overflow-y: hidden; }
+  .ofys-lg { overflow-y: scroll; }
+  .ofya-lg { overflow-y: auto; }
+}
+@media (min-width: $breakpoint-xl) {
+  .ofv-xl { overflow: visible; }
+  .ofh-xl { overflow: hidden; }
+  .ofs-xl { overflow: scroll; }
+  .ofa-xl { overflow: auto; }
+
+  .ofxv-xl { overflow-x: visible; }
+  .ofxh-xl { overflow-x: hidden; }
+  .ofxs-xl { overflow-x: scroll; }
+  .ofxa-xl { overflow-x: auto; }
+
+  .ofyv-xl { overflow-y: visible; }
+  .ofyh-xl { overflow-y: hidden; }
+  .ofys-xl { overflow-y: scroll; }
+  .ofya-xl { overflow-y: auto; }
+}
+@media (min-width: $breakpoint-xxl) {
+  .ofv-xxl { overflow: visible; }
+  .ofh-xxl { overflow: hidden; }
+  .ofs-xxl { overflow: scroll; }
+  .ofa-xxl { overflow: auto; }
+
+  .ofxv-xxl { overflow-x: visible; }
+  .ofxh-xxl { overflow-x: hidden; }
+  .ofxs-xxl { overflow-x: scroll; }
+  .ofxa-xxl { overflow-x: auto; }
+
+  .ofyv-xxl { overflow-y: visible; }
+  .ofyh-xxl { overflow-y: hidden; }
+  .ofys-xxl { overflow-y: scroll; }
+  .ofya-xxl { overflow-y: auto; }
+}
