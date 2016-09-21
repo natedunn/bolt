@@ -1,17 +1,6 @@
-// Base colors
-$black: #111 !default;
-$white: #fff !default;
-
-// Text colors
 .white { color: $white; }
 .black { color: $black; }
 
-// Background colors
 .bg-white { background-color: $white; }
 .bg-black { background-color: $black; }
 .bg-whitesmoke { background-color: whitesmoke; }
-
-// Effects
-$darken-1: rgba(0, 0, 0, .0625) !default;
-$darken-2: rgba(0, 0, 0, .125) !default;
-$darken-3: rgba(0, 0, 0, .25) !default;
