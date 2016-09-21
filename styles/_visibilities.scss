@@ -1,0 +1,29 @@
+.vi { visibility: inherit; }
+.vh { visibility: visible; }
+.vh { visibility: hidden; }
+
+@media (min-width: $breakpoint-sm) {
+  .vi-sm { visibility: inherit; }
+  .vh-sm { visibility: visible; }
+  .vh-sm { visibility: hidden; }
+}
+@media (min-width: $breakpoint-md) {
+  .vi-md { visibility: inherit; }
+  .vh-md { visibility: visible; }
+  .vh-md { visibility: hidden; }
+}
+@media (min-width: $breakpoint-lg) {
+  .vi-lg { visibility: inherit; }
+  .vh-lg { visibility: visible; }
+  .vh-lg { visibility: hidden; }
+}
+@media (min-width: $breakpoint-xl) {
+  .vi-xl { visibility: inherit; }
+  .vh-xl { visibility: visible; }
+  .vh-xl { visibility: hidden; }
+}
+@media (min-width: $breakpoint-xxl) {
+  .vi-xxl { visibility: inherit; }
+  .vh-xxl { visibility: visible; }
+  .vh-xxl { visibility: hidden; }
+}
