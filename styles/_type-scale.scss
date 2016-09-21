@@ -1,59 +1,65 @@
-.f1 { font-size: $type-scale-1; }
-.f2 { font-size: $type-scale-2; }
-.f3 { font-size: $type-scale-3;}
-.f4 { font-size: $type-scale-4; }
-.f5 { font-size: $type-scale-5; }
-.f6 { font-size: $type-scale-6; }
-.f7 { font-size: $type-scale-7; }
-.f8 { font-size: $type-scale-8; }
+.fsi { font-size: inherit; }
+.fs1 { font-size: $type-scale-1; }
+.fs2 { font-size: $type-scale-2; }
+.fs3 { font-size: $type-scale-3;}
+.fs4 { font-size: $type-scale-4; }
+.fs5 { font-size: $type-scale-5; }
+.fs6 { font-size: $type-scale-6; }
+.fs7 { font-size: $type-scale-7; }
+.fs8 { font-size: $type-scale-8; }
 
 @include mq(sm) {
-  .f1-sm { font-size: $type-scale-1; }
-  .f2-sm { font-size: $type-scale-2; }
-  .f3-sm { font-size: $type-scale-3;}
-  .f4-sm { font-size: $type-scale-4; }
-  .f5-sm { font-size: $type-scale-5; }
-  .f6-sm { font-size: $type-scale-6; }
-  .f7-sm { font-size: $type-scale-7; }
-  .f8-sm { font-size: $type-scale-8; }
+  .fsi-sm { font-size: inherit; }
+  .fs1-sm { font-size: $type-scale-1; }
+  .fs2-sm { font-size: $type-scale-2; }
+  .fs3-sm { font-size: $type-scale-3;}
+  .fs4-sm { font-size: $type-scale-4; }
+  .fs5-sm { font-size: $type-scale-5; }
+  .fs6-sm { font-size: $type-scale-6; }
+  .fs7-sm { font-size: $type-scale-7; }
+  .fs8-sm { font-size: $type-scale-8; }
 }
 @include mq(md) {
-  .f1-md { font-size: $type-scale-1; }
-  .f2-md { font-size: $type-scale-2; }
-  .f3-md { font-size: $type-scale-3;}
-  .f4-md { font-size: $type-scale-4; }
-  .f5-md { font-size: $type-scale-5; }
-  .f6-md { font-size: $type-scale-6; }
-  .f7-md { font-size: $type-scale-7; }
-  .f8-md { font-size: $type-scale-8; }
+  .fsi-md { font-size: inherit; }
+  .fs1-md { font-size: $type-scale-1; }
+  .fs2-md { font-size: $type-scale-2; }
+  .fs3-md { font-size: $type-scale-3;}
+  .fs4-md { font-size: $type-scale-4; }
+  .fs5-md { font-size: $type-scale-5; }
+  .fs6-md { font-size: $type-scale-6; }
+  .fs7-md { font-size: $type-scale-7; }
+  .fs8-md { font-size: $type-scale-8; }
 }
 @include mq(lg) {
-  .f1-lg { font-size: $type-scale-1; }
-  .f2-lg { font-size: $type-scale-2; }
-  .f3-lg { font-size: $type-scale-3;}
-  .f4-lg { font-size: $type-scale-4; }
-  .f5-lg { font-size: $type-scale-5; }
-  .f6-lg { font-size: $type-scale-6; }
-  .f7-lg { font-size: $type-scale-7; }
-  .f8-lg { font-size: $type-scale-8; }
+  .fsi-lg { font-size: inherit; }
+  .fs1-lg { font-size: $type-scale-1; }
+  .fs2-lg { font-size: $type-scale-2; }
+  .fs3-lg { font-size: $type-scale-3;}
+  .fs4-lg { font-size: $type-scale-4; }
+  .fs5-lg { font-size: $type-scale-5; }
+  .fs6-lg { font-size: $type-scale-6; }
+  .fs7-lg { font-size: $type-scale-7; }
+  .fs8-lg { font-size: $type-scale-8; }
 }
 @include mq(xl) {
-  .f1-xl { font-size: $type-scale-1; }
-  .f2-xl { font-size: $type-scale-2; }
-  .f3-xl { font-size: $type-scale-3;}
-  .f4-xl { font-size: $type-scale-4; }
-  .f5-xl { font-size: $type-scale-5; }
-  .f6-xl { font-size: $type-scale-6; }
-  .f7-xl { font-size: $type-scale-7; }
-  .f8-xl { font-size: $type-scale-8; }
+  .fsi-xl { font-size: inherit; }
+  .fs1-xl { font-size: $type-scale-1; }
+  .fs2-xl { font-size: $type-scale-2; }
+  .fs3-xl { font-size: $type-scale-3;}
+  .fs4-xl { font-size: $type-scale-4; }
+  .fs5-xl { font-size: $type-scale-5; }
+  .fs6-xl { font-size: $type-scale-6; }
+  .fs7-xl { font-size: $type-scale-7; }
+  .fs8-xl { font-size: $type-scale-8; }
 }
 @include mq(xxl) {
-  .f1-xxl { font-size: $type-scale-1; }
-  .f2-xxl { font-size: $type-scale-2; }
-  .f3-xxl { font-size: $type-scale-3;}
-  .f4-xxl { font-size: $type-scale-4; }
-  .f5-xxl { font-size: $type-scale-5; }
-  .f6-xxl { font-size: $type-scale-6; }
-  .f7-xxl { font-size: $type-scale-7; }
-  .f8-xxl { font-size: $type-scale-8; }
+  .fsi-xxl { font-size: inherit; }
+  .fs1-xxl { font-size: $type-scale-1; }
+  .fs2-xxl { font-size: $type-scale-2; }
+  .fs3-xxl { font-size: $type-scale-3;}
+  .fs4-xxl { font-size: $type-scale-4; }
+  .fs5-xxl { font-size: $type-scale-5; }
+  .fs6-xxl { font-size: $type-scale-6; }
+  .fs7-xxl { font-size: $type-scale-7; }
+  .fs8-xxl { font-size: $type-scale-8; }
 }
