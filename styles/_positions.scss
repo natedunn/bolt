@@ -1,0 +1,35 @@
+.stat { position: static; }
+.rel { position: relative; }
+.abs { position: absolute; }
+.fix { position: fixed; }
+
+@media (min-width: $breakpoint-sm) {
+  .stat-sm { position: static; }
+  .rel-sm { position: relative; }
+  .abs-sm { position: absolute; }
+  .fix-sm { position: fixed; }
+}
+@media (min-width: $breakpoint-md) {
+  .stat-md { position: static; }
+  .rel-md { position: relative; }
+  .abs-md { position: absolute; }
+  .fix-md { position: fixed; }
+}
+@media (min-width: $breakpoint-lg) {
+  .stat-lg { position: static; }
+  .rel-lg { position: relative; }
+  .abs-lg { position: absolute; }
+  .fix-lg { position: fixed; }
+}
+@media (min-width: $breakpoint-xl) {
+  .stat-xl { position: static; }
+  .rel-xl { position: relative; }
+  .abs-xl { position: absolute; }
+  .fix-xl { position: fixed; }
+}
+@media (min-width: $breakpoint-xxl) {
+  .stat-xxl { position: static; }
+  .rel-xxl { position: relative; }
+  .abs-xxl { position: absolute; }
+  .fix-xxl { position: fixed; }
+}
