@@ -1,0 +1,77 @@
+.dn { display: none; }
+.di { display: inline; }
+.db { display: block; }
+.dib { display: inline-block; }
+.dit {display: inline-table; }
+.dt { display: table; }
+.dt-cell { display: table-cell; }
+.dt-row { display: table-row; }
+.dt-row-group { display: table-row-group; }
+.dt-column { display: table-column; }
+.dt-column-group { display: table-column-group; }
+
+@media (min-width: $breakpoint-sm) {
+  .dn-sm { display: none; }
+  .di-sm { display: inline; }
+  .db-sm { display: block; }
+  .dib-sm { display: inline-block; }
+  .dit-sm {display: inline-table; }
+  .dt-sm { display: table; }
+  .dt-cell-sm { display: table-cell; }
+  .dt-row-sm { display: table-row; }
+  .dt-row-group-sm { display: table-row-group; }
+  .dt-column-sm { display: table-column; }
+  .dt-column-group-sm { display: table-column-group; }
+}
+@media (min-width: $breakpoint-md) {
+  .dn-md { display: none; }
+  .di-md { display: inline; }
+  .db-md { display: block; }
+  .dib-md { display: inline-block; }
+  .dit-md {display: inline-table; }
+  .dt-md { display: table; }
+  .dt-cell-md { display: table-cell; }
+  .dt-row-md { display: table-row; }
+  .dt-row-group-md { display: table-row-group; }
+  .dt-column-md { display: table-column; }
+  .dt-column-group-md { display: table-column-group; }
+}
+@media (min-width: $breakpoint-lg) {
+  .dn-lg { display: none; }
+  .di-lg { display: inline; }
+  .db-lg { display: block; }
+  .dib-lg { display: inline-block; }
+  .dit-lg {display: inline-table; }
+  .dt-lg { display: table; }
+  .dt-cell-lg { display: table-cell; }
+  .dt-row-lg { display: table-row; }
+  .dt-row-group-lg { display: table-row-group; }
+  .dt-column-lg { display: table-column; }
+  .dt-column-group-lg { display: table-column-group; }
+}
+@media (min-width: $breakpoint-xl) {
+  .dn-xl { display: none; }
+  .di-xl { display: inline; }
+  .db-xl { display: block; }
+  .dib-xl { display: inline-block; }
+  .dit-xl {display: inline-table; }
+  .dt-xl { display: table; }
+  .dt-cell-xl { display: table-cell; }
+  .dt-row-xl { display: table-row; }
+  .dt-row-group-xl { display: table-row-group; }
+  .dt-column-xl { display: table-column; }
+  .dt-column-group-xl { display: table-column-group; }
+}
+@media (min-width: $breakpoint-xxl) {
+  .dn-xxl { display: none; }
+  .di-xxl { display: inline; }
+  .db-xxl { display: block; }
+  .dib-xxl { display: inline-block; }
+  .dit-xxl {display: inline-table; }
+  .dt-xxl { display: table; }
+  .dt-cell-xxl { display: table-cell; }
+  .dt-row-xxl { display: table-row; }
+  .dt-row-group-xxl { display: table-row-group; }
+  .dt-column-xxl { display: table-column; }
+  .dt-column-group-xxl { display: table-column-group; }
+}
