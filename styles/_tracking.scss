@@ -1,0 +1,29 @@
+.track1 { letter-spacing: $tracking-1; }
+.track2 { letter-spacing: $tracking-2; }
+.track3 { letter-spacing: $tracking-3; }
+
+@media (min-width: $breakpoint-sm) {
+  .track1-sm { letter-spacing: $tracking-1; }
+  .track2-sm { letter-spacing: $tracking-2; }
+  .track3-sm { letter-spacing: $tracking-3; }
+}
+@media (min-width: $breakpoint-md) {
+  .track1-md { letter-spacing: $tracking-1; }
+  .track2-md { letter-spacing: $tracking-2; }
+  .track3-md { letter-spacing: $tracking-3; }
+}
+@media (min-width: $breakpoint-lg) {
+  .track1-lg { letter-spacing: $tracking-1; }
+  .track2-lg { letter-spacing: $tracking-2; }
+  .track3-lg { letter-spacing: $tracking-3; }
+}
+@media (min-width: $breakpoint-xl) {
+  .track1-xl { letter-spacing: $tracking-1; }
+  .track2-xl { letter-spacing: $tracking-2; }
+  .track3-xl { letter-spacing: $tracking-3; }
+}
+@media (min-width: $breakpoint-xxl) {
+  .track1-xxl { letter-spacing: $tracking-1; }
+  .track2-xxl { letter-spacing: $tracking-2; }
+  .track3-xxl { letter-spacing: $tracking-3; }
+}
