@@ -1,0 +1,29 @@
+.lh1 { line-height: $line-height-1; }
+.lh2 { line-height: $line-height-2; }
+.lh3 { line-height: $line-height-3; }
+
+@media (min-width: $breakpoint-sm) {
+  .lh1-sm { line-height: $line-height-1; }
+  .lh2-sm { line-height: $line-height-2; }
+  .lh3-sm { line-height: $line-height-3; }
+}
+@media (min-width: $breakpoint-md) {
+  .lh1-md { line-height: $line-height-1; }
+  .lh2-md { line-height: $line-height-2; }
+  .lh3-md { line-height: $line-height-3; }
+}
+@media (min-width: $breakpoint-lg) {
+  .lh1-lg { line-height: $line-height-1; }
+  .lh2-lg { line-height: $line-height-2; }
+  .lh3-lg { line-height: $line-height-3; }
+}
+@media (min-width: $breakpoint-xl) {
+  .lh1-xl { line-height: $line-height-1; }
+  .lh2-xl { line-height: $line-height-2; }
+  .lh3-xl { line-height: $line-height-3; }
+}
+@media (min-width: $breakpoint-xxl) {
+  .lh1-xxl { line-height: $line-height-1; }
+  .lh2-xxl { line-height: $line-height-2; }
+  .lh3-xxl { line-height: $line-height-3; }
+}
