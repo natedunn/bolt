@@ -5,87 +5,13 @@ body {
   color: $base-font-color;
   text-rendering: optimizeSpeed
 }
-.h1 {
-  font-size: $h1;
-}
-.h2 {
-  font-size: $h2;
-}
-.h3 {
-  font-size: $h3;
-}
-.h4 {
-  font-size: $h4;
-}
-.h5 {
-  font-size: $h5;
-}
-.h6 {
-  font-size: $h6;
-}
-.font-family-inherit {
-  font-family: inherit;
-}
-.font-size-inherit {
-  font-size: inherit;
-}
-.text-decoration-none {
-  text-decoration: none;
-}
-.bold {
-  font-weight: bold;
-}
-.regular {
-  font-weight: normal;
-}
-.italic {
-  font-style: italic;
-}
-.caps {
-  letter-spacing: $caps-letter-spacing;
-  text-transform: uppercase;
-}
-.text-transform-reset {
-  text-transform: none;
-}
-.letter-spacing-reset {
-  letter-spacing: normal;
-}
-.left-align {
-  text-align: left;
-}
-.center {
-  text-align: center;
-}
-.right-align {
-  text-align: right;
-}
-.justify {
-  text-align: justify;
-}
-.nowrap {
-  white-space: nowrap;
-}
-.break-word {
-  word-wrap: break-word;
-}
-.line-height-1 {
-  line-height: $line-height-1;
-}
-.line-height-2 {
-  line-height: $line-height-2;
-}
-.line-height-3 {
-  line-height: $line-height-3;
-}
-.line-height-4 {
-  line-height: $line-height-4;
-}
-.list-style-none {
+
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+
+.list-reset {
+  padding-left: 0;
   list-style: none;
-}
-.underline {
-  text-decoration: underline;
 }
 .truncate {
   max-width: 100%;
@@ -93,10 +19,16 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.list-reset {
-  padding-left: 0;
-  list-style: none;
+.indent {
+  text-indent: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+.caps {
+  letter-spacing: $tracking-3;
+  text-transform: uppercase;
+}
+
 ::-moz-selection {
   background-color: $base-selection-color;
   color: white;
