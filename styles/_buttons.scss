@@ -1,4 +1,3 @@
-// Button Styles
 .btn {
   display: inline-block;
   padding-right: $button-x-2;
@@ -35,7 +34,6 @@
   }
 }
 
-// Sizes (Size "2" is built into .btn class)
 .btn-1 {
   padding-right: $button-x-1;
   padding-left: $button-x-1;
@@ -187,55 +185,3 @@
     color: lighten($gray-light, 20%);
   }
 }
-
-// ======================
-// !! Deprecated !!
-// ======================
-
-// .btn:hover {
-//   text-decoration: none;
-// }
-// .btn:focus {
-//   outline: none;
-//   box-shadow: inset 0px 0px 0px 2px rgba(255,255,255,0.5);
-// }
-
-// // Responsive Button
-// .btn--full {
-//   display: block;
-//   margin-left: auto;
-//   margin-right: auto;
-//   text-align: center;
-//   width: 100%;
-// }
-// @include mq(sm) {
-//   .btn--full {
-//     display: inline-block;
-//     width: inherit;
-//   }
-// }
-//
-// .btn--4 {
-//   padding: 0 10px;
-//   height: $form-height-4;
-//   line-height: $form-height-4;
-//   font-size: $form-font-4;
-// }
-// .btn--3 {
-//   padding: 0 14px;
-//   height: $form-height-3;
-//   line-height: $form-height-3;
-//   font-size: $form-font-3;
-// }
-// .btn--2 {
-//   padding: 0 16px;
-//   height: $form-height-2;
-//   line-height: $form-height-2;
-//   font-size: $form-font-2;
-// }
-// .btn--1 {
-//   padding: 0 20px;
-//   height: $form-height-1;
-//   line-height: $form-height-1;
-//   font-size: $form-font-1;
-// }
