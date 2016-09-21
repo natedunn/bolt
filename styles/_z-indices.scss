@@ -1,0 +1,83 @@
+.z0 { z-index: 0; }
+.z1 { z-index: 1; }
+.z2 { z-index: 2; }
+.z3 { z-index: 3; }
+.z4 { z-index: 4; }
+.z5 { z-index: 5; }
+.z999 { z-index: 999; }
+.z9999 { z-index: 9999; }
+.zmax { z-index: 2147483647; }
+.zinherit { z-index: inherit; }
+.zinitial { z-index: initial; }
+.zunset { z-index: unset; }
+
+@media (min-width: $breakpoint-sm) {
+  .z0-sm { z-index: 0; }
+  .z1-sm { z-index: 1; }
+  .z2-sm { z-index: 2; }
+  .z3-sm { z-index: 3; }
+  .z4-sm { z-index: 4; }
+  .z5-sm { z-index: 5; }
+  .z999-sm { z-index: 999; }
+  .z9999-sm { z-index: 9999; }
+  .zmax-sm { z-index: 2147483647; }
+  .zinherit-sm { z-index: inherit; }
+  .zinitial-sm { z-index: initial; }
+  .zunset-sm { z-index: unset; }
+}
+@media (min-width: $breakpoint-md) {
+  .z0-md { z-index: 0; }
+  .z1-md { z-index: 1; }
+  .z2-md { z-index: 2; }
+  .z3-md { z-index: 3; }
+  .z4-md { z-index: 4; }
+  .z5-md { z-index: 5; }
+  .z999-md { z-index: 999; }
+  .z9999-md { z-index: 9999; }
+  .zmax-md { z-index: 2147483647; }
+  .zinherit-md { z-index: inherit; }
+  .zinitial-md { z-index: initial; }
+  .zunset-md { z-index: unset; }
+}
+@media (min-width: $breakpoint-lg) {
+  .z0-lg { z-index: 0; }
+  .z1-lg { z-index: 1; }
+  .z2-lg { z-index: 2; }
+  .z3-lg { z-index: 3; }
+  .z4-lg { z-index: 4; }
+  .z5-lg { z-index: 5; }
+  .z999-lg { z-index: 999; }
+  .z9999-lg { z-index: 9999; }
+  .zmax-lg { z-index: 2147483647; }
+  .zinherit-lg { z-index: inherit; }
+  .zinitial-lg { z-index: initial; }
+  .zunset-lg { z-index: unset; }
+}
+@media (min-width: $breakpoint-xl) {
+  .z0-xl { z-index: 0; }
+  .z1-xl { z-index: 1; }
+  .z2-xl { z-index: 2; }
+  .z3-xl { z-index: 3; }
+  .z4-xl { z-index: 4; }
+  .z5-xl { z-index: 5; }
+  .z999-xl { z-index: 999; }
+  .z9999-xl { z-index: 9999; }
+  .zmax-xl { z-index: 2147483647; }
+  .zinherit-xl { z-index: inherit; }
+  .zinitial-xl { z-index: initial; }
+  .zunset-xl { z-index: unset; }
+}
+@media (min-width: $breakpoint-xxl) {
+  .z0-xxl { z-index: 0; }
+  .z1-xxl { z-index: 1; }
+  .z2-xxl { z-index: 2; }
+  .z3-xxl { z-index: 3; }
+  .z4-xxl { z-index: 4; }
+  .z5-xxl { z-index: 5; }
+  .z999-xxl { z-index: 999; }
+  .z9999-xxl { z-index: 9999; }
+  .zmax-xxl { z-index: 2147483647; }
+  .zinherit-xxl { z-index: inherit; }
+  .zinitial-xxl { z-index: initial; }
+  .zunset-xxl { z-index: unset; }
+}
