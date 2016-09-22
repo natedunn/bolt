@@ -55,7 +55,7 @@ gulp.task('watch', ['browser-sync'], function() {
   // HTML Files
   gulp.watch('./test/**/*.html'), ['bs-reload'];
   // Project Styles
-  gulp.watch('styles/**/*.scss', ['test'])
+  gulp.watch('./**/*.scss', ['build'])
 });
 
 // ======================
@@ -73,11 +73,15 @@ gulp.task('styles-dev', function() {
         replace: true,
         propWhiteList: [],
         mediaQuery: false
+      }),
+      cssnano({
+        discardComments: {removeAll: true}
       })
     ]))
     .pipe(sourcemaps.init())
-    .pipe(concat('main.dev.css'))
+    .pipe(concat('bolt.css'))
     .pipe(gulp.dest('./test/styles'))
+    .pipe(gulp.dest('./css'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'DEVELOPMENT STYLES task complete'}))
 });
@@ -93,11 +97,14 @@ gulp.task('styles-prod', function() {
         replace: true,
         propWhiteList: [],
         mediaQuery: false
+      }),
+      cssnano({
+        discardComments: {removeAll: true}
       })
     ]))
-    .pipe(postcss([cssnano({discardComments: {removeAll: true}})]))
-    .pipe(concat('main.min.css'))
+    .pipe(concat('bolt.min.css'))
     .pipe(gulp.dest('./test/styles'))
+    .pipe(gulp.dest('./css'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'PRODUCTION STYLES task complete' }));
 });
@@ -114,6 +121,7 @@ gulp.task('styles-ie', function() {
     ]})]))
     .pipe(concat('ie.main.css'))
     .pipe(gulp.dest('./test/styles'))
+    .pipe(gulp.dest('./css'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'IE STYLES task complete' }));
 });
@@ -138,13 +146,14 @@ gulp.task('images', ['clean:images'], function() {
 // Clean Styles
 gulp.task('clean:styles', function () {
   return del('test/styles/**/*.css');
+  return del('css/**/*.css');
 });
 
 // ======================
 // BUILD
 // ======================
 
-gulp.task('test', function(callback) {
+gulp.task('build', function(callback) {
   runSequence(
     'clean:styles',
     'styles-dev',
