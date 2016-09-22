@@ -28,12 +28,3 @@ body {
   letter-spacing: $tracking-3;
   text-transform: uppercase;
 }
-
-::-moz-selection {
-  background-color: $base-selection-color;
-  color: white;
-}
-::selection {
-  background-color: $base-selection-color;
-  color: white;
-}
