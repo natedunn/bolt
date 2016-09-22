@@ -8,7 +8,7 @@
 .fs7 { font-size: $type-scale-7; }
 .fs8 { font-size: $type-scale-8; }
 
-@include mq(sm) {
+@media (min-width: $breakpoint-sm) {
   .fsi-sm { font-size: inherit; }
   .fs1-sm { font-size: $type-scale-1; }
   .fs2-sm { font-size: $type-scale-2; }
@@ -19,7 +19,7 @@
   .fs7-sm { font-size: $type-scale-7; }
   .fs8-sm { font-size: $type-scale-8; }
 }
-@include mq(md) {
+@media (min-width: $breakpoint-md) {
   .fsi-md { font-size: inherit; }
   .fs1-md { font-size: $type-scale-1; }
   .fs2-md { font-size: $type-scale-2; }
@@ -30,7 +30,7 @@
   .fs7-md { font-size: $type-scale-7; }
   .fs8-md { font-size: $type-scale-8; }
 }
-@include mq(lg) {
+@media (min-width: $breakpoint-lg) {
   .fsi-lg { font-size: inherit; }
   .fs1-lg { font-size: $type-scale-1; }
   .fs2-lg { font-size: $type-scale-2; }
@@ -41,7 +41,7 @@
   .fs7-lg { font-size: $type-scale-7; }
   .fs8-lg { font-size: $type-scale-8; }
 }
-@include mq(xl) {
+@media (min-width: $breakpoint-xl) {
   .fsi-xl { font-size: inherit; }
   .fs1-xl { font-size: $type-scale-1; }
   .fs2-xl { font-size: $type-scale-2; }
@@ -52,7 +52,7 @@
   .fs7-xl { font-size: $type-scale-7; }
   .fs8-xl { font-size: $type-scale-8; }
 }
-@include mq(xxl) {
+@media (min-width: $breakpoint-xxl) {
   .fsi-xxl { font-size: inherit; }
   .fs1-xxl { font-size: $type-scale-1; }
   .fs2-xxl { font-size: $type-scale-2; }
