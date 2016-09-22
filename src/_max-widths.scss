@@ -1,12 +1,5 @@
-/*
-  Legend:
-  -----
-  mw = max width
-*/
-
 .mw-100  { max-width: 100%; }
 .mw-none { max-width: none; }
-
 .mw1 { max-width: $max-width-1; }
 .mw2 { max-width: $max-width-2; }
 .mw3 { max-width: $max-width-3; }
@@ -17,10 +10,9 @@
 .mw8 { max-width: $max-width-8; }
 .mw9 { max-width: $max-width-9; }
 
-@include mq(sm) {
+@media (min-width: $breakpoint-sm) {
   .mw-100-sm  { max-width: 100%; }
   .mw-none-sm { max-width: none; }
-
   .mw1-sm { max-width: $max-width-1; }
   .mw2-sm { max-width: $max-width-2; }
   .mw3-sm { max-width: $max-width-3; }
@@ -31,10 +23,9 @@
   .mw8-sm { max-width: $max-width-8; }
   .mw9-sm { max-width: $max-width-9; }
 }
-@include mq(md) {
+@media (min-width: $breakpoint-md) {
   .mw-100-md  { max-width: 100%; }
   .mw-none-md { max-width: none; }
-
   .mw1-md { max-width: $max-width-1; }
   .mw2-md { max-width: $max-width-2; }
   .mw3-md { max-width: $max-width-3; }
@@ -45,10 +36,9 @@
   .mw8-md { max-width: $max-width-8; }
   .mw9-md { max-width: $max-width-9; }
 }
-@include mq(lg) {
+@media (min-width: $breakpoint-lg) {
   .mw-100-lg  { max-width: 100%; }
   .mw-none-lg { max-width: none; }
-
   .mw1-lg { max-width: $max-width-1; }
   .mw2-lg { max-width: $max-width-2; }
   .mw3-lg { max-width: $max-width-3; }
@@ -59,10 +49,9 @@
   .mw8-lg { max-width: $max-width-8; }
   .mw9-lg { max-width: $max-width-9; }
 }
-@include mq(xl) {
+@media (min-width: $breakpoint-xl) {
   .mw-100-xl  { max-width: 100%; }
   .mw-none-xl { max-width: none; }
-
   .mw1-xl { max-width: $max-width-1; }
   .mw2-xl { max-width: $max-width-2; }
   .mw3-xl { max-width: $max-width-3; }
@@ -73,10 +62,9 @@
   .mw8-xl { max-width: $max-width-8; }
   .mw9-xl { max-width: $max-width-9; }
 }
-@include mq(xxl) {
+@media (min-width: $breakpoint-xxl) {
   .mw-100-xxl  { max-width: 100%; }
   .mw-none-xxl { max-width: none; }
-
   .mw1-xxl { max-width: $max-width-1; }
   .mw2-xxl { max-width: $max-width-2; }
   .mw3-xxl { max-width: $max-width-3; }

@@ -6,7 +6,7 @@
 .r5 { border-radius: $border-radius-5; }
 .r-full { border-radius: 100%; }
 
-@include mq(sm) {
+@media (min-width: $breakpoint-sm) {
   .r0-sm { border-radius: 0; }
   .r1-sm { border-radius: $border-radius-1; }
   .r2-sm { border-radius: $border-radius-2; }
@@ -15,7 +15,7 @@
   .r5-sm { border-radius: $border-radius-5; }
   .r-full-sm { border-radius: 100%; }
 }
-@include mq(md) {
+@media (min-width: $breakpoint-md) {
   .r0-md { border-radius: 0; }
   .r1-md { border-radius: $border-radius-1; }
   .r2-md { border-radius: $border-radius-2; }
@@ -24,7 +24,7 @@
   .r5-md { border-radius: $border-radius-5; }
   .r-full-md { border-radius: 100%; }
 }
-@include mq(lg) {
+@media (min-width: $breakpoint-lg) {
   .r0-lg { border-radius: 0; }
   .r1-lg { border-radius: $border-radius-1; }
   .r2-lg { border-radius: $border-radius-2; }
@@ -33,7 +33,7 @@
   .r5-lg { border-radius: $border-radius-5; }
   .r-full-lg { border-radius: 100%; }
 }
-@include mq(xl) {
+@media (min-width: $breakpoint-xl) {
   .r0-xl { border-radius: 0; }
   .r1-xl { border-radius: $border-radius-1; }
   .r2-xl { border-radius: $border-radius-2; }
@@ -42,7 +42,7 @@
   .r5-xl { border-radius: $border-radius-5; }
   .r-full-xl { border-radius: 100%; }
 }
-@include mq(xxl) {
+@media (min-width: $breakpoint-xxl) {
   .r0-xxl { border-radius: 0; }
   .r1-xxl { border-radius: $border-radius-1; }
   .r2-xxl { border-radius: $border-radius-2; }
