@@ -1,198 +1,198 @@
-.btn,
-a.btn {
-  display: inline-block;
-  padding-right: $button-x-2;
-  padding-left: $button-x-2;
-  border: $button-border-width;
-  border-radius: $button-border-radius;
-  background-color: $button-bg-color;
-  color: $button-font-color;
-  text-align: center;
-  text-decoration: none;
-  font-weight: $button-font-weight;
-  font-size: $button-font-size;
-  cursor: pointer;
-  transition-delay: 0;
-  transition-timing-function: ease-in;
-  transition-duration: $button-transition-duration;
-  transition-property: background border-color color;
-  user-select: none;
-  appearance: none;
-  &:not([class*='btn-outlined']) {
-    padding-top: $button-y-2;
-    padding-bottom: $button-y-2;
-  }
-  &:hover {
-    background-color: darken($button-bg-color, 10%);
-  }
-  &:focus {
-    background-color: darken($button-bg-color, 20%);
-  }
-  &:disabled,
-  &.btn-disabled {
-    background-color: lighten($button-bg-color, 40%);
-    cursor: not-allowed;
-  }
-}
-
-.btn-1,
-a.btn-1 {
-  padding-right: $button-x-1;
-  padding-left: $button-x-1;
-  font-size: 0.750em;
-  &:not([class*='btn-outlined']) {
-    padding-top: $button-y-1;
-    padding-bottom: $button-y-1;
-  }
-  &[class*='btn-outlined'] {
-    padding-top: ($button-y-1 - 0.125rem);
-    padding-bottom: ($button-y-1 - 0.125rem);
-  }
-}
-.btn-3,
-a.btn-3 {
-  padding-right: $button-x-3;
-  padding-left: $button-x-3;
-  font-size: 1.375rem;
-  &:not([class*='btn-outlined']) {
-    padding-top: $button-y-3;
-    padding-bottom: $button-y-3;
-  }
-  &[class*='btn-outlined'] {
-    padding-top: ($button-y-3 - 0.125rem);
-    padding-bottom: ($button-y-3 - 0.125rem);
-  }
-}
-
-// Basic solid colors
-.btn-red,
-a.btn-red {
-  background-color: $red;
-  &:hover {
-    background-color: darken($red, 10%);
-  }
-  &:focus {
-    background-color: darken($red, 20%);
-  }
-  &:disabled,
-  &.btn-disabled {
-    background-color: lighten($red, 40%);
-  }
-}
-.btn-green,
-a.btn-green {
-  background-color: $green;
-  &:hover {
-    background-color: darken($green, 10%);
-  }
-  &:focus {
-    background-color: darken($green, 20%);
-  }
-  &:disabled,
-  &.btn-disabled {
-    background-color: $green-light;
-  }
-}
-.btn-gray,
-a.btn-gray {
-  background-color: $gray-lighter;
-  color: $gray-darker;
-  &:hover {
-    background-color: darken($gray-lighter, 10%);
-  }
-  &:focus {
-    color: white;
-    background-color: darken($gray-lighter, 20%);
-  }
-  &:disabled,
-  &.btn-disabled {
-    background-color: $gray-lighter;
-    color: $gray-light;
-  }
-}
-
-// Button outlines
-*[class*='btn-outline'],
-a*[class*='btn-outline'] {
-  background-color: transparent;
-  border-width: $button-border-width;
-  border-style: solid;
-  padding-top: ($button-y-2 - 0.125rem);
-  padding-bottom: ($button-y-2 - 0.125rem);
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration: underline;
-    background-color: transparent;
-  }
-  &:disabled,
-  &.btn-disabled {
-    text-decoration: none;
-    background-color: transparent;
-  }
-}
-.btn-outlined,
-a.btn-outlined {
-  border-color: $blue;
-  color: $blue;
-  &:hover,
-  &:focus,
-  &:active  {
-    border-color: darken($blue, 20%);
-    color: darken($blue, 20%);
-  }
-  &:disabled,
-  &.btn-disabled {
-    border-color: $blue-light;
-    color: $blue-light;
-    background-color: transparent;
-  }
-}
-.btn-outlined-red,
-a.btn-outlined-red {
-  border-color: $red;
-  color: $red;
-  &:hover,
-  &:focus,
-  &:active  {
-    border-color: darken($red, 20%);
-    color: darken($red, 20%);
-  }
-  &:disabled,
-  &.btn-disabled  {
-    border-color: $red-light;
-    color: $red-light;
-  }
-}
-.btn-outlined-green,
-a.btn-outlined-green {
-  border-color: $green;
-  color: $green;
-  &:hover,
-  &:focus,
-  &:active  {
-    border-color: darken($green, 20%);
-    color: darken($green, 20%);
-  }
-  &:disabled,
-  &.btn-disabled  {
-    border-color: $green-light;
-    color: $green-light;
-  }
-}
-.btn-outlined-gray,
-a.btn-outlined-gray {
-  border-color: $gray-light;
-  color: $gray;
-  &:hover,
-  &:focus,
-  &:active  {
-    border-color: $gray;
-    color: $gray-dark;
-  }
-  &:disabled,
-  &.btn-disabled  {
-    border-color: $gray-lighter;
-    color: lighten($gray-light, 20%);
-  }
-}
+// .btn,
+// a.btn {
+//   display: inline-block;
+//   padding-right: $button-x-2;
+//   padding-left: $button-x-2;
+//   border: $button-border-width;
+//   border-radius: $button-border-radius;
+//   background-color: $button-bg-color;
+//   color: $button-font-color;
+//   text-align: center;
+//   text-decoration: none;
+//   font-weight: $button-font-weight;
+//   font-size: $button-font-size;
+//   cursor: pointer;
+//   transition-delay: 0;
+//   transition-timing-function: ease-in;
+//   transition-duration: $button-transition-duration;
+//   transition-property: background border-color color;
+//   user-select: none;
+//   appearance: none;
+//   &:not([class*='btn-outlined']) {
+//     padding-top: $button-y-2;
+//     padding-bottom: $button-y-2;
+//   }
+//   &:hover {
+//     background-color: darken($button-bg-color, 10%);
+//   }
+//   &:focus {
+//     background-color: darken($button-bg-color, 20%);
+//   }
+//   &:disabled,
+//   &.btn-disabled {
+//     background-color: lighten($button-bg-color, 40%);
+//     cursor: not-allowed;
+//   }
+// }
+//
+// .btn-1,
+// a.btn-1 {
+//   padding-right: $button-x-1;
+//   padding-left: $button-x-1;
+//   font-size: 0.750em;
+//   &:not([class*='btn-outlined']) {
+//     padding-top: $button-y-1;
+//     padding-bottom: $button-y-1;
+//   }
+//   &[class*='btn-outlined'] {
+//     padding-top: ($button-y-1 - 0.125rem);
+//     padding-bottom: ($button-y-1 - 0.125rem);
+//   }
+// }
+// .btn-3,
+// a.btn-3 {
+//   padding-right: $button-x-3;
+//   padding-left: $button-x-3;
+//   font-size: 1.375rem;
+//   &:not([class*='btn-outlined']) {
+//     padding-top: $button-y-3;
+//     padding-bottom: $button-y-3;
+//   }
+//   &[class*='btn-outlined'] {
+//     padding-top: ($button-y-3 - 0.125rem);
+//     padding-bottom: ($button-y-3 - 0.125rem);
+//   }
+// }
+//
+// // Basic solid colors
+// .btn-red,
+// a.btn-red {
+//   background-color: $red;
+//   &:hover {
+//     background-color: darken($red, 10%);
+//   }
+//   &:focus {
+//     background-color: darken($red, 20%);
+//   }
+//   &:disabled,
+//   &.btn-disabled {
+//     background-color: lighten($red, 40%);
+//   }
+// }
+// .btn-green,
+// a.btn-green {
+//   background-color: $green;
+//   &:hover {
+//     background-color: darken($green, 10%);
+//   }
+//   &:focus {
+//     background-color: darken($green, 20%);
+//   }
+//   &:disabled,
+//   &.btn-disabled {
+//     background-color: $green-light;
+//   }
+// }
+// .btn-gray,
+// a.btn-gray {
+//   background-color: $gray-lighter;
+//   color: $gray-darker;
+//   &:hover {
+//     background-color: darken($gray-lighter, 10%);
+//   }
+//   &:focus {
+//     color: white;
+//     background-color: darken($gray-lighter, 20%);
+//   }
+//   &:disabled,
+//   &.btn-disabled {
+//     background-color: $gray-lighter;
+//     color: $gray-light;
+//   }
+// }
+//
+// // Button outlines
+// *[class*='btn-outline'],
+// a*[class*='btn-outline'] {
+//   background-color: transparent;
+//   border-width: $button-border-width;
+//   border-style: solid;
+//   padding-top: ($button-y-2 - 0.125rem);
+//   padding-bottom: ($button-y-2 - 0.125rem);
+//   &:hover,
+//   &:focus,
+//   &:active {
+//     text-decoration: underline;
+//     background-color: transparent;
+//   }
+//   &:disabled,
+//   &.btn-disabled {
+//     text-decoration: none;
+//     background-color: transparent;
+//   }
+// }
+// .btn-outlined,
+// a.btn-outlined {
+//   border-color: $blue;
+//   color: $blue;
+//   &:hover,
+//   &:focus,
+//   &:active  {
+//     border-color: darken($blue, 20%);
+//     color: darken($blue, 20%);
+//   }
+//   &:disabled,
+//   &.btn-disabled {
+//     border-color: $blue-light;
+//     color: $blue-light;
+//     background-color: transparent;
+//   }
+// }
+// .btn-outlined-red,
+// a.btn-outlined-red {
+//   border-color: $red;
+//   color: $red;
+//   &:hover,
+//   &:focus,
+//   &:active  {
+//     border-color: darken($red, 20%);
+//     color: darken($red, 20%);
+//   }
+//   &:disabled,
+//   &.btn-disabled  {
+//     border-color: $red-light;
+//     color: $red-light;
+//   }
+// }
+// .btn-outlined-green,
+// a.btn-outlined-green {
+//   border-color: $green;
+//   color: $green;
+//   &:hover,
+//   &:focus,
+//   &:active  {
+//     border-color: darken($green, 20%);
+//     color: darken($green, 20%);
+//   }
+//   &:disabled,
+//   &.btn-disabled  {
+//     border-color: $green-light;
+//     color: $green-light;
+//   }
+// }
+// .btn-outlined-gray,
+// a.btn-outlined-gray {
+//   border-color: $gray-light;
+//   color: $gray;
+//   &:hover,
+//   &:focus,
+//   &:active  {
+//     border-color: $gray;
+//     color: $gray-dark;
+//   }
+//   &:disabled,
+//   &.btn-disabled  {
+//     border-color: $gray-lighter;
+//     color: lighten($gray-light, 20%);
+//   }
+// }

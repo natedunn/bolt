@@ -1,62 +1,62 @@
-// Resets
-.input-reset {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-// Base
-.label {
-  font-size: 13px;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-.input-text {
-  padding: 0 12px;
-  height: $form-height-2;
-  font-size: $form-font-2;
-  border-width: $form-border-width;
-  border-color: $form-border-color;
-  border-radius: $form-radius;
-  border-style: solid;
-  appearance: none;
-  margin-bottom: 10px;
-  &:focus {
-    outline: 0;
-    border-color: $form-border-color-focus;
-    background-color: $form-background-color-focus;
-  }
-}
-
-// Input States
-.input-text-red {
-  border-color: lighten($red, 10%);
-  &:focus {
-    border-color: $red;
-    background-color: lighten($red, 50%);
-  }
-}
-.input-text-green {
-  border-color: lighten($green, 10%);
-  &:focus {
-    border-color: $green;
-    background-color: lighten($green, 45%);
-  }
-}
-
-// Text Inputs Sizes
-.input-text-1 {
-  padding: 0 10px;
-  height: $form-height-1;
-  font-size: $form-font-1;
-}
-.input-text-1 {
-  padding: 0 15px;
-  height: $form-height-3;
-  font-size: $form-font-3;
-}
+// // Resets
+// .input-reset {
+//   -webkit-appearance: none;
+//   -moz-appearance: none;
+// }
+// fieldset {
+//   border: 0;
+//   margin: 0;
+//   padding: 0;
+// }
+//
+// // Base
+// .label {
+//   font-size: 13px;
+//   font-weight: bold;
+//   display: block;
+//   margin-bottom: 5px;
+// }
+// .input-text {
+//   padding: 0 12px;
+//   height: $form-height-2;
+//   font-size: $form-font-2;
+//   border-width: $form-border-width;
+//   border-color: $form-border-color;
+//   border-radius: $form-radius;
+//   border-style: solid;
+//   appearance: none;
+//   margin-bottom: 10px;
+//   &:focus {
+//     outline: 0;
+//     border-color: $form-border-color-focus;
+//     background-color: $form-background-color-focus;
+//   }
+// }
+//
+// // Input States
+// .input-text-red {
+//   border-color: lighten($red, 10%);
+//   &:focus {
+//     border-color: $red;
+//     background-color: lighten($red, 50%);
+//   }
+// }
+// .input-text-green {
+//   border-color: lighten($green, 10%);
+//   &:focus {
+//     border-color: $green;
+//     background-color: lighten($green, 45%);
+//   }
+// }
+//
+// // Text Inputs Sizes
+// .input-text-1 {
+//   padding: 0 10px;
+//   height: $form-height-1;
+//   font-size: $form-font-1;
+// }
+// .input-text-1 {
+//   padding: 0 15px;
+//   height: $form-height-3;
+//   font-size: $form-font-3;
+// }
