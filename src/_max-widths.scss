@@ -87,38 +87,3 @@
   .mw8-xxl { max-width: $max-width-8; }
   .mw9-xxl { max-width: $max-width-9; }
 }
-
-// ======================
-// !! Deprecated !!
-// ======================
-
-// @mixin create-max-widths-fixed {
-//   @each $breakpoint in $grid-breakpoints {
-//     @media (min-width: #{nth($breakpoint, 2)}) {
-//       @each $max-width in $max-widths {
-//         .mw-#{nth($breakpoint, 1)}-#{nth($max-width, 1)} {
-//           max-width: nth($max-width, 2);
-//         }
-//       }
-//     }
-//   }
-// }
-// @mixin create-max-widths-percent {
-//   @each $breakpoint in $grid-breakpoints {
-//     @media (min-width: #{nth($breakpoint, 2)}) {
-//       $i: 0;
-//       @while $i < 100 {
-//         $i: $i + 10;
-//         $percent-sign: "%";
-//         .mw-#{nth($breakpoint, 1)}-#{$i} {
-//           max-width: $i#{$percent-sign};
-//         }
-//       }
-//     }
-//   }
-// }
-//
-// @if $enable-max-width == true {
-//   @include create-max-widths-fixed();
-//   @include create-max-widths-percent();
-// }
