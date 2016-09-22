@@ -73,9 +73,6 @@ gulp.task('styles-dev', function() {
         replace: true,
         propWhiteList: [],
         mediaQuery: false
-      }),
-      cssnano({
-        discardComments: {removeAll: true}
       })
     ]))
     .pipe(sourcemaps.init())
