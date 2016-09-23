@@ -1,3 +1,15 @@
+// ======================
+// Variables
+// ======================
+
+$tracking-1: -0.5rem !default;
+$tracking-2: 0.1rem !default;
+$tracking-3: 0.15rem !default;
+
+// ======================
+// Tracking
+// ======================
+
 .track1 { letter-spacing: $tracking-1; }
 .track2 { letter-spacing: $tracking-2; }
 .track3 { letter-spacing: $tracking-3; }

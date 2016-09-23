@@ -1,11 +1,3 @@
-body {
-  font-family: #{$base-font-family};
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  color: $base-font-color;
-  text-rendering: optimizeSpeed
-}
-
 .bold { font-weight: bold; }
 .italic { font-style: italic; }
 
@@ -25,6 +17,6 @@ body {
   margin-bottom: 0;
 }
 .caps {
-  letter-spacing: $tracking-3;
+  letter-spacing: 0.15rem;
   text-transform: uppercase;
 }

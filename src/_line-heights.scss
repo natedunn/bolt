@@ -1,3 +1,15 @@
+// ======================
+// Variables
+// ======================
+
+$line-height-1: 1.125 !default;
+$line-height-2: 1.25 !default;
+$line-height-3: 1.5 !default;
+
+// ======================
+// Line Heights
+// ======================
+
 .lh1 { line-height: $line-height-1; }
 .lh2 { line-height: $line-height-2; }
 .lh3 { line-height: $line-height-3; }
