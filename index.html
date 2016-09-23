@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bolt Test Page</title>
+    <!--[if !IE]><!-->
+    	<link rel="stylesheet" href="/css/bolt.min.css" media="screen" title="no title" charset="utf-8">
+    <!--<![endif]-->
+    <!--[if lte IE 9]>
+    	<link rel="stylesheet" href="/styles/ie.min.css" media="screen" title="no title" charset="utf-8">
+    <![endif]-->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.5.0/styles/github-gist.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <style>
+      code {
+        font-family: 'Source Code Pro', monospace;
+        background-color: whitesmoke !important;
+        border-radius: $border-radius-2 !important;
+        font-size: 14px;
+        padding: 0 30px !important;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body class="sans-med">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="f6-sm bb bw2">Bolt Examples</h1>
+        </div>
+      </div>
+      <!-- Typography -->
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <h2 class="h2 bb bw2">Typography</h2>
+          <h1>Header 1</h1>
+          <h2>Header 2</h2>
+          <h3>Header 3</h3>
+          <h4>Header 4</h4>
+          <h5>Header 5</h5>
+          <h6>Header 6</h6>
+          <p class="bg-whitesmoke pa2 mt2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.
+          </p>
+          <a href="#">Default link</a>
+          <a class="link link-red" href="#">Red link</a>
+          <a class="link link-green" href="#">Green link</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h2 class="h2 bb bw2">Code</h2>
+          <pre>
+            <code class="html escape">
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
+<p class="bg-whitesmoke pa2 mt2">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.
+</p>
+<a href="#">Default link</a>
+<a class="link link-red" href="#">Red link</a>
+<a class="link link-green" href="#">Green link</a>
+            </code>
+          </pre>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/javascript">
+      function renderCode(){
+        $(".escape").each(function() {
+          $(this).text($(this).html().replace(/&gt;/g, ">").replace(/&lt;/g, "<"));
+        });
+      }
+      renderCode();
+    </script>
+  </body>
+</html>
