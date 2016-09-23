@@ -44,7 +44,7 @@ var reload = browserSync.reload;
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
-      baseDir: "./test"
+      baseDir: "./"
     }
   });
 });
@@ -53,7 +53,7 @@ gulp.task('bs-reload', function() { browserSync.reload(); });
 
 gulp.task('watch', ['browser-sync'], function() {
   // HTML Files
-  gulp.watch('./test/**/*.html'), ['bs-reload'];
+  gulp.watch('./**/*.html'), ['bs-reload'];
   // Project Styles
   gulp.watch('./**/*.scss', ['build'])
 });
@@ -64,7 +64,7 @@ gulp.task('watch', ['browser-sync'], function() {
 
 // Dev Styles
 gulp.task('styles-dev', function() {
-  sass('test/styles/test.scss')
+  sass('src/bolt.scss')
     .pipe(plumber({ errorHandler: onError }))
     .pipe(postcss([
       autoprefixer({browsers: ['last 2 version']}),
@@ -77,7 +77,6 @@ gulp.task('styles-dev', function() {
     ]))
     .pipe(sourcemaps.init())
     .pipe(concat('bolt.css'))
-    .pipe(gulp.dest('./test/styles'))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'DEVELOPMENT STYLES task complete'}))
@@ -85,7 +84,7 @@ gulp.task('styles-dev', function() {
 
 // Styles Production
 gulp.task('styles-prod', function() {
-  return sass('test/styles/test.scss', { style: 'nested' })
+  return sass('src/bolt.scss', { style: 'nested' })
     .pipe(plumber({ errorHandler: onError }))
     .pipe(postcss([
       autoprefixer({browsers: ['last 2 version']}),
@@ -100,7 +99,6 @@ gulp.task('styles-prod', function() {
       })
     ]))
     .pipe(concat('bolt.min.css'))
-    .pipe(gulp.dest('./test/styles'))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'PRODUCTION STYLES task complete' }));
@@ -117,23 +115,9 @@ gulp.task('styles-ie', function() {
       'ie 9'
     ]})]))
     .pipe(concat('ie.main.css'))
-    .pipe(gulp.dest('./test/styles'))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.reload({ stream: true }))
     .pipe(notify({ message: 'IE STYLES task complete' }));
-});
-
-// ======================
-// IMAGES
-// ======================
-
-gulp.task('images', ['clean:images'], function() {
-  return gulp.src([
-    './bower_components/final/images/**/*',
-    './src/images/**/*'
-  ])
-    .pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
-    .pipe(gulp.dest('./test/images'))
 });
 
 // ======================
@@ -142,7 +126,6 @@ gulp.task('images', ['clean:images'], function() {
 
 // Clean Styles
 gulp.task('clean:styles', function () {
-  return del('test/styles/**/*.css');
   return del('css/**/*.css');
 });
 
