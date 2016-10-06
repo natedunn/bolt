@@ -12,6 +12,7 @@ $spacing-6: 5rem !default;
 $spacing-7: 6rem !default;
 $spacing-8: 7rem !default;
 $spacing-9: 8rem !default;
+$spacing-10: 9rem !default;
 
 // ======================
 // Spacing
@@ -25,6 +26,10 @@ $spacing-9: 8rem !default;
 .ma4 { margin: $spacing-4; }
 .ma5 { margin: $spacing-5; }
 .ma6 { margin: $spacing-6; }
+.ma7 { margin: $spacing-7; }
+.ma8 { margin: $spacing-8; }
+.ma9 { margin: $spacing-9; }
+.ma10 { margin: $spacing-10; }
 
 .pa0 { padding-top: 0; }
 .pa1 { padding: $spacing-1; }
@@ -33,6 +38,10 @@ $spacing-9: 8rem !default;
 .pa4 { padding: $spacing-4; }
 .pa5 { padding: $spacing-5; }
 .pa6 { padding: $spacing-6; }
+.pa7 { padding: $spacing-7; }
+.pa8 { padding: $spacing-8; }
+.pa9 { padding: $spacing-9; }
+.pa10 { padding: $spacing-10; }
 
 .mt-auto { margin-top: auto }
 .mt0 { margin-top: 0; }
@@ -42,6 +51,10 @@ $spacing-9: 8rem !default;
 .mt4 { margin-top: $spacing-4; }
 .mt5 { margin-top: $spacing-5; }
 .mt6 { margin-top: $spacing-6; }
+.mt7 { margin-top: $spacing-7; }
+.mt8 { margin-top: $spacing-8; }
+.mt9 { margin-top: $spacing-9; }
+.mt10 { margin-top: $spacing-10; }
 
 .mr-auto { margin-right: auto }
 .mr0 { margin-right: 0; }
@@ -51,6 +64,10 @@ $spacing-9: 8rem !default;
 .mr4 { margin-right: $spacing-4; }
 .mr5 { margin-right: $spacing-5; }
 .mr6 { margin-right: $spacing-6; }
+.mr7 { margin-right: $spacing-7; }
+.mr8 { margin-right: $spacing-8; }
+.mr9 { margin-right: $spacing-9; }
+.mr10 { margin-right: $spacing-10; }
 
 .mb-auto { margin-bottom: auto }
 .mb0 { margin-bottom: 0; }
@@ -60,6 +77,10 @@ $spacing-9: 8rem !default;
 .mb4 { margin-bottom: $spacing-4; }
 .mb5 { margin-bottom: $spacing-5; }
 .mb6 { margin-bottom: $spacing-6; }
+.mb7 { margin-bottom: $spacing-7; }
+.mb8 { margin-bottom: $spacing-8; }
+.mb9 { margin-bottom: $spacing-9; }
+.mb10 { margin-bottom: $spacing-10; }
 
 .ml-auto { margin-left: auto }
 .ml0 { margin-left: 0; }
@@ -69,6 +90,10 @@ $spacing-9: 8rem !default;
 .ml4 { margin-left: $spacing-4; }
 .ml5 { margin-left: $spacing-5; }
 .ml6 { margin-left: $spacing-6; }
+.ml7 { margin-left: $spacing-7; }
+.ml8 { margin-left: $spacing-8; }
+.ml9 { margin-left: $spacing-9; }
+.ml10 { margin-left: $spacing-10; }
 
 .pt0 { padding-top: 0; }
 .pt1 { padding-top: $spacing-1; }
@@ -77,6 +102,10 @@ $spacing-9: 8rem !default;
 .pt4 { padding-top: $spacing-4; }
 .pt5 { padding-top: $spacing-5; }
 .pt6 { padding-top: $spacing-6; }
+.pt7 { padding-top: $spacing-7; }
+.pt8 { padding-top: $spacing-8; }
+.pt9 { padding-top: $spacing-9; }
+.pt10 { padding-top: $spacing-10; }
 
 .pr0 { padding-right: 0; }
 .pr1 { padding-right: $spacing-1; }
@@ -85,6 +114,10 @@ $spacing-9: 8rem !default;
 .pr4 { padding-right: $spacing-4; }
 .pr5 { padding-right: $spacing-5; }
 .pr6 { padding-right: $spacing-6; }
+.pr7 { padding-right: $spacing-7; }
+.pr8 { padding-right: $spacing-8; }
+.pr9 { padding-right: $spacing-9; }
+.pr10 { padding-right: $spacing-10; }
 
 .pb0 { padding-bottom: 0; }
 .pb1 { padding-bottom: $spacing-1; }
@@ -93,6 +126,10 @@ $spacing-9: 8rem !default;
 .pb4 { padding-bottom: $spacing-4; }
 .pb5 { padding-bottom: $spacing-5; }
 .pb6 { padding-bottom: $spacing-6; }
+.pb7 { padding-bottom: $spacing-7; }
+.pb8 { padding-bottom: $spacing-8; }
+.pb9 { padding-bottom: $spacing-9; }
+.pb10 { padding-bottom: $spacing-10; }
 
 .pl0 { padding-left: 0; }
 .pl1 { padding-left: $spacing-1; }
@@ -101,6 +138,10 @@ $spacing-9: 8rem !default;
 .pl4 { padding-left: $spacing-4; }
 .pl5 { padding-left: $spacing-5; }
 .pl6 { padding-left: $spacing-6; }
+.pl7 { padding-left: $spacing-7; }
+.pl8 { padding-left: $spacing-8; }
+.pl9 { padding-left: $spacing-9; }
+.pl10 { padding-left: $spacing-10; }
 
 @media (min-width: $breakpoint-sm) {
   .ma-auto-sm { margin: auto; }
@@ -111,6 +152,10 @@ $spacing-9: 8rem !default;
   .ma4-sm { margin: $spacing-4; }
   .ma5-sm { margin: $spacing-5; }
   .ma6-sm { margin: $spacing-6; }
+  .ma7-sm { margin: $spacing-7; }
+  .ma8-sm { margin: $spacing-8; }
+  .ma9-sm { margin: $spacing-9; }
+  .ma10-sm { margin: $spacing-10; }
 
   .pa0-sm { padding-top: 0; }
   .pa1-sm { padding: $spacing-1; }
@@ -119,6 +164,10 @@ $spacing-9: 8rem !default;
   .pa4-sm { padding: $spacing-4; }
   .pa5-sm { padding: $spacing-5; }
   .pa6-sm { padding: $spacing-6; }
+  .pa7-sm { padding: $spacing-7; }
+  .pa8-sm { padding: $spacing-8; }
+  .pa9-sm { padding: $spacing-9; }
+  .pa10-sm { padding: $spacing-10; }
 
   .mt-auto-sm { margin-top: auto }
   .mt0-sm { margin-top: 0; }
@@ -128,6 +177,10 @@ $spacing-9: 8rem !default;
   .mt4-sm { margin-top: $spacing-4; }
   .mt5-sm { margin-top: $spacing-5; }
   .mt6-sm { margin-top: $spacing-6; }
+  .mt7-sm { margin-top: $spacing-7; }
+  .mt8-sm { margin-top: $spacing-8; }
+  .mt9-sm { margin-top: $spacing-9; }
+  .mt10-sm { margin-top: $spacing-10; }
 
   .mr-auto-sm { margin-right: auto }
   .mr0-sm { margin-right: 0; }
@@ -137,6 +190,10 @@ $spacing-9: 8rem !default;
   .mr4-sm { margin-right: $spacing-4; }
   .mr5-sm { margin-right: $spacing-5; }
   .mr6-sm { margin-right: $spacing-6; }
+  .mr7-sm { margin-right: $spacing-7; }
+  .mr8-sm { margin-right: $spacing-8; }
+  .mr9-sm { margin-right: $spacing-9; }
+  .mr10-sm { margin-right: $spacing-10; }
 
   .mb-auto-sm { margin-bottom: auto }
   .mb0-sm { margin-bottom: 0; }
@@ -146,6 +203,10 @@ $spacing-9: 8rem !default;
   .mb4-sm { margin-bottom: $spacing-4; }
   .mb5-sm { margin-bottom: $spacing-5; }
   .mb6-sm { margin-bottom: $spacing-6; }
+  .mb7-sm { margin-bottom: $spacing-7; }
+  .mb8-sm { margin-bottom: $spacing-8; }
+  .mb9-sm { margin-bottom: $spacing-9; }
+  .mb10-sm { margin-bottom: $spacing-10; }
 
   .ml-auto-sm { margin-left: auto }
   .ml0-sm { margin-left: 0; }
@@ -155,6 +216,10 @@ $spacing-9: 8rem !default;
   .ml4-sm { margin-left: $spacing-4; }
   .ml5-sm { margin-left: $spacing-5; }
   .ml6-sm { margin-left: $spacing-6; }
+  .ml7-sm { margin-left: $spacing-7; }
+  .ml8-sm { margin-left: $spacing-8; }
+  .ml9-sm { margin-left: $spacing-9; }
+  .ml10-sm { margin-left: $spacing-10; }
 
   .pt0-sm { padding-top: 0; }
   .pt1-sm { padding-top: $spacing-1; }
@@ -163,6 +228,10 @@ $spacing-9: 8rem !default;
   .pt4-sm { padding-top: $spacing-4; }
   .pt5-sm { padding-top: $spacing-5; }
   .pt6-sm { padding-top: $spacing-6; }
+  .pt7-sm { padding-top: $spacing-7; }
+  .pt8-sm { padding-top: $spacing-8; }
+  .pt9-sm { padding-top: $spacing-9; }
+  .pt10-sm { padding-top: $spacing-10; }
 
   .pr0-sm { padding-right: 0; }
   .pr1-sm { padding-right: $spacing-1; }
@@ -171,6 +240,10 @@ $spacing-9: 8rem !default;
   .pr4-sm { padding-right: $spacing-4; }
   .pr5-sm { padding-right: $spacing-5; }
   .pr6-sm { padding-right: $spacing-6; }
+  .pr7-sm { padding-right: $spacing-7; }
+  .pr8-sm { padding-right: $spacing-8; }
+  .pr9-sm { padding-right: $spacing-9; }
+  .pr10-sm { padding-right: $spacing-10; }
 
   .pb0-sm { padding-bottom: 0; }
   .pb1-sm { padding-bottom: $spacing-1; }
@@ -179,6 +252,10 @@ $spacing-9: 8rem !default;
   .pb4-sm { padding-bottom: $spacing-4; }
   .pb5-sm { padding-bottom: $spacing-5; }
   .pb6-sm { padding-bottom: $spacing-6; }
+  .pb7-sm { padding-bottom: $spacing-7; }
+  .pb8-sm { padding-bottom: $spacing-8; }
+  .pb9-sm { padding-bottom: $spacing-9; }
+  .pb10-sm { padding-bottom: $spacing-10; }
 
   .pl0-sm { padding-left: 0; }
   .pl1-sm { padding-left: $spacing-1; }
@@ -187,6 +264,10 @@ $spacing-9: 8rem !default;
   .pl4-sm { padding-left: $spacing-4; }
   .pl5-sm { padding-left: $spacing-5; }
   .pl6-sm { padding-left: $spacing-6; }
+  .pl7-sm { padding-left: $spacing-7; }
+  .pl8-sm { padding-left: $spacing-8; }
+  .pl9-sm { padding-left: $spacing-9; }
+  .pl10-sm { padding-left: $spacing-10; }
 }
 @media (min-width: $breakpoint-md) {
   .ma-auto-md { margin: auto; }
@@ -197,6 +278,10 @@ $spacing-9: 8rem !default;
   .ma4-md { margin: $spacing-4; }
   .ma5-md { margin: $spacing-5; }
   .ma6-md { margin: $spacing-6; }
+  .ma7-md { margin: $spacing-7; }
+  .ma8-md { margin: $spacing-8; }
+  .ma9-md { margin: $spacing-9; }
+  .ma10-md { margin: $spacing-10; }
 
   .pa0-md { padding-top: 0; }
   .pa1-md { padding: $spacing-1; }
@@ -205,6 +290,10 @@ $spacing-9: 8rem !default;
   .pa4-md { padding: $spacing-4; }
   .pa5-md { padding: $spacing-5; }
   .pa6-md { padding: $spacing-6; }
+  .pa7-md { padding: $spacing-7; }
+  .pa8-md { padding: $spacing-8; }
+  .pa9-md { padding: $spacing-9; }
+  .pa10-md { padding: $spacing-10; }
 
   .mt-auto-md { margin-top: auto }
   .mt0-md { margin-top: 0; }
@@ -214,6 +303,10 @@ $spacing-9: 8rem !default;
   .mt4-md { margin-top: $spacing-4; }
   .mt5-md { margin-top: $spacing-5; }
   .mt6-md { margin-top: $spacing-6; }
+  .mt7-md { margin-top: $spacing-7; }
+  .mt8-md { margin-top: $spacing-8; }
+  .mt9-md { margin-top: $spacing-9; }
+  .mt10-md { margin-top: $spacing-10; }
 
   .mr-auto-md { margin-right: auto }
   .mr0-md { margin-right: 0; }
@@ -223,6 +316,10 @@ $spacing-9: 8rem !default;
   .mr4-md { margin-right: $spacing-4; }
   .mr5-md { margin-right: $spacing-5; }
   .mr6-md { margin-right: $spacing-6; }
+  .mr7-md { margin-right: $spacing-7; }
+  .mr8-md { margin-right: $spacing-8; }
+  .mr9-md { margin-right: $spacing-9; }
+  .mr10-md { margin-right: $spacing-10; }
 
   .mb-auto-md { margin-bottom: auto }
   .mb0-md { margin-bottom: 0; }
@@ -232,6 +329,10 @@ $spacing-9: 8rem !default;
   .mb4-md { margin-bottom: $spacing-4; }
   .mb5-md { margin-bottom: $spacing-5; }
   .mb6-md { margin-bottom: $spacing-6; }
+  .mb7-md { margin-bottom: $spacing-7; }
+  .mb8-md { margin-bottom: $spacing-8; }
+  .mb9-md { margin-bottom: $spacing-9; }
+  .mb10-md { margin-bottom: $spacing-10; }
 
   .ml-auto-md { margin-left: auto }
   .ml0-md { margin-left: 0; }
@@ -241,6 +342,10 @@ $spacing-9: 8rem !default;
   .ml4-md { margin-left: $spacing-4; }
   .ml5-md { margin-left: $spacing-5; }
   .ml6-md { margin-left: $spacing-6; }
+  .ml7-md { margin-left: $spacing-7; }
+  .ml8-md { margin-left: $spacing-8; }
+  .ml9-md { margin-left: $spacing-9; }
+  .ml10-md { margin-left: $spacing-10; }
 
   .pt0-md { padding-top: 0; }
   .pt1-md { padding-top: $spacing-1; }
@@ -249,6 +354,10 @@ $spacing-9: 8rem !default;
   .pt4-md { padding-top: $spacing-4; }
   .pt5-md { padding-top: $spacing-5; }
   .pt6-md { padding-top: $spacing-6; }
+  .pt7-md { padding-top: $spacing-7; }
+  .pt8-md { padding-top: $spacing-8; }
+  .pt9-md { padding-top: $spacing-9; }
+  .pt10-md { padding-top: $spacing-10; }
 
   .pr0-md { padding-right: 0; }
   .pr1-md { padding-right: $spacing-1; }
@@ -257,6 +366,10 @@ $spacing-9: 8rem !default;
   .pr4-md { padding-right: $spacing-4; }
   .pr5-md { padding-right: $spacing-5; }
   .pr6-md { padding-right: $spacing-6; }
+  .pr7-md { padding-right: $spacing-7; }
+  .pr8-md { padding-right: $spacing-8; }
+  .pr9-md { padding-right: $spacing-9; }
+  .pr10-md { padding-right: $spacing-10; }
 
   .pb0-md { padding-bottom: 0; }
   .pb1-md { padding-bottom: $spacing-1; }
@@ -265,6 +378,10 @@ $spacing-9: 8rem !default;
   .pb4-md { padding-bottom: $spacing-4; }
   .pb5-md { padding-bottom: $spacing-5; }
   .pb6-md { padding-bottom: $spacing-6; }
+  .pb7-md { padding-bottom: $spacing-7; }
+  .pb8-md { padding-bottom: $spacing-8; }
+  .pb9-md { padding-bottom: $spacing-9; }
+  .pb10-md { padding-bottom: $spacing-10; }
 
   .pl0-md { padding-left: 0; }
   .pl1-md { padding-left: $spacing-1; }
@@ -273,6 +390,10 @@ $spacing-9: 8rem !default;
   .pl4-md { padding-left: $spacing-4; }
   .pl5-md { padding-left: $spacing-5; }
   .pl6-md { padding-left: $spacing-6; }
+  .pl7-md { padding-left: $spacing-7; }
+  .pl8-md { padding-left: $spacing-8; }
+  .pl9-md { padding-left: $spacing-9; }
+  .pl10-md { padding-left: $spacing-10; }
 }
 @media (min-width: $breakpoint-lg) {
   .ma-auto-lg { margin: auto; }
@@ -283,6 +404,10 @@ $spacing-9: 8rem !default;
   .ma4-lg { margin: $spacing-4; }
   .ma5-lg { margin: $spacing-5; }
   .ma6-lg { margin: $spacing-6; }
+  .ma7-lg { margin: $spacing-7; }
+  .ma8-lg { margin: $spacing-8; }
+  .ma9-lg { margin: $spacing-9; }
+  .ma10-lg { margin: $spacing-10; }
 
   .pa0-lg { padding-top: 0; }
   .pa1-lg { padding: $spacing-1; }
@@ -291,6 +416,10 @@ $spacing-9: 8rem !default;
   .pa4-lg { padding: $spacing-4; }
   .pa5-lg { padding: $spacing-5; }
   .pa6-lg { padding: $spacing-6; }
+  .pa7-lg { padding: $spacing-7; }
+  .pa8-lg { padding: $spacing-8; }
+  .pa9-lg { padding: $spacing-9; }
+  .pa10-lg { padding: $spacing-10; }
 
   .mt-auto-lg { margin-top: auto }
   .mt0-lg { margin-top: 0; }
@@ -300,6 +429,10 @@ $spacing-9: 8rem !default;
   .mt4-lg { margin-top: $spacing-4; }
   .mt5-lg { margin-top: $spacing-5; }
   .mt6-lg { margin-top: $spacing-6; }
+  .mt7-lg { margin-top: $spacing-7; }
+  .mt8-lg { margin-top: $spacing-8; }
+  .mt9-lg { margin-top: $spacing-9; }
+  .mt10-lg { margin-top: $spacing-10; }
 
   .mr-auto-lg { margin-right: auto }
   .mr0-lg { margin-right: 0; }
@@ -309,6 +442,10 @@ $spacing-9: 8rem !default;
   .mr4-lg { margin-right: $spacing-4; }
   .mr5-lg { margin-right: $spacing-5; }
   .mr6-lg { margin-right: $spacing-6; }
+  .mr7-lg { margin-right: $spacing-7; }
+  .mr8-lg { margin-right: $spacing-8; }
+  .mr9-lg { margin-right: $spacing-9; }
+  .mr10-lg { margin-right: $spacing-10; }
 
   .mb-auto-lg { margin-bottom: auto }
   .mb0-lg { margin-bottom: 0; }
@@ -318,6 +455,10 @@ $spacing-9: 8rem !default;
   .mb4-lg { margin-bottom: $spacing-4; }
   .mb5-lg { margin-bottom: $spacing-5; }
   .mb6-lg { margin-bottom: $spacing-6; }
+  .mb7-lg { margin-bottom: $spacing-7; }
+  .mb8-lg { margin-bottom: $spacing-8; }
+  .mb9-lg { margin-bottom: $spacing-9; }
+  .mb10-lg { margin-bottom: $spacing-10; }
 
   .ml-auto-lg { margin-left: auto }
   .ml0-lg { margin-left: 0; }
@@ -327,6 +468,10 @@ $spacing-9: 8rem !default;
   .ml4-lg { margin-left: $spacing-4; }
   .ml5-lg { margin-left: $spacing-5; }
   .ml6-lg { margin-left: $spacing-6; }
+  .ml7-lg { margin-left: $spacing-7; }
+  .ml8-lg { margin-left: $spacing-8; }
+  .ml9-lg { margin-left: $spacing-9; }
+  .ml10-lg { margin-left: $spacing-10; }
 
   .pt0-lg { padding-top: 0; }
   .pt1-lg { padding-top: $spacing-1; }
@@ -335,6 +480,10 @@ $spacing-9: 8rem !default;
   .pt4-lg { padding-top: $spacing-4; }
   .pt5-lg { padding-top: $spacing-5; }
   .pt6-lg { padding-top: $spacing-6; }
+  .pt7-lg { padding-top: $spacing-7; }
+  .pt8-lg { padding-top: $spacing-8; }
+  .pt9-lg { padding-top: $spacing-9; }
+  .pt10-lg { padding-top: $spacing-10; }
 
   .pr0-lg { padding-right: 0; }
   .pr1-lg { padding-right: $spacing-1; }
@@ -343,6 +492,10 @@ $spacing-9: 8rem !default;
   .pr4-lg { padding-right: $spacing-4; }
   .pr5-lg { padding-right: $spacing-5; }
   .pr6-lg { padding-right: $spacing-6; }
+  .pr7-lg { padding-right: $spacing-7; }
+  .pr8-lg { padding-right: $spacing-8; }
+  .pr9-lg { padding-right: $spacing-9; }
+  .pr10-lg { padding-right: $spacing-10; }
 
   .pb0-lg { padding-bottom: 0; }
   .pb1-lg { padding-bottom: $spacing-1; }
@@ -351,6 +504,10 @@ $spacing-9: 8rem !default;
   .pb4-lg { padding-bottom: $spacing-4; }
   .pb5-lg { padding-bottom: $spacing-5; }
   .pb6-lg { padding-bottom: $spacing-6; }
+  .pb7-lg { padding-bottom: $spacing-7; }
+  .pb8-lg { padding-bottom: $spacing-8; }
+  .pb9-lg { padding-bottom: $spacing-9; }
+  .pb10-lg { padding-bottom: $spacing-10; }
 
   .pl0-lg { padding-left: 0; }
   .pl1-lg { padding-left: $spacing-1; }
@@ -359,6 +516,10 @@ $spacing-9: 8rem !default;
   .pl4-lg { padding-left: $spacing-4; }
   .pl5-lg { padding-left: $spacing-5; }
   .pl6-lg { padding-left: $spacing-6; }
+  .pl7-lg { padding-left: $spacing-7; }
+  .pl8-lg { padding-left: $spacing-8; }
+  .pl9-lg { padding-left: $spacing-9; }
+  .pl10-lg { padding-left: $spacing-10; }
 }
 @media (min-width: $breakpoint-xl) {
   .ma-auto-xl { margin: auto; }
@@ -369,6 +530,10 @@ $spacing-9: 8rem !default;
   .ma4-xl { margin: $spacing-4; }
   .ma5-xl { margin: $spacing-5; }
   .ma6-xl { margin: $spacing-6; }
+  .ma7-xl { margin: $spacing-7; }
+  .ma8-xl { margin: $spacing-8; }
+  .ma9-xl { margin: $spacing-9; }
+  .ma10-xl { margin: $spacing-10; }
 
   .pa0-xl { padding-top: 0; }
   .pa1-xl { padding: $spacing-1; }
@@ -377,6 +542,10 @@ $spacing-9: 8rem !default;
   .pa4-xl { padding: $spacing-4; }
   .pa5-xl { padding: $spacing-5; }
   .pa6-xl { padding: $spacing-6; }
+  .pa7-xl { padding: $spacing-7; }
+  .pa8-xl { padding: $spacing-8; }
+  .pa9-xl { padding: $spacing-9; }
+  .pa10-xl { padding: $spacing-10; }
 
   .mt-auto-xl { margin-top: auto }
   .mt0-xl { margin-top: 0; }
@@ -386,6 +555,10 @@ $spacing-9: 8rem !default;
   .mt4-xl { margin-top: $spacing-4; }
   .mt5-xl { margin-top: $spacing-5; }
   .mt6-xl { margin-top: $spacing-6; }
+  .mt7-xl { margin-top: $spacing-7; }
+  .mt8-xl { margin-top: $spacing-8; }
+  .mt9-xl { margin-top: $spacing-9; }
+  .mt10-xl { margin-top: $spacing-10; }
 
   .mr-auto-xl { margin-right: auto }
   .mr0-xl { margin-right: 0; }
@@ -395,6 +568,10 @@ $spacing-9: 8rem !default;
   .mr4-xl { margin-right: $spacing-4; }
   .mr5-xl { margin-right: $spacing-5; }
   .mr6-xl { margin-right: $spacing-6; }
+  .mr7-xl { margin-right: $spacing-7; }
+  .mr8-xl { margin-right: $spacing-8; }
+  .mr9-xl { margin-right: $spacing-9; }
+  .mr10-xl { margin-right: $spacing-10; }
 
   .mb-auto-xl { margin-bottom: auto }
   .mb0-xl { margin-bottom: 0; }
@@ -404,6 +581,10 @@ $spacing-9: 8rem !default;
   .mb4-xl { margin-bottom: $spacing-4; }
   .mb5-xl { margin-bottom: $spacing-5; }
   .mb6-xl { margin-bottom: $spacing-6; }
+  .mb7-xl { margin-bottom: $spacing-7; }
+  .mb8-xl { margin-bottom: $spacing-8; }
+  .mb9-xl { margin-bottom: $spacing-9; }
+  .mb10-xl { margin-bottom: $spacing-10; }
 
   .ml-auto-xl { margin-left: auto }
   .ml0-xl { margin-left: 0; }
@@ -413,6 +594,10 @@ $spacing-9: 8rem !default;
   .ml4-xl { margin-left: $spacing-4; }
   .ml5-xl { margin-left: $spacing-5; }
   .ml6-xl { margin-left: $spacing-6; }
+  .ml7-xl { margin-left: $spacing-7; }
+  .ml8-xl { margin-left: $spacing-8; }
+  .ml9-xl { margin-left: $spacing-9; }
+  .ml10-xl { margin-left: $spacing-10; }
 
   .pt0-xl { padding-top: 0; }
   .pt1-xl { padding-top: $spacing-1; }
@@ -421,6 +606,10 @@ $spacing-9: 8rem !default;
   .pt4-xl { padding-top: $spacing-4; }
   .pt5-xl { padding-top: $spacing-5; }
   .pt6-xl { padding-top: $spacing-6; }
+  .pt7-xl { padding-top: $spacing-7; }
+  .pt8-xl { padding-top: $spacing-8; }
+  .pt9-xl { padding-top: $spacing-9; }
+  .pt10-xl { padding-top: $spacing-10; }
 
   .pr0-xl { padding-right: 0; }
   .pr1-xl { padding-right: $spacing-1; }
@@ -429,6 +618,10 @@ $spacing-9: 8rem !default;
   .pr4-xl { padding-right: $spacing-4; }
   .pr5-xl { padding-right: $spacing-5; }
   .pr6-xl { padding-right: $spacing-6; }
+  .pr7-xl { padding-right: $spacing-7; }
+  .pr8-xl { padding-right: $spacing-8; }
+  .pr9-xl { padding-right: $spacing-9; }
+  .pr10-xl { padding-right: $spacing-10; }
 
   .pb0-xl { padding-bottom: 0; }
   .pb1-xl { padding-bottom: $spacing-1; }
@@ -437,6 +630,10 @@ $spacing-9: 8rem !default;
   .pb4-xl { padding-bottom: $spacing-4; }
   .pb5-xl { padding-bottom: $spacing-5; }
   .pb6-xl { padding-bottom: $spacing-6; }
+  .pb7-xl { padding-bottom: $spacing-7; }
+  .pb8-xl { padding-bottom: $spacing-8; }
+  .pb9-xl { padding-bottom: $spacing-9; }
+  .pb10-xl { padding-bottom: $spacing-10; }
 
   .pl0-xl { padding-left: 0; }
   .pl1-xl { padding-left: $spacing-1; }
@@ -445,6 +642,10 @@ $spacing-9: 8rem !default;
   .pl4-xl { padding-left: $spacing-4; }
   .pl5-xl { padding-left: $spacing-5; }
   .pl6-xl { padding-left: $spacing-6; }
+  .pl7-xl { padding-left: $spacing-7; }
+  .pl8-xl { padding-left: $spacing-8; }
+  .pl9-xl { padding-left: $spacing-9; }
+  .pl10-xl { padding-left: $spacing-10; }
 }
 @media (min-width: $breakpoint-xxl) {
   .ma-auto-xxl { margin: auto; }
@@ -455,6 +656,10 @@ $spacing-9: 8rem !default;
   .ma4-xxl { margin: $spacing-4; }
   .ma5-xxl { margin: $spacing-5; }
   .ma6-xxl { margin: $spacing-6; }
+  .ma7-xxl { margin: $spacing-7; }
+  .ma8-xxl { margin: $spacing-8; }
+  .ma9-xxl { margin: $spacing-9; }
+  .ma10-xxl { margin: $spacing-10; }
 
   .pa0-xxl { padding-top: 0; }
   .pa1-xxl { padding: $spacing-1; }
@@ -463,6 +668,10 @@ $spacing-9: 8rem !default;
   .pa4-xxl { padding: $spacing-4; }
   .pa5-xxl { padding: $spacing-5; }
   .pa6-xxl { padding: $spacing-6; }
+  .pa7-xxl { padding: $spacing-7; }
+  .pa8-xxl { padding: $spacing-8; }
+  .pa9-xxl { padding: $spacing-9; }
+  .pa10-xxl { padding: $spacing-10; }
 
   .mt-auto-xxl { margin-top: auto }
   .mt0-xxl { margin-top: 0; }
@@ -472,6 +681,10 @@ $spacing-9: 8rem !default;
   .mt4-xxl { margin-top: $spacing-4; }
   .mt5-xxl { margin-top: $spacing-5; }
   .mt6-xxl { margin-top: $spacing-6; }
+  .mt7-xxl { margin-top: $spacing-7; }
+  .mt8-xxl { margin-top: $spacing-8; }
+  .mt9-xxl { margin-top: $spacing-9; }
+  .mt10-xxl { margin-top: $spacing-10; }
 
   .mr-auto-xxl { margin-right: auto }
   .mr0-xxl { margin-right: 0; }
@@ -481,6 +694,10 @@ $spacing-9: 8rem !default;
   .mr4-xxl { margin-right: $spacing-4; }
   .mr5-xxl { margin-right: $spacing-5; }
   .mr6-xxl { margin-right: $spacing-6; }
+  .mr7-xxl { margin-right: $spacing-7; }
+  .mr8-xxl { margin-right: $spacing-8; }
+  .mr9-xxl { margin-right: $spacing-9; }
+  .mr10-xxl { margin-right: $spacing-10; }
 
   .mb-auto-xxl { margin-bottom: auto }
   .mb0-xxl { margin-bottom: 0; }
@@ -490,6 +707,10 @@ $spacing-9: 8rem !default;
   .mb4-xxl { margin-bottom: $spacing-4; }
   .mb5-xxl { margin-bottom: $spacing-5; }
   .mb6-xxl { margin-bottom: $spacing-6; }
+  .mb7-xxl { margin-bottom: $spacing-7; }
+  .mb8-xxl { margin-bottom: $spacing-8; }
+  .mb9-xxl { margin-bottom: $spacing-9; }
+  .mb10-xxl { margin-bottom: $spacing-10; }
 
   .ml-auto-xxl { margin-left: auto }
   .ml0-xxl { margin-left: 0; }
@@ -499,6 +720,10 @@ $spacing-9: 8rem !default;
   .ml4-xxl { margin-left: $spacing-4; }
   .ml5-xxl { margin-left: $spacing-5; }
   .ml6-xxl { margin-left: $spacing-6; }
+  .ml7-xxl { margin-left: $spacing-7; }
+  .ml8-xxl { margin-left: $spacing-8; }
+  .ml9-xxl { margin-left: $spacing-9; }
+  .ml10-xxl { margin-left: $spacing-10; }
 
   .pt0-xxl { padding-top: 0; }
   .pt1-xxl { padding-top: $spacing-1; }
@@ -507,6 +732,10 @@ $spacing-9: 8rem !default;
   .pt4-xxl { padding-top: $spacing-4; }
   .pt5-xxl { padding-top: $spacing-5; }
   .pt6-xxl { padding-top: $spacing-6; }
+  .pt7-xxl { padding-top: $spacing-7; }
+  .pt8-xxl { padding-top: $spacing-8; }
+  .pt9-xxl { padding-top: $spacing-9; }
+  .pt10-xxl { padding-top: $spacing-10; }
 
   .pr0-xxl { padding-right: 0; }
   .pr1-xxl { padding-right: $spacing-1; }
@@ -515,6 +744,10 @@ $spacing-9: 8rem !default;
   .pr4-xxl { padding-right: $spacing-4; }
   .pr5-xxl { padding-right: $spacing-5; }
   .pr6-xxl { padding-right: $spacing-6; }
+  .pr7-xxl { padding-right: $spacing-7; }
+  .pr8-xxl { padding-right: $spacing-8; }
+  .pr9-xxl { padding-right: $spacing-9; }
+  .pr10-xxl { padding-right: $spacing-10; }
 
   .pb0-xxl { padding-bottom: 0; }
   .pb1-xxl { padding-bottom: $spacing-1; }
@@ -523,6 +756,10 @@ $spacing-9: 8rem !default;
   .pb4-xxl { padding-bottom: $spacing-4; }
   .pb5-xxl { padding-bottom: $spacing-5; }
   .pb6-xxl { padding-bottom: $spacing-6; }
+  .pb7-xxl { padding-bottom: $spacing-7; }
+  .pb8-xxl { padding-bottom: $spacing-8; }
+  .pb9-xxl { padding-bottom: $spacing-9; }
+  .pb10-xxl { padding-bottom: $spacing-10; }
 
   .pl0-xxl { padding-left: 0; }
   .pl1-xxl { padding-left: $spacing-1; }
@@ -531,4 +768,8 @@ $spacing-9: 8rem !default;
   .pl4-xxl { padding-left: $spacing-4; }
   .pl5-xxl { padding-left: $spacing-5; }
   .pl6-xxl { padding-left: $spacing-6; }
+  .pl7-xxl { padding-left: $spacing-7; }
+  .pl8-xxl { padding-left: $spacing-8; }
+  .pl9-xxl { padding-left: $spacing-9; }
+  .pl10-xxl { padding-left: $spacing-10; }
 }
