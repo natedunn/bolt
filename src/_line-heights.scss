@@ -5,6 +5,8 @@
 $line-height-1: 1.125 !default;
 $line-height-2: 1.25 !default;
 $line-height-3: 1.5 !default;
+$line-height-4: 1.75 !default;
+$line-height-5: 2 !default;
 
 // ======================
 // Line Heights
@@ -13,29 +15,41 @@ $line-height-3: 1.5 !default;
 .lh1 { line-height: $line-height-1; }
 .lh2 { line-height: $line-height-2; }
 .lh3 { line-height: $line-height-3; }
+.lh4 { line-height: $line-height-4; }
+.lh5 { line-height: $line-height-5; }
 
 @media (min-width: $breakpoint-sm) {
   .lh1-sm { line-height: $line-height-1; }
   .lh2-sm { line-height: $line-height-2; }
   .lh3-sm { line-height: $line-height-3; }
+  .lh4-sm { line-height: $line-height-4; }
+  .lh5-sm { line-height: $line-height-5; }
 }
 @media (min-width: $breakpoint-md) {
   .lh1-md { line-height: $line-height-1; }
   .lh2-md { line-height: $line-height-2; }
   .lh3-md { line-height: $line-height-3; }
+  .lh4-md { line-height: $line-height-4; }
+  .lh5-md { line-height: $line-height-5; }
 }
 @media (min-width: $breakpoint-lg) {
   .lh1-lg { line-height: $line-height-1; }
   .lh2-lg { line-height: $line-height-2; }
   .lh3-lg { line-height: $line-height-3; }
+  .lh4-lg { line-height: $line-height-4; }
+  .lh5-lg { line-height: $line-height-5; }
 }
 @media (min-width: $breakpoint-xl) {
   .lh1-xl { line-height: $line-height-1; }
   .lh2-xl { line-height: $line-height-2; }
   .lh3-xl { line-height: $line-height-3; }
+  .lh4-xl { line-height: $line-height-4; }
+  .lh5-xl { line-height: $line-height-5; }
 }
 @media (min-width: $breakpoint-xxl) {
   .lh1-xxl { line-height: $line-height-1; }
   .lh2-xxl { line-height: $line-height-2; }
   .lh3-xxl { line-height: $line-height-3; }
+  .lh4-xxl { line-height: $line-height-4; }
+  .lh5-xxl { line-height: $line-height-5; }
 }
