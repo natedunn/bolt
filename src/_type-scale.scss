@@ -6,12 +6,12 @@ $type-scale-1: 0.875rem !default;
 $type-scale-2: 1rem !default;
 $type-scale-3: 1.25rem !default;
 $type-scale-4: 1.5rem !default;
-$type-scale-5: 2.25rem !default;
-$type-scale-6: 3rem !default;
-$type-scale-7: 4rem !default;
-$type-scale-8: 5rem !default;
-$type-scale-9: 6rem !default;
-$type-scale-10: 7rem !default;
+$type-scale-5: 2rem !default;
+$type-scale-6: 2.5rem !default;
+$type-scale-7: 3rem !default;
+$type-scale-8: 3.5rem !default;
+$type-scale-9: 4rem !default;
+$type-scale-10: 4.5rem !default;
 
 // ======================
 // Font sizes/type scale
@@ -26,6 +26,8 @@ $type-scale-10: 7rem !default;
 .fs6 { font-size: $type-scale-6; }
 .fs7 { font-size: $type-scale-7; }
 .fs8 { font-size: $type-scale-8; }
+.fs9 { font-size: $type-scale-9; }
+.fs10 { font-size: $type-scale-10; }
 
 @media (min-width: $breakpoint-sm) {
   .fsi-sm { font-size: inherit; }
@@ -37,6 +39,8 @@ $type-scale-10: 7rem !default;
   .fs6-sm { font-size: $type-scale-6; }
   .fs7-sm { font-size: $type-scale-7; }
   .fs8-sm { font-size: $type-scale-8; }
+  .fs9-sm { font-size: $type-scale-9; }
+  .fs10-sm { font-size: $type-scale-10; }
 }
 @media (min-width: $breakpoint-md) {
   .fsi-md { font-size: inherit; }
@@ -48,6 +52,8 @@ $type-scale-10: 7rem !default;
   .fs6-md { font-size: $type-scale-6; }
   .fs7-md { font-size: $type-scale-7; }
   .fs8-md { font-size: $type-scale-8; }
+  .fs9-md { font-size: $type-scale-9; }
+  .fs10-md { font-size: $type-scale-10; }
 }
 @media (min-width: $breakpoint-lg) {
   .fsi-lg { font-size: inherit; }
@@ -59,6 +65,8 @@ $type-scale-10: 7rem !default;
   .fs6-lg { font-size: $type-scale-6; }
   .fs7-lg { font-size: $type-scale-7; }
   .fs8-lg { font-size: $type-scale-8; }
+  .fs9-lg { font-size: $type-scale-9; }
+  .fs10-lg { font-size: $type-scale-10; }
 }
 @media (min-width: $breakpoint-xl) {
   .fsi-xl { font-size: inherit; }
@@ -70,6 +78,8 @@ $type-scale-10: 7rem !default;
   .fs6-xl { font-size: $type-scale-6; }
   .fs7-xl { font-size: $type-scale-7; }
   .fs8-xl { font-size: $type-scale-8; }
+  .fs9-xl { font-size: $type-scale-9; }
+  .fs10-xl { font-size: $type-scale-10; }
 }
 @media (min-width: $breakpoint-xxl) {
   .fsi-xxl { font-size: inherit; }
@@ -81,4 +91,6 @@ $type-scale-10: 7rem !default;
   .fs6-xxl { font-size: $type-scale-6; }
   .fs7-xxl { font-size: $type-scale-7; }
   .fs8-xxl { font-size: $type-scale-8; }
+  .fs9-xxl { font-size: $type-scale-9; }
+  .fs10-xxl { font-size: $type-scale-10; }
 }

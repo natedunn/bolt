@@ -45,7 +45,8 @@ gulp.task('browser-sync', function() {
   browserSync({
     server: {
       baseDir: "./"
-    }
+    },
+    host: "bolt.dev"
   });
 });
 
