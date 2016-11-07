@@ -12,6 +12,11 @@ $type-scale-7: 3rem !default;
 $type-scale-8: 3.5rem !default;
 $type-scale-9: 4rem !default;
 $type-scale-10: 4.5rem !default;
+$type-scale-11: 5rem !default;
+$type-scale-12: 6rem !default;
+$type-scale-13: 7rem !default;
+$type-scale-14: 8rem !default;
+$type-scale-15: 9rem !default;
 
 // ======================
 // Font sizes/type scale
@@ -28,6 +33,11 @@ $type-scale-10: 4.5rem !default;
 .fs8 { font-size: $type-scale-8; }
 .fs9 { font-size: $type-scale-9; }
 .fs10 { font-size: $type-scale-10; }
+.fs11 { font-size: $type-scale-11; }
+.fs12 { font-size: $type-scale-12; }
+.fs13 { font-size: $type-scale-13; }
+.fs14 { font-size: $type-scale-14; }
+.fs15 { font-size: $type-scale-15; }
 
 @media (min-width: $breakpoint-sm) {
   .fsi-sm { font-size: inherit; }
@@ -41,6 +51,11 @@ $type-scale-10: 4.5rem !default;
   .fs8-sm { font-size: $type-scale-8; }
   .fs9-sm { font-size: $type-scale-9; }
   .fs10-sm { font-size: $type-scale-10; }
+  .fs11-sm { font-size: $type-scale-11; }
+  .fs12-sm { font-size: $type-scale-12; }
+  .fs13-sm { font-size: $type-scale-13; }
+  .fs14-sm { font-size: $type-scale-14; }
+  .fs15-sm { font-size: $type-scale-15; }
 }
 @media (min-width: $breakpoint-md) {
   .fsi-md { font-size: inherit; }
@@ -54,6 +69,11 @@ $type-scale-10: 4.5rem !default;
   .fs8-md { font-size: $type-scale-8; }
   .fs9-md { font-size: $type-scale-9; }
   .fs10-md { font-size: $type-scale-10; }
+  .fs11-md { font-size: $type-scale-11; }
+  .fs12-md { font-size: $type-scale-12; }
+  .fs13-md { font-size: $type-scale-13; }
+  .fs14-md { font-size: $type-scale-14; }
+  .fs15-md { font-size: $type-scale-15; }
 }
 @media (min-width: $breakpoint-lg) {
   .fsi-lg { font-size: inherit; }
@@ -67,6 +87,11 @@ $type-scale-10: 4.5rem !default;
   .fs8-lg { font-size: $type-scale-8; }
   .fs9-lg { font-size: $type-scale-9; }
   .fs10-lg { font-size: $type-scale-10; }
+  .fs11-lg { font-size: $type-scale-11; }
+  .fs12-lg { font-size: $type-scale-12; }
+  .fs13-lg { font-size: $type-scale-13; }
+  .fs14-lg { font-size: $type-scale-14; }
+  .fs15-lg { font-size: $type-scale-15; }
 }
 @media (min-width: $breakpoint-xl) {
   .fsi-xl { font-size: inherit; }
@@ -80,6 +105,11 @@ $type-scale-10: 4.5rem !default;
   .fs8-xl { font-size: $type-scale-8; }
   .fs9-xl { font-size: $type-scale-9; }
   .fs10-xl { font-size: $type-scale-10; }
+  .fs11-xl { font-size: $type-scale-11; }
+  .fs12-xl { font-size: $type-scale-12; }
+  .fs13-xl { font-size: $type-scale-13; }
+  .fs14-xl { font-size: $type-scale-14; }
+  .fs15-xl { font-size: $type-scale-15; }
 }
 @media (min-width: $breakpoint-xxl) {
   .fsi-xxl { font-size: inherit; }
@@ -93,4 +123,9 @@ $type-scale-10: 4.5rem !default;
   .fs8-xxl { font-size: $type-scale-8; }
   .fs9-xxl { font-size: $type-scale-9; }
   .fs10-xxl { font-size: $type-scale-10; }
+  .fs11-xxl { font-size: $type-scale-11; }
+  .fs12-xxl { font-size: $type-scale-12; }
+  .fs13-xxl { font-size: $type-scale-13; }
+  .fs14-xxl { font-size: $type-scale-14; }
+  .fs15-xxl { font-size: $type-scale-15; }
 }
