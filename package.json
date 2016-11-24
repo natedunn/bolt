@@ -1,7 +1,7 @@
 {
   "name": "bolt",
   "version": "1.4.0",
-  "description": "The front-end codebase for @natedunn.",
+  "description": "The front-end utility classes by @natedunn.",
   "repository": {
     "type": "git",
     "url": "https://github.com/natedunn/bolt"
