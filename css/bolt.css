@@ -1832,7 +1832,7 @@ textarea {
   margin: 9rem; }
 
 .pa0 {
-  padding-top: 0; }
+  padding: 0; }
 
 .pa1 {
   padding: 0.5rem; }
@@ -2178,7 +2178,7 @@ textarea {
     margin: 9rem; }
 
   .pa0-sm {
-    padding-top: 0; }
+    padding: 0; }
 
   .pa1-sm {
     padding: 0.5rem; }
@@ -2523,7 +2523,7 @@ textarea {
     margin: 9rem; }
 
   .pa0-md {
-    padding-top: 0; }
+    padding: 0; }
 
   .pa1-md {
     padding: 0.5rem; }
@@ -2868,7 +2868,7 @@ textarea {
     margin: 9rem; }
 
   .pa0-lg {
-    padding-top: 0; }
+    padding: 0; }
 
   .pa1-lg {
     padding: 0.5rem; }
@@ -3213,7 +3213,7 @@ textarea {
     margin: 9rem; }
 
   .pa0-xl {
-    padding-top: 0; }
+    padding: 0; }
 
   .pa1-xl {
     padding: 0.5rem; }
@@ -3558,7 +3558,7 @@ textarea {
     margin: 9rem; }
 
   .pa0-xxl {
-    padding-top: 0; }
+    padding: 0; }
 
   .pa1-xxl {
     padding: 0.5rem; }
@@ -7170,10 +7170,6 @@ textarea {
 .italic {
   font-style: italic; }
 
-.list-reset {
-  padding-left: 0;
-  list-style: none; }
-
 .truncate {
   max-width: 100%;
   overflow: hidden;
@@ -8106,3 +8102,6 @@ textarea {
     clip: rect(0.0625rem 0.0625rem 0.0625rem 0.0625rem);
     /* IE6, IE7 */
     clip: rect(0.0625rem, 0.0625rem, 0.0625rem, 0.0625rem); } }
+.list-reset {
+  padding-left: 0;
+  list-style: none; }
