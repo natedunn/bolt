@@ -1,6 +1,8 @@
-// ======================
-// DEPENDENCIES
-// ======================
+// =====================================
+// *
+// * DEPENDENCIES
+// *
+// =====================================
 
 var gulp = require('gulp'),
   sass = require('gulp-ruby-sass'),
@@ -25,120 +27,173 @@ var gulp = require('gulp'),
   cssnano = require('cssnano'),
   pxtorem = require('postcss-pxtorem');
 
-// ======================
-// AUTOMATION
-// ======================
+  // =====================================
+  // *
+  // * DEFAULT SETTINGS
+  // *
+  // =====================================
 
-var onError = function(err) {
-  notify.onError({
-    title: "Gulp",
-    subtitle: "Failure!",
-    message: "Error: <%= error.message %>",
-    sound: "Beep"
-  })(err);
-  this.emit('end');
-};
+  // Autoprefixer
+  var autoPrefix = [
+    'last 3 versions',
+    'last 8 Safari versions',
+    'last 15 Chrome versions',
+    'last 5 IE versions',
+    'last 15 Firefox versions',
+    'last 5 Edge versions',
+    'last 15 Opera versions',
+    'last 5 iOS versions',
+    'last 5 Android versions',
+    'last 5 ChromeAndroid versions'
+  ];
 
-var reload = browserSync.reload;
+  // =====================================
+  // *
+  // * AUTOMATION
+  // *
+  // =====================================
 
-gulp.task('browser-sync', function() {
-  browserSync({
-    server: {
-      baseDir: "./"
-    },
-    host: "bolt.dev"
+  // Easy reload
+  gulp.task('bs-reload', function() {
+    browserSync.reload();
   });
+
+  // Watch
+  gulp.task('watch', function() {
+    // Initalize browserSync
+    browserSync.init({
+      server: {
+        baseDir: "./"
+      }
+    });
+    // Watch for changes in files
+    gulp.watch('./**/*.html'), ['bs-reload'];
+    gulp.watch('./**/*.scss', ['build'])
+  });
+
+  // Errors
+  var onError = function(err) {
+    notify.onError({
+      title: "Gulp",
+      subtitle: "Failure!",
+      message: "Error: <%= error.message %>",
+      sound: "Beep"
+    })(err);
+    this.emit('end');
+  };
+
+// =====================================
+// *
+// * STYLES
+// *
+// =====================================
+
+// =====================================
+// Clean
+// =====================================
+gulp.task('clean:styles', function () {
+  return del('dist/**/*.css');
 });
 
-gulp.task('bs-reload', function() { browserSync.reload(); });
-
-gulp.task('watch', ['browser-sync'], function() {
-  // HTML Files
-  gulp.watch('./**/*.html'), ['bs-reload'];
-  // Project Styles
-  gulp.watch('./**/*.scss', ['build'])
-});
-
-// ======================
-// STYLES
-// ======================
-
-// Dev Styles
-gulp.task('styles-dev', function() {
-  sass('src/bolt.scss')
+// =====================================
+// All styles
+// =====================================
+gulp.task('styles-all', function() {
+  return sass('./src/bolt.scss', {})
     .pipe(plumber({ errorHandler: onError }))
-    .pipe(postcss([
-      autoprefixer({browsers: ['last 2 version']}),
-      pxtorem({
-        rootValue: 16,
-        replace: true,
-        propWhiteList: [],
-        mediaQuery: false
-      })
-    ]))
-    .pipe(sourcemaps.init())
     .pipe(concat('bolt.css'))
-    .pipe(gulp.dest('./css'))
-    .pipe(browserSync.reload({ stream: true }))
-    .pipe(notify({ message: 'DEVELOPMENT STYLES task complete'}))
-});
-
-// Styles Production
-gulp.task('styles-prod', function() {
-  return sass('src/bolt.scss', { style: 'nested' })
-    .pipe(plumber({ errorHandler: onError }))
+    .pipe(gulp.dest('./dist'))
     .pipe(postcss([
-      autoprefixer({browsers: ['last 2 version']}),
+      autoprefixer({browsers: autoPrefix}),
       pxtorem({
         rootValue: 16,
         replace: true,
         propWhiteList: [],
         mediaQuery: false
       }),
-      cssnano({
-        discardComments: {removeAll: true}
-      })
+      cssnano({discardComments: {removeAll: true}})
     ]))
     .pipe(concat('bolt.min.css'))
-    .pipe(gulp.dest('./css'))
-    .pipe(browserSync.reload({ stream: true }))
-    .pipe(notify({ message: 'PRODUCTION STYLES task complete' }));
+    .pipe(gulp.dest('./dist'));
 });
 
-// IE Styles
-gulp.task('styles-ie', function() {
-  return sass(['styles/manifest-ie.scss'], { style: 'nested' })
+// =====================================
+// Partials
+// =====================================
+
+// Grid
+gulp.task('styles-grid', function() {
+  return sass('./src/grid.scss', {})
     .pipe(plumber({ errorHandler: onError }))
-    .pipe(postcss([autoprefixer({browsers: [
-      'last 2 version',
-      'ie 7',
-      'ie 8',
-      'ie 9'
-    ]})]))
-    .pipe(concat('ie.main.css'))
-    .pipe(gulp.dest('./css'))
-    .pipe(browserSync.reload({ stream: true }))
-    .pipe(notify({ message: 'IE STYLES task complete' }));
+    .pipe(concat('grid.css'))
+    .pipe(gulp.dest('./dist'))
+    .pipe(postcss([
+      autoprefixer({browsers: autoPrefix}),
+      pxtorem({
+        rootValue: 16,
+        replace: true,
+        propWhiteList: [],
+        mediaQuery: false
+      }),
+      cssnano({discardComments: {removeAll: true}})
+    ]))
+    .pipe(concat('grid.min.css'))
+    .pipe(gulp.dest('./dist'));
 });
 
-// ======================
-// CLEAN
-// ======================
-
-// Clean Styles
-gulp.task('clean:styles', function () {
-  return del('css/**/*.css');
+// Flexbox
+gulp.task('styles-flexbox', function() {
+  return sass('./src/flexbox.scss', {})
+    .pipe(plumber({ errorHandler: onError }))
+    .pipe(concat('flexbox.css'))
+    .pipe(gulp.dest('./dist'))
+    .pipe(postcss([
+      autoprefixer({browsers: autoPrefix}),
+      pxtorem({
+        rootValue: 16,
+        replace: true,
+        propWhiteList: [],
+        mediaQuery: false
+      }),
+      cssnano({discardComments: {removeAll: true}})
+    ]))
+    .pipe(concat('flexbox.min.css'))
+    .pipe(gulp.dest('./dist'));
 });
 
-// ======================
-// BUILD
-// ======================
+// Type scale
+gulp.task('styles-type-scale', function() {
+  return sass('./src/type-scale.scss', {})
+    .pipe(plumber({ errorHandler: onError }))
+    .pipe(concat('type-scale.css'))
+    .pipe(gulp.dest('./dist'))
+    .pipe(postcss([
+      autoprefixer({browsers: autoPrefix}),
+      pxtorem({
+        rootValue: 16,
+        replace: true,
+        propWhiteList: [],
+        mediaQuery: false
+      }),
+      cssnano({discardComments: {removeAll: true}})
+    ]))
+    .pipe(concat('type-scale.min.css'))
+    .pipe(gulp.dest('./dist'));
+});
+
+// =====================================
+// *
+// * Build
+// *
+// =====================================
 
 gulp.task('build', function(callback) {
   runSequence(
     'clean:styles',
-    'styles-dev',
-    'styles-prod',
+    'styles-all',
+    'styles-grid',
+    'styles-flexbox',
+    'styles-type-scale',
     callback
   );
 });
