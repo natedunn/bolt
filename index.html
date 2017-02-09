@@ -4,11 +4,13 @@
     <meta charset="utf-8">
     <title>Bolt Test Page</title>
     <!--[if !IE]><!-->
-    	<link rel="stylesheet" href="/css/bolt.min.css" media="screen" title="no title" charset="utf-8">
+    	<link rel="stylesheet" href="/dist/bolt.min.css" media="screen" title="no title" charset="utf-8">
     <!--<![endif]-->
     <!--[if lte IE 9]>
     	<link rel="stylesheet" href="/styles/ie.min.css" media="screen" title="no title" charset="utf-8">
     <![endif]-->
+
+    <!-- Example / demo styles -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/highlight.js/9.5.0/styles/github-gist.min.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <style>
@@ -21,60 +23,103 @@
         margin: 0;
       }
     </style>
+    <!-- End example / demo styles -->
+
   </head>
-  <body class="sans-med">
+  <body>
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h1 class="f6-sm bb bw2">Bolt Examples</h1>
-        </div>
+      <div class="bg-black white pa1">
+        <h1 class="dib ma0 fs5 fs6-md fs7-lg bc-white">Bolt</h1>
       </div>
+
       <!-- Typography -->
-      <div class="row">
-        <div class="col-xs-12 col-md-6">
-          <h2 class="h2 bb bw2">Typography</h2>
-          <div class="fs1">Type scale 1</div>
-          <div class="fs2">Type scale 2</div>
-          <div class="fs3">Type scale 3</div>
-          <div class="fs4">Type scale 4</div>
-          <div class="fs5">Type scale 5</div>
-          <div class="fs6">Type scale 6</div>
-          <div class="fs7">Type scale 7</div>
-          <div class="fs8">Type scale 8</div>
-          <div class="fs9">Type scale 9</div>
-          <div class="fs10">Type scale 10</div>
-          <p class="bg-whitesmoke pa2 mt2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.
-          </p>
-          <a href="#">Default link</a>
-          <a class="link link-red" href="#">Red link</a>
-          <a class="link link-green" href="#">Green link</a>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <h2 class="h2 bb bw2">Code</h2>
-          <pre>
-            <code class="html escape">
-<div class="fs1">Type scale 1</div>
-<div class="fs2">Type scale 2</div>
-<div class="fs3">Type scale 3</div>
-<div class="fs4">Type scale 4</div>
-<div class="fs5">Type scale 5</div>
-<div class="fs6">Type scale 6</div>
-<div class="fs7">Type scale 7</div>
-<div class="fs8">Type scale 8</div>
-<div class="fs9">Type scale 9</div>
-<div class="fs10">Type scale 10</div>
-<p class="bg-whitesmoke pa2 mt2">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.
-</p>
-<a href="#">Default link</a>
-<a class="link link-red" href="#">Red link</a>
-<a class="link link-green" href="#">Green link</a>
-            </code>
-          </pre>
-        </div>
+      <div class="db">
+        <h2 class="fs3 fs4-lg pa1 bg-black white">Typography</h2>
       </div>
+
+      <section class="dib w100 mb2">
+        <h3 class="fs3 fs4-lg bb bw2">Type scale</h3>
+        <div class="fs8">Type scale 8</div>
+        <div class="bb mt2 mb2"></div>
+        <div class="fs7">Type scale 7</div>
+        <div class="bb mt2 mb2"></div>
+        <div class="fs6">Type scale 6</div>
+        <div class="bb mt2 mb2"></div>
+        <div class="fs5">Type scale 5</div>
+        <div class="bb mt2 mb2"></div>
+        <div class="fs4">Type scale 4</div>
+        <div class="bb mt2 mb2"></div>
+        <div class="fs3">Type scale 3</div>
+        <div class="bb mt2 mb2"></div>
+        <div class="fs2">Type scale 2</div>
+        <div class="bb mt2 mb2"></div>
+        <div class="fs1">Type scale 1</div>
+      </section>
+
+      <section class="dib w100 mb2">
+        <h3 class="fs3 fs4-lg bb bw2">Paragraph</h3>
+        <p>This these two bodies are paragraph texts. Text size can be altered by using type scale classes.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod.</p>
+      </section>
+
+      <!-- Grid -->
+      <div class="db">
+        <h2 class="fs3 fs4-lg pa1 bg-black white">Grid</h2>
+        <p>Bolt uses Bootstrap's flexbox grid. Visit their <a href="https://v4-alpha.getbootstrap.com/layout/grid/" target="_blank">documentation</a> for more information.</p>
+      </div>
+
+      <section class="dib w100 mb2">
+        <div class="row mb2">
+          <div class="col">
+            <div class="bg-gray pa1 tac">
+              col
+            </div>
+          </div>
+          <div class="col">
+            <div class="bg-gray pa1 tac">
+              col
+            </div>
+          </div>
+        </div>
+        <div class="row mb2">
+          <div class="col-md">
+            <div class="bg-gray pa1 tac">
+              col-md
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="bg-gray pa1 tac">
+              col-md
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="bg-gray pa1 tac">
+              col-md
+            </div>
+          </div>
+        </div>
+        <div class="row mb2">
+          <div class="col-sm-12 col-md-2">
+            <div class="bg-gray pa1 tac">
+              col-sm-12 col-md-2
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="bg-gray pa1 tac">
+              col-sm-6 col-md-4
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="bg-gray pa1 tac">
+              col-sm-6
+            </div>
+          </div>
+        </div>
+      </section>
+
     </div>
+
+    <!-- Example / demo scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.5.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
@@ -86,5 +131,7 @@
       }
       renderCode();
     </script>
+    <!-- End example / demo scripts -->
+
   </body>
 </html>
