@@ -1,13 +1,4 @@
-// ======================
-// Variables
-// ======================
-
-$breakpoint-xs: 0 !default;
-$breakpoint-sm: 34rem !default;
-$breakpoint-md: 48rem !default;
-$breakpoint-lg: 62rem !default;
-$breakpoint-xl: 75rem !default;
-$breakpoint-xxl: 87rem !default;
+@import "variables";
 
 $container-width-sm: 36rem !default;
 $container-width-md: 45rem !default;
@@ -25,7 +16,6 @@ $grid-gutter-widths: (
   xl: $grid-gutter-width-base
 ) !default;
 
-//New
 $enable-grid-classes: true !default;
 
 // ======================
