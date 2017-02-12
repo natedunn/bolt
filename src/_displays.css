@@ -1,3 +1,21 @@
+
+/*
+   DISPLAY
+   Base:
+    d = display
+   Modifiers:
+    n     = none
+    b     = block
+    ib    = inline-block
+    it    = inline-table
+    t     = table
+    tc    = table-cell
+    t-row          = table-row
+    t-columm       = table-column
+    t-column-group = table-column-group
+*/
+
+
 .dn { display: none; }
 .di { display: inline; }
 .db { display: block; }
@@ -10,7 +28,7 @@
 .dt-column { display: table-column; }
 .dt-column-group { display: table-column-group; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .dn-sm { display: none; }
   .di-sm { display: inline; }
   .db-sm { display: block; }
@@ -23,7 +41,7 @@
   .dt-column-sm { display: table-column; }
   .dt-column-group-sm { display: table-column-group; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .dn-md { display: none; }
   .di-md { display: inline; }
   .db-md { display: block; }
@@ -36,7 +54,7 @@
   .dt-column-md { display: table-column; }
   .dt-column-group-md { display: table-column-group; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .dn-lg { display: none; }
   .di-lg { display: inline; }
   .db-lg { display: block; }
@@ -49,7 +67,7 @@
   .dt-column-lg { display: table-column; }
   .dt-column-group-lg { display: table-column-group; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .dn-xl { display: none; }
   .di-xl { display: inline; }
   .db-xl { display: block; }
@@ -62,7 +80,7 @@
   .dt-column-xl { display: table-column; }
   .dt-column-group-xl { display: table-column-group; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .dn-xxl { display: none; }
   .di-xxl { display: inline; }
   .db-xxl { display: block; }

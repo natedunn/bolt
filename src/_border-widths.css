@@ -1,3 +1,16 @@
+/*
+   BORDER WIDTHS
+   Base:
+     bw = border-width
+   Modifiers:
+     0 = 0 width border
+     1 = 1st step in border-width scale
+     2 = 2nd step in border-width scale
+     3 = 3rd step in border-width scale
+     4 = 4th step in border-width scale
+     5 = 5th step in border-width scale
+*/
+
 .bw0 { border-width: 0; }
 .bw1 { border-width: .125rem; }
 .bw2 { border-width: .25rem; }
@@ -10,7 +23,7 @@
 .bb-0 { border-bottom-width: 0; }
 .bl-0 { border-left-width: 0; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .bw0-sm { border-width: 0; }
   .bw1-sm { border-width: .125rem; }
   .bw2-sm { border-width: .25rem; }
@@ -22,7 +35,7 @@
   .bb-0-sm { border-bottom-width: 0; }
   .bl-0-sm { border-left-width: 0; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .bw0-md { border-width: 0; }
   .bw1-md { border-width: .125rem; }
   .bw2-md { border-width: .25rem; }
@@ -34,7 +47,7 @@
   .bb-0-md { border-bottom-width: 0; }
   .bl-0-md { border-left-width: 0; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .bw0-lg { border-width: 0; }
   .bw1-lg { border-width: .125rem; }
   .bw2-lg { border-width: .25rem; }
@@ -46,7 +59,7 @@
   .bb-0-lg { border-bottom-width: 0; }
   .bl-0-lg { border-left-width: 0; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .bw0-xl { border-width: 0; }
   .bw1-xl { border-width: .125rem; }
   .bw2-xl { border-width: .25rem; }
@@ -58,7 +71,7 @@
   .bb-0-xl { border-bottom-width: 0; }
   .bl-0-xl { border-left-width: 0; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .bw0-xxl { border-width: 0; }
   .bw1-xxl { border-width: .125rem; }
   .bw2-xxl { border-width: .25rem; }

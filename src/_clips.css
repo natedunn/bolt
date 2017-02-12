@@ -5,7 +5,7 @@
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .clip-sm {
     position: fixed !important;
     _position: absolute !important;
@@ -13,7 +13,7 @@
     clip: rect(1px, 1px, 1px, 1px);
   }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .clip-md {
     position: fixed !important;
     _position: absolute !important;
@@ -21,7 +21,7 @@
     clip: rect(1px, 1px, 1px, 1px);
   }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .clip-lg {
     position: fixed !important;
     _position: absolute !important;
@@ -29,7 +29,7 @@
     clip: rect(1px, 1px, 1px, 1px);
   }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .clip-xl {
     position: fixed !important;
     _position: absolute !important;
@@ -37,7 +37,7 @@
     clip: rect(1px, 1px, 1px, 1px);
   }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .clip-xxl {
     position: fixed !important;
     _position: absolute !important;
