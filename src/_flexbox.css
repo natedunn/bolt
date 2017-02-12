@@ -1,4 +1,7 @@
-@import "variables";
+/*
+  FLEXBOX
+
+*/
 
 .flex { display: flex; }
 .inline-flex { display: inline-flex; }
@@ -51,7 +54,7 @@
 .order-8 { order: 8; }
 .order-last { order: 99999; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .flex-sm { display: flex; }
   .inline-flex-sm { display: inline-flex; }
 
@@ -103,7 +106,7 @@
   .order-8-sm { order: 8; }
   .order-last-sm { order: 99999; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .flex-md { display: flex; }
   .inline-flex-md { display: inline-flex; }
 
@@ -155,7 +158,7 @@
   .order-8-md { order: 8; }
   .order-last-md { order: 99999; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .flex-lg { display: flex; }
   .inline-flex-lg { display: inline-flex; }
 
@@ -207,7 +210,7 @@
   .order-8-lg { order: 8; }
   .order-last-lg { order: 99999; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .flex-xl { display: flex; }
   .inline-flex-xl { display: inline-flex; }
 
@@ -259,7 +262,7 @@
   .order-8-xl { order: 8; }
   .order-last-xl { order: 99999; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .flex-xxl { display: flex; }
   .inline-flex-xxl { display: inline-flex; }
 
