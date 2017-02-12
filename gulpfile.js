@@ -117,69 +117,6 @@ gulp.task('styles-all', function() {
     .pipe(gulp.dest('./dist'));
 });
 
-// =====================================
-// Partials
-// =====================================
-
-// Grid
-gulp.task('styles-grid', function() {
-  return sass('./src/grid.scss', {})
-    .pipe(plumber({ errorHandler: onError }))
-    .pipe(concat('grid.css'))
-    .pipe(gulp.dest('./dist'))
-    .pipe(postcss([
-      autoprefixer({browsers: autoPrefix}),
-      pxtorem({
-        rootValue: 16,
-        replace: true,
-        propWhiteList: [],
-        mediaQuery: false
-      }),
-      cssnano({discardComments: {removeAll: true}})
-    ]))
-    .pipe(concat('grid.min.css'))
-    .pipe(gulp.dest('./dist'));
-});
-
-// Flexbox
-gulp.task('styles-flexbox', function() {
-  return sass('./src/flexbox.scss', {})
-    .pipe(plumber({ errorHandler: onError }))
-    .pipe(concat('flexbox.css'))
-    .pipe(gulp.dest('./dist'))
-    .pipe(postcss([
-      autoprefixer({browsers: autoPrefix}),
-      pxtorem({
-        rootValue: 16,
-        replace: true,
-        propWhiteList: [],
-        mediaQuery: false
-      }),
-      cssnano({discardComments: {removeAll: true}})
-    ]))
-    .pipe(concat('flexbox.min.css'))
-    .pipe(gulp.dest('./dist'));
-});
-
-// Type scale
-gulp.task('styles-type-scale', function() {
-  return sass('./src/type-scale.scss', {})
-    .pipe(plumber({ errorHandler: onError }))
-    .pipe(concat('type-scale.css'))
-    .pipe(gulp.dest('./dist'))
-    .pipe(postcss([
-      autoprefixer({browsers: autoPrefix}),
-      pxtorem({
-        rootValue: 16,
-        replace: true,
-        propWhiteList: [],
-        mediaQuery: false
-      }),
-      cssnano({discardComments: {removeAll: true}})
-    ]))
-    .pipe(concat('type-scale.min.css'))
-    .pipe(gulp.dest('./dist'));
-});
 
 // =====================================
 // *
@@ -191,9 +128,6 @@ gulp.task('build', function(callback) {
   runSequence(
     'clean:styles',
     'styles-all',
-    'styles-grid',
-    'styles-flexbox',
-    'styles-type-scale',
     callback
   );
 });
