@@ -1,0 +1,34 @@
+{
+  "use": ["postcss-easy-import", "postcss-map", "postcss-simple-vars", "postcss-custom-media", "postcss-cssnext", "postcss-pxtorem"],
+  "input": "src/bolt.css",
+  "output": "dist/bolt.css",
+  "local-plugins": "true",
+  "postcss-cssnext": {
+    "browsers": [
+      "last 3 versions",
+      "last 8 Safari versions",
+      "last 15 Chrome versions",
+      "last 5 IE versions",
+      "last 15 Firefox versions",
+      "last 5 Edge versions",
+      "last 15 Opera versions",
+      "last 5 iOS versions",
+      "last 5 Android versions",
+      "last 5 ChromeAndroid versions"
+    ],
+    "verbose":  true
+  },
+  "postcss-pxtorem": {
+    "rootValue": 16,
+    "propList": ["*"],
+    "replace": true,
+    "mediaQuery": false
+  },
+  "postcss-easy-import": {
+    "prefix": "_",
+    "extensions": ".css"
+  },
+  "postcss-simple-vars" : {
+    "silent": true
+  }
+}
