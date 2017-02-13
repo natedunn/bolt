@@ -22,6 +22,7 @@
     "rootValue": 16,
     "propList": ["*"],
     "replace": true,
+    "propWhiteList": [],
     "mediaQuery": false
   },
   "postcss-easy-import": {
