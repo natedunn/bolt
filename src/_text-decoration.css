@@ -1,3 +1,8 @@
+/*
+  TEXT DECORATION
+
+*/
+
 .tdl { text-decoration: line-through; }
 .tdu { text-decoration: underline; }
 .tdn { text-decoration: none; }

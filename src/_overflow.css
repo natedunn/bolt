@@ -1,3 +1,9 @@
+/*
+    OVERFLOW
+
+ */
+
+
 .ofv { overflow: visible; }
 .ofh { overflow: hidden; }
 .ofs { overflow: scroll; }
@@ -13,7 +19,7 @@
 .ofys { overflow-y: scroll; }
 .ofya { overflow-y: auto; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .ofv-sm { overflow: visible; }
   .ofh-sm { overflow: hidden; }
   .ofs-sm { overflow: scroll; }
@@ -29,7 +35,7 @@
   .ofys-sm { overflow-y: scroll; }
   .ofya-sm { overflow-y: auto; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .ofv-md { overflow: visible; }
   .ofh-md { overflow: hidden; }
   .ofs-md { overflow: scroll; }
@@ -45,7 +51,7 @@
   .ofys-md { overflow-y: scroll; }
   .ofya-md { overflow-y: auto; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .ofv-lg { overflow: visible; }
   .ofh-lg { overflow: hidden; }
   .ofs-lg { overflow: scroll; }
@@ -61,7 +67,7 @@
   .ofys-lg { overflow-y: scroll; }
   .ofya-lg { overflow-y: auto; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .ofv-xl { overflow: visible; }
   .ofh-xl { overflow: hidden; }
   .ofs-xl { overflow: scroll; }
@@ -77,7 +83,7 @@
   .ofys-xl { overflow-y: scroll; }
   .ofya-xl { overflow-y: auto; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .ofv-xxl { overflow: visible; }
   .ofh-xxl { overflow: hidden; }
   .ofs-xxl { overflow: scroll; }

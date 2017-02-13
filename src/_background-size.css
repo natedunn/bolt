@@ -1,0 +1,23 @@
+.cover { background-size: cover!important; }
+.contain { background-size: contain!important; }
+
+@media (--breakpoint-sm) {
+  .cover-sm { background-size: cover!important; }
+  .contain-sm { background-size: contain!important; }
+}
+@media (--breakpoint-md) {
+  .cover-md { background-size: cover!important; }
+  .contain-md { background-size: contain!important; }
+}
+@media (--breakpoint-lg) {
+  .cover-lg { background-size: cover!important; }
+  .contain-lg { background-size: contain!important; }
+}
+@media (--breakpoint-xl) {
+  .cover-xl { background-size: cover!important; }
+  .contain-xl { background-size: contain!important; }
+}
+@media (--breakpoint-xxl) {
+  .cover-xxl { background-size: cover!important; }
+  .contain-xxl { background-size: contain!important; }
+}

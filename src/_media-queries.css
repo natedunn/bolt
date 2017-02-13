@@ -1,0 +1,5 @@
+@custom-media --breakpoint-sm (min-width: 34rem);
+@custom-media --breakpoint-md (min-width: 48rem);
+@custom-media --breakpoint-lg (min-width: 62rem);
+@custom-media --breakpoint-xl (min-width: 75rem);
+@custom-media --breakpoint-xxl (min-width: 87rem);

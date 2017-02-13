@@ -1,0 +1,41 @@
+/*
+   BORDER STYLES
+   Base:
+     b = border-style
+   Modifiers:
+     --none   = none
+     --dotted = dotted
+     --dashed = dashed
+     --solid  = solid
+ */
+
+@media (--breakpoint-sm) {
+  .bs--dotted-sm { border-style: dotted; }
+  .bs--dashed-sm { border-style: dashed; }
+  .bs--solid-sm {  border-style: solid; }
+  .bs--none-sm {   border-style: none; }
+}
+@media (--breakpoint-md) {
+  .bs--dotted-md { border-style: dotted; }
+  .bs--dashed-md { border-style: dashed; }
+  .bs--solid-md {  border-style: solid; }
+  .bs--none-md {   border-style: none; }
+}
+@media (--breakpoint-lg) {
+  .bs--dotted-lg { border-style: dotted; }
+  .bs--dashed-lg { border-style: dashed; }
+  .bs--solid-lg {  border-style: solid; }
+  .bs--none-lg {   border-style: none; }
+}
+@media (--breakpoint-xl) {
+  .bs--dotted-xl { border-style: dotted; }
+  .bs--dashed-xl { border-style: dashed; }
+  .bs--solid-xl {  border-style: solid; }
+  .bs--none-xl {   border-style: none; }
+}
+@media (--breakpoint-xxl) {
+  .bs--dotted-xxl { border-style: dotted; }
+  .bs--dashed-xxl { border-style: dashed; }
+  .bs--solid-xxl {  border-style: solid; }
+  .bs--none-xxl {   border-style: none; }
+}

@@ -1,33 +1,44 @@
+/*
+  TEXT ALIGN
+  Base
+    ta = text-align
+  Modifiers
+    l = left
+    r = right
+    c = center
+    j = justify
+*/
+
 .tal { text-align: left; }
 .tar { text-align: right; }
 .tac { text-align: center; }
 .taj { text-align: justify; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .tal-sm { text-align: left; }
   .tar-sm { text-align: right; }
   .tac-sm { text-align: center; }
   .taj-sm { text-align: justify; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .tal-md { text-align: left; }
   .tar-md { text-align: right; }
   .tac-md { text-align: center; }
   .taj-md { text-align: justify; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .tal-lg { text-align: left; }
   .tar-lg { text-align: right; }
   .tac-lg { text-align: center; }
   .taj-lg { text-align: justify; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .tal-xl { text-align: left; }
   .tar-xl { text-align: right; }
   .tac-xl { text-align: center; }
   .taj-xl { text-align: justify; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .tal-xxl { text-align: left; }
   .tar-xxl { text-align: right; }
   .tac-xxl { text-align: center; }

@@ -2,27 +2,27 @@
 .vh { visibility: visible; }
 .vh { visibility: hidden; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .vi-sm { visibility: inherit; }
   .vh-sm { visibility: visible; }
   .vh-sm { visibility: hidden; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .vi-md { visibility: inherit; }
   .vh-md { visibility: visible; }
   .vh-md { visibility: hidden; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .vi-lg { visibility: inherit; }
   .vh-lg { visibility: visible; }
   .vh-lg { visibility: hidden; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .vi-xl { visibility: inherit; }
   .vh-xl { visibility: visible; }
   .vh-xl { visibility: hidden; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .vi-xxl { visibility: inherit; }
   .vh-xxl { visibility: visible; }
   .vh-xxl { visibility: hidden; }

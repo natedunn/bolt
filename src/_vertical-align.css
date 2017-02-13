@@ -1,33 +1,38 @@
+/*
+  VERTICAL ALIGN
+
+*/
+
 .vam { vertical-align: middle; }
 .vat { vertical-align: top; }
 .vab { vertical-align: bottom; }
 .vabase { vertical-align: baseline; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .vam-sm { vertical-align: middle; }
   .vat-sm { vertical-align: top; }
   .vab-sm { vertical-align: bottom; }
   .vabase-sm { vertical-align: baseline; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .vam-md { vertical-align: middle; }
   .vat-md { vertical-align: top; }
   .vab-md { vertical-align: bottom; }
   .vabase-md { vertical-align: baseline; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .vam-lg { vertical-align: middle; }
   .vat-lg { vertical-align: top; }
   .vab-lg { vertical-align: bottom; }
   .vabase-lg { vertical-align: baseline; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .vam-xl { vertical-align: middle; }
   .vat-xl { vertical-align: top; }
   .vab-xl { vertical-align: bottom; }
   .vabase-xl { vertical-align: baseline; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .vam-xxl { vertical-align: middle; }
   .vat-xxl { vertical-align: top; }
   .vab-xxl { vertical-align: bottom; }

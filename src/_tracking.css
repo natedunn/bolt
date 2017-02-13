@@ -1,0 +1,35 @@
+:root {
+  --tracking-1: -0.75rem;
+  --tracking-2: 0.1rem;
+  --tracking-3: 0.15rem;
+}
+
+.track1 { letter-spacing: var(--tracking-1); }
+.track2 { letter-spacing: var(--tracking-2); }
+.track3 { letter-spacing: var(--tracking-3); }
+
+@media (--breakpoint-sm) {
+  .track1-sm { letter-spacing: var(--tracking-1); }
+  .track2-sm { letter-spacing: var(--tracking-2); }
+  .track3-sm { letter-spacing: var(--tracking-3); }
+}
+@media (--breakpoint-md) {
+  .track1-md { letter-spacing: var(--tracking-1); }
+  .track2-md { letter-spacing: var(--tracking-2); }
+  .track3-md { letter-spacing: var(--tracking-3); }
+}
+@media (--breakpoint-lg) {
+  .track1-lg { letter-spacing: var(--tracking-1); }
+  .track2-lg { letter-spacing: var(--tracking-2); }
+  .track3-lg { letter-spacing: var(--tracking-3); }
+}
+@media (--breakpoint-xl) {
+  .track1-xl { letter-spacing: var(--tracking-1); }
+  .track2-xl { letter-spacing: var(--tracking-2); }
+  .track3-xl { letter-spacing: var(--tracking-3); }
+}
+@media (--breakpoint-xxl) {
+  .track1-xxl { letter-spacing: var(--tracking-1); }
+  .track2-xxl { letter-spacing: var(--tracking-2); }
+  .track3-xxl { letter-spacing: var(--tracking-3); }
+}

@@ -1,3 +1,16 @@
+/*
+    BORDERS
+    Base:
+      b = border
+    Modifiers:
+      a = all
+      t = top
+      r = right
+      b = bottom
+      l = left
+      n = none
+*/
+
 .ba { border-style: solid; border-width: 1px; }
 .bt { border-top-style: solid; border-top-width: 1px; }
 .br { border-right-style: solid; border-right-width: 1px; }
@@ -5,7 +18,7 @@
 .bl { border-left-style: solid; border-left-width: 1px; }
 .bn { border-style: none; border-width: 0; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .ba-sm { border-style: solid; border-width: 1px; }
   .bt-sm { border-top-style: solid; border-top-width: 1px; }
   .br-sm { border-right-style: solid; border-right-width: 1px; }
@@ -13,7 +26,7 @@
   .bl-sm { border-left-style: solid; border-left-width: 1px; }
   .bn-sm { border-style: none; border-width: 0; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .ba-md { border-style: solid; border-width: 1px; }
   .bt-md { border-top-style: solid; border-top-width: 1px; }
   .br-md { border-right-style: solid; border-right-width: 1px; }
@@ -21,7 +34,7 @@
   .bl-md { border-left-style: solid; border-left-width: 1px; }
   .bn-md { border-style: none; border-width: 0; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .ba-lg { border-style: solid; border-width: 1px; }
   .bt-lg { border-top-style: solid; border-top-width: 1px; }
   .br-lg { border-right-style: solid; border-right-width: 1px; }
@@ -29,7 +42,7 @@
   .bl-lg { border-left-style: solid; border-left-width: 1px; }
   .bn-lg { border-style: none; border-width: 0; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .ba-xl { border-style: solid; border-width: 1px; }
   .bt-xl { border-top-style: solid; border-top-width: 1px; }
   .br-xl { border-right-style: solid; border-right-width: 1px; }
@@ -37,7 +50,7 @@
   .bl-xl { border-left-style: solid; border-left-width: 1px; }
   .bn-xl { border-style: none; border-width: 0; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .ba-xxl { border-style: solid; border-width: 1px; }
   .bt-xxl { border-top-style: solid; border-top-width: 1px; }
   .br-xxl { border-right-style: solid; border-right-width: 1px; }

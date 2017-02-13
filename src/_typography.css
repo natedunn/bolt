@@ -1,6 +1,3 @@
-.bold { font-weight: bold; }
-.italic { font-style: italic; }
-
 .truncate {
   max-width: 100%;
   overflow: hidden;
