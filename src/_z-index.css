@@ -1,3 +1,8 @@
+/*
+  Z-INDEX
+
+*/
+
 .z0 { z-index: 0; }
 .z1 { z-index: 1; }
 .z2 { z-index: 2; }
@@ -11,7 +16,7 @@
 .zinitial { z-index: initial; }
 .zunset { z-index: unset; }
 
-@media (min-width: $breakpoint-sm) {
+@media (--breakpoint-sm) {
   .z0-sm { z-index: 0; }
   .z1-sm { z-index: 1; }
   .z2-sm { z-index: 2; }
@@ -25,7 +30,7 @@
   .zinitial-sm { z-index: initial; }
   .zunset-sm { z-index: unset; }
 }
-@media (min-width: $breakpoint-md) {
+@media (--breakpoint-md) {
   .z0-md { z-index: 0; }
   .z1-md { z-index: 1; }
   .z2-md { z-index: 2; }
@@ -39,7 +44,7 @@
   .zinitial-md { z-index: initial; }
   .zunset-md { z-index: unset; }
 }
-@media (min-width: $breakpoint-lg) {
+@media (--breakpoint-lg) {
   .z0-lg { z-index: 0; }
   .z1-lg { z-index: 1; }
   .z2-lg { z-index: 2; }
@@ -53,7 +58,7 @@
   .zinitial-lg { z-index: initial; }
   .zunset-lg { z-index: unset; }
 }
-@media (min-width: $breakpoint-xl) {
+@media (--breakpoint-xl) {
   .z0-xl { z-index: 0; }
   .z1-xl { z-index: 1; }
   .z2-xl { z-index: 2; }
@@ -67,7 +72,7 @@
   .zinitial-xl { z-index: initial; }
   .zunset-xl { z-index: unset; }
 }
-@media (min-width: $breakpoint-xxl) {
+@media (--breakpoint-xxl) {
   .z0-xxl { z-index: 0; }
   .z1-xxl { z-index: 1; }
   .z2-xxl { z-index: 2; }
