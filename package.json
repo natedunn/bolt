@@ -12,10 +12,9 @@
   "scripts": {
     "watch": "onchange 'src/*.css' -- npm run build:dev",
     "minify": "postcss -u cssnano dist/bolt.css -o dist/bolt.min.css",
-    "cleanup": "del-cli dist/bolt.css",
     "build:css": "postcss -c postcss.config.json",
     "build:dev": "npm run build:css",
-    "build": "npm run build:css && npm run minify && npm run cleanup"
+    "build": "npm run build:css && npm run minify"
   },
   "devDependencies": {
     "cssnano": "^3.7.1",
