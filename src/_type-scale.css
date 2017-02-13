@@ -1,0 +1,82 @@
+/*
+  TYPE SCALE
+
+*/
+
+/* Type scaled by 1.333 ("Perfect forth") */
+:root {
+  --type-scale-1: 0.75rem;
+  --type-scale-2: 1rem;
+  --type-scale-3: 1.333rem;
+  --type-scale-4: 1.777rem;
+  --type-scale-5: 2.369rem;
+  --type-scale-6: 3.157rem;
+  --type-scale-7: 4.208rem;
+  --type-scale-8: 5.609rem;
+}
+
+.fsi { font-size: inherit; }
+.fs1 { font-size: var(--type-scale-1); }
+.fs2 { font-size: var(--type-scale-2); }
+.fs3 { font-size: var(--type-scale-3);}
+.fs4 { font-size: var(--type-scale-4); }
+.fs5 { font-size: var(--type-scale-5); }
+.fs6 { font-size: var(--type-scale-6); }
+.fs7 { font-size: var(--type-scale-7); }
+.fs8 { font-size: var(--type-scale-8); }
+
+@media (--breakpoint-sm) {
+  .fsi-sm { font-size: inherit; }
+  .fs1-sm { font-size: var(--type-scale-1); }
+  .fs2-sm { font-size: var(--type-scale-2); }
+  .fs3-sm { font-size: var(--type-scale-3);}
+  .fs4-sm { font-size: var(--type-scale-4); }
+  .fs5-sm { font-size: var(--type-scale-5); }
+  .fs6-sm { font-size: var(--type-scale-6); }
+  .fs7-sm { font-size: var(--type-scale-7); }
+  .fs8-sm { font-size: var(--type-scale-8); }
+}
+@media (--breakpoint-md) {
+  .fsi-md { font-size: inherit; }
+  .fs1-md { font-size: var(--type-scale-1); }
+  .fs2-md { font-size: var(--type-scale-2); }
+  .fs3-md { font-size: var(--type-scale-3);}
+  .fs4-md { font-size: var(--type-scale-4); }
+  .fs5-md { font-size: var(--type-scale-5); }
+  .fs6-md { font-size: var(--type-scale-6); }
+  .fs7-md { font-size: var(--type-scale-7); }
+  .fs8-md { font-size: var(--type-scale-8); }
+}
+@media (--breakpoint-lg) {
+  .fsi-lg { font-size: inherit; }
+  .fs1-lg { font-size: var(--type-scale-1); }
+  .fs2-lg { font-size: var(--type-scale-2); }
+  .fs3-lg { font-size: var(--type-scale-3);}
+  .fs4-lg { font-size: var(--type-scale-4); }
+  .fs5-lg { font-size: var(--type-scale-5); }
+  .fs6-lg { font-size: var(--type-scale-6); }
+  .fs7-lg { font-size: var(--type-scale-7); }
+  .fs8-lg { font-size: var(--type-scale-8); }
+}
+@media (--breakpoint-xl) {
+  .fsi-xl { font-size: inherit; }
+  .fs1-xl { font-size: var(--type-scale-1); }
+  .fs2-xl { font-size: var(--type-scale-2); }
+  .fs3-xl { font-size: var(--type-scale-3);}
+  .fs4-xl { font-size: var(--type-scale-4); }
+  .fs5-xl { font-size: var(--type-scale-5); }
+  .fs6-xl { font-size: var(--type-scale-6); }
+  .fs7-xl { font-size: var(--type-scale-7); }
+  .fs8-xl { font-size: var(--type-scale-8); }
+}
+@media (--breakpoint-xxl) {
+  .fsi-xxl { font-size: inherit; }
+  .fs1-xxl { font-size: var(--type-scale-1); }
+  .fs2-xxl { font-size: var(--type-scale-2); }
+  .fs3-xxl { font-size: var(--type-scale-3);}
+  .fs4-xxl { font-size: var(--type-scale-4); }
+  .fs5-xxl { font-size: var(--type-scale-5); }
+  .fs6-xxl { font-size: var(--type-scale-6); }
+  .fs7-xxl { font-size: var(--type-scale-7); }
+  .fs8-xxl { font-size: var(--type-scale-8); }
+}
