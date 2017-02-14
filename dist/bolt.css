@@ -390,56 +390,60 @@ textarea {
 */
 .b--white { border-color: white; }
 .b--gray { border-color: lightGray; }
+/*
+  BORDERS
+
+*/
 .br0 { border-radius: 0; }
-.br1 { border-radius: 0.125rem !default; }
-.br2 { border-radius: 0.188rem !default; }
-.br3 { border-radius: 0.25rem !default; }
-.br4 { border-radius: 0.5rem !default; }
-.br5 { border-radius: 1rem !default; }
+.br1 { border-radius: 0.125rem; }
+.br2 { border-radius: 0.188rem; }
+.br3 { border-radius: 0.25rem; }
+.br4 { border-radius: 0.5rem; }
+.br5 { border-radius: 1rem; }
 .br-100 { border-radius: 100%; }
 @media (min-width: 34rem) {
   .br0-sm { border-radius: 0; }
-  .br1-sm { border-radius: 0.125rem !default; }
-  .br2-sm { border-radius: 0.188rem !default; }
-  .br3-sm { border-radius: 0.25rem !default; }
-  .br4-sm { border-radius: 0.5rem !default; }
-  .br5-sm { border-radius: 1rem !default; }
+  .br1-sm { border-radius: 0.125rem; }
+  .br2-sm { border-radius: 0.188rem; }
+  .br3-sm { border-radius: 0.25rem; }
+  .br4-sm { border-radius: 0.5rem; }
+  .br5-sm { border-radius: 1rem; }
   .br-100-sm { border-radius: 100%; }
 }
 @media (min-width: 48rem) {
   .br0-md { border-radius: 0; }
-  .br1-md { border-radius: 0.125rem !default; }
-  .br2-md { border-radius: 0.188rem !default; }
-  .br3-md { border-radius: 0.25rem !default; }
-  .br4-md { border-radius: 0.5rem !default; }
-  .br5-md { border-radius: 1rem !default; }
+  .br1-md { border-radius: 0.125rem; }
+  .br2-md { border-radius: 0.188rem; }
+  .br3-md { border-radius: 0.25rem; }
+  .br4-md { border-radius: 0.5rem; }
+  .br5-md { border-radius: 1rem; }
   .br-100-md { border-radius: 100%; }
 }
 @media (min-width: 62rem) {
   .br0-lg { border-radius: 0; }
-  .br1-lg { border-radius: 0.125rem !default; }
-  .br2-lg { border-radius: 0.188rem !default; }
-  .br3-lg { border-radius: 0.25rem !default; }
-  .br4-lg { border-radius: 0.5rem !default; }
-  .br5-lg { border-radius: 1rem !default; }
+  .br1-lg { border-radius: 0.125rem; }
+  .br2-lg { border-radius: 0.188rem; }
+  .br3-lg { border-radius: 0.25rem; }
+  .br4-lg { border-radius: 0.5rem; }
+  .br5-lg { border-radius: 1rem; }
   .br-100-lg { border-radius: 100%; }
 }
 @media (min-width: 75rem) {
   .br0-xl { border-radius: 0; }
-  .br1-xl { border-radius: 0.125rem !default; }
-  .br2-xl { border-radius: 0.188rem !default; }
-  .br3-xl { border-radius: 0.25rem !default; }
-  .br4-xl { border-radius: 0.5rem !default; }
-  .br5-xl { border-radius: 1rem !default; }
+  .br1-xl { border-radius: 0.125rem; }
+  .br2-xl { border-radius: 0.188rem; }
+  .br3-xl { border-radius: 0.25rem; }
+  .br4-xl { border-radius: 0.5rem; }
+  .br5-xl { border-radius: 1rem; }
   .br-100-xl { border-radius: 100%; }
 }
 @media (min-width: 87rem) {
   .br0-xxl { border-radius: 0; }
-  .br1-xxl { border-radius: 0.125rem !default; }
-  .br2-xxl { border-radius: 0.188rem !default; }
-  .br3-xxl { border-radius: 0.25rem !default; }
-  .br4-xxl { border-radius: 0.5rem !default; }
-  .br5-xxl { border-radius: 1rem !default; }
+  .br1-xxl { border-radius: 0.125rem; }
+  .br2-xxl { border-radius: 0.188rem; }
+  .br3-xxl { border-radius: 0.25rem; }
+  .br4-xxl { border-radius: 0.5rem; }
+  .br5-xxl { border-radius: 1rem; }
   .br-100-xxl { border-radius: 100%; }
 }
 /*
@@ -1331,6 +1335,9 @@ input[type="url"],
   .fl-xxl { float: left; }
   .fn-xxl { float: none; }
 }
+.white { color: white; }
+.black { color: black; }
+.gray { color: #777; }
 /*
    FONT FAMILY GROUPS
    Docs: http://tachyons.io/docs/typography/font-family/
