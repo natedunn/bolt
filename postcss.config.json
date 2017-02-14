@@ -1,5 +1,12 @@
 {
-  "use": ["postcss-easy-import", "postcss-map", "postcss-simple-vars", "postcss-custom-media", "postcss-cssnext", "postcss-pxtorem"],
+  "use": [
+    "postcss-easy-import",
+    "postcss-map",
+    "postcss-simple-vars",
+    "postcss-custom-media",
+    "postcss-cssnext",
+    "postcss-pxtorem"
+  ],
   "input": "src/bolt.css",
   "output": "dist/bolt.css",
   "local-plugins": "true",
@@ -22,7 +29,6 @@
     "rootValue": 16,
     "propList": ["*"],
     "replace": true,
-    "propWhiteList": [],
     "mediaQuery": false
   },
   "postcss-easy-import": {
