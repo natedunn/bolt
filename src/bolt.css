@@ -5,11 +5,11 @@
 @import "background-colors";
 @import "background-position";
 @import "background-size";
+@import "borders";
 @import "border-colors";
 @import "border-radius";
 @import "border-style";
 @import "border-widths";
-@import "borders";
 @import "box-sizing";
 @import "clears";
 @import "clips"; /* Needed? */
