@@ -12,7 +12,7 @@
 @import "border-widths";
 @import "box-sizing";
 @import "clears";
-@import "clips"; /* Needed? */
+@import "clips";
 @import "code";
 @import "colors";
 @import "coordinates";
@@ -27,7 +27,7 @@
 @import "font-style";
 @import "font-weight";
 @import "forms";
-@import "grid"; /* Needs variables to be re-added */
+@import "grid";
 @import "heights";
 @import "images";
 @import "line-height";

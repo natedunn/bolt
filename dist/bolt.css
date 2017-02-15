@@ -720,7 +720,6 @@ input[type="url"],
     clip: rect(0.0625rem, 0.0625rem, 0.0625rem, 0.0625rem);
   }
 }
-/* Needed? */
 /*
    CODE
 */
@@ -2729,7 +2728,6 @@ code, .code {
 
   .offset-xxl-11 {
     margin-left: 91.66667%; } }
-/* Needs variables to be re-added */
 /*
    HEIGHTS
    Base:
