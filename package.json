@@ -1,8 +1,8 @@
 {
   "name": "bolt",
-  "version": "1.5.1",
-  "description": "The front-end utility classes by @natedunn.",
-  "author": "Nate Dunn",
+  "version": "2.0.1",
+  "description": "The front-end utility classes curated @natedunn.",
+  "author": "@natedunn",
   "license": "ISC",
   "repository": {
     "type": "git",
