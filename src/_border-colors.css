@@ -6,5 +6,6 @@
    --color-name = each color variable name is also a border color name
 */
 
+.b--black { border-color: black; }
 .b--white { border-color: white; }
-.b--gray { border-color: lightGray; }
+.b--gray { border-color: var(--gray); }
