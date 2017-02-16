@@ -1,6 +1,6 @@
 {
   "name": "bolt",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "The front-end utility classes curated @natedunn.",
   "author": "@natedunn",
   "license": "ISC",
@@ -10,10 +10,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "watch": "onchange 'src/*.css' -- npm run build:dev",
+    "watch": "onchange 'src/*.css' -- npm run build",
     "minify": "postcss -u cssnano dist/bolt.css -o dist/bolt.min.css",
     "build:css": "postcss -c postcss.config.json",
-    "build:dev": "npm run build:css",
     "build": "npm run build:css && npm run minify"
   },
   "devDependencies": {
