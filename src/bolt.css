@@ -2,32 +2,29 @@
 @import "normalize";
 
 /* Partials */
+@import "box-sizing";
+@import "grid";
 @import "background-colors";
-@import "background-position";
 @import "background-size";
+@import "background-position";
 @import "borders";
 @import "border-colors";
 @import "border-radius";
 @import "border-style";
 @import "border-widths";
-@import "box-sizing";
-@import "clears";
-@import "clips";
-@import "code";
-@import "colors";
 @import "coordinates";
-@import "cursors";
-@import "deprecation";
-@import "displays";
+@import "clears";
+@import "display";
 @import "flexbox";
-@import "media-queries";
 @import "floats";
-@import "font-color";
 @import "font-family";
 @import "font-style";
 @import "font-weight";
+@import "font-color";
 @import "forms";
-@import "grid";
+@import "clips";
+@import "code";
+@import "cursors";
 @import "heights";
 @import "images";
 @import "line-height";
@@ -48,3 +45,7 @@
 @import "visibility";
 @import "widths";
 @import "z-index";
+
+@import "colors";
+@import "media-queries";
+@import "deprecation";
