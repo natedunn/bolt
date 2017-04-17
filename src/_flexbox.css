@@ -17,6 +17,9 @@
 .flex-column { flex-direction: column; }
 .flex-row { flex-direction: row; }
 .flex-wrap { flex-wrap: wrap; }
+.flex-column-reverse  { flex-direction: column-reverse; }
+.flex-row-reverse { flex-direction: row-reverse; }
+.flex-wrap-reverse { flex-wrap: wrap-reverse; }
 
 .items-start    { align-items: flex-start; }
 .items-end      { align-items: flex-end; }
@@ -69,6 +72,9 @@
   .flex-column-sm { flex-direction: column; }
   .flex-row-sm { flex-direction: row; }
   .flex-wrap-sm { flex-wrap: wrap; }
+  .flex-column-reverse-sm  { flex-direction: column-reverse; }
+  .flex-row-reverse-sm { flex-direction: row-reverse; }
+  .flex-wrap-reverse-sm { flex-wrap: wrap-reverse; }
 
   .items-start-sm { align-items: flex-start; }
   .items-end-sm { align-items: flex-end; }
@@ -121,6 +127,9 @@
   .flex-column-md { flex-direction: column; }
   .flex-row-md { flex-direction: row; }
   .flex-wrap-md { flex-wrap: wrap; }
+  .flex-column-reverse-md  { flex-direction: column-reverse; }
+  .flex-row-reverse-md { flex-direction: row-reverse; }
+  .flex-wrap-reverse-md { flex-wrap: wrap-reverse; }
 
   .items-start-md { align-items: flex-start; }
   .items-end-md { align-items: flex-end; }
@@ -173,6 +182,9 @@
   .flex-column-lg { flex-direction: column; }
   .flex-row-lg { flex-direction: row; }
   .flex-wrap-lg { flex-wrap: wrap; }
+  .flex-column-reverse-lg  { flex-direction: column-reverse; }
+  .flex-row-reverse-lg { flex-direction: row-reverse; }
+  .flex-wrap-reverse-lg { flex-wrap: wrap-reverse; }
 
   .items-start-lg { align-items: flex-start; }
   .items-end-lg { align-items: flex-end; }
@@ -225,6 +237,9 @@
   .flex-column-xl { flex-direction: column; }
   .flex-row-xl { flex-direction: row; }
   .flex-wrap-xl { flex-wrap: wrap; }
+  .flex-column-reverse-xl  { flex-direction: column-reverse; }
+  .flex-row-reverse-xl { flex-direction: row-reverse; }
+  .flex-wrap-reverse-xl { flex-wrap: wrap-reverse; }
 
   .items-start-xl { align-items: flex-start; }
   .items-end-xl { align-items: flex-end; }
@@ -277,6 +292,9 @@
   .flex-column-xxl { flex-direction: column; }
   .flex-row-xxl { flex-direction: row; }
   .flex-wrap-xxl { flex-wrap: wrap; }
+  .flex-column-reverse-xxl  { flex-direction: column-reverse; }
+  .flex-row-reverse-xxl { flex-direction: row-reverse; }
+  .flex-wrap-reverse-xxl { flex-wrap: wrap-reverse; }
 
   .items-start-xxl { align-items: flex-start; }
   .items-end-xxl { align-items: flex-end; }
