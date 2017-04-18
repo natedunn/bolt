@@ -1825,6 +1825,10 @@ input[type="url"],
      --dashed = dashed
      --solid  = solid
  */
+.bs--dotted { border-style: dotted; }
+.bs--dashed { border-style: dashed; }
+.bs--solid { border-style: solid; }
+.bs--none { border-style: none; }
 @media (min-width: 34rem) {
   .bs--dotted-sm { border-style: dotted; }
   .bs--dashed-sm { border-style: dashed; }
